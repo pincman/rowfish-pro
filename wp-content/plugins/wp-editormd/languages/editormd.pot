@@ -1,0 +1,368 @@
+# Translation of WordPress - 4.8.x in LANGUAGE NAME
+# This file is distributed under the same license as the WordPress - 4.8.x package.
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP-Editor.md\n"
+"POT-Creation-Date: 2018-08-18 12:58+0800\n"
+"PO-Revision-Date: 2018-08-18 12:58+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-editormd.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+msgid "Basic Settings"
+msgstr ""
+
+msgid "Editor Style Settings"
+msgstr ""
+
+msgid "Syntax Highlighting Settings"
+msgstr ""
+
+msgid "Emoji Settings"
+msgstr ""
+
+msgid "TOC Settings"
+msgstr ""
+
+msgid "KaTeX Settings"
+msgstr ""
+
+msgid "Use Markdown For Comments"
+msgstr ""
+
+msgid "Go"
+msgstr ""
+
+msgid "Support Task Lists"
+msgstr ""
+
+msgid "Github Flavored Markdown task lists"
+msgstr ""
+
+msgid "Support Image Paste"
+msgstr ""
+
+msgid "Image Paste allows you to copy and paste images from your desktop to the editor, maybe won't work on some browsers due to incompatibility. Reference: <a href=\"https://github.com/LuRenJiasWorld/WP-Editor.md/pull/386\" target=\"_blank\">PR #386</a>"
+msgstr ""
+
+msgid "Live preview"
+msgstr ""
+
+msgid "Sync scrolling"
+msgstr ""
+
+msgid "Support Html Decode"
+msgstr ""
+
+msgid "Support rich text analysis"
+msgstr ""
+
+msgid "Toolbar & Preview Style"
+msgstr ""
+
+msgid "Will not affect the Markdown editor window"
+msgstr ""
+
+msgid "Markdown Editor Style"
+msgstr ""
+
+msgid "Change the markdown editor style"
+msgstr ""
+
+msgid "Tips"
+msgstr ""
+
+msgid "<b>Please Select the following load mode and do not enable the feature if you do not select it.</b>"
+msgstr ""
+
+msgid "<b>Load Mode - Auto load mode</b> - Please select one of the two modes"
+msgstr ""
+
+msgid "Auto load mode"
+msgstr ""
+
+msgid "Line Numbers"
+msgstr ""
+
+msgid "PrismJS Syntax Highlight Style"
+msgstr ""
+
+msgid "Syntax highlight theme style"
+msgstr ""
+
+msgid "Load Mode"
+msgstr ""
+
+msgid "<b>Load Mode - Customize load mode</b> - Please select one of the two modes"
+msgstr ""
+
+msgid "Customize mode"
+msgstr ""
+
+msgid "PrismJS Syntax Highlight Style Library"
+msgstr ""
+
+msgid "PrismJS Syntax Highlight JavaScript Library"
+msgstr ""
+
+msgid "Support Emoji"
+msgstr ""
+
+msgid "Support ToC"
+msgstr ""
+
+msgid "Table of Contents"
+msgstr ""
+
+msgid "You need install the plugin"
+msgstr "If you need to enable this option,you need install the plugin"
+
+msgid "Enjoy Markdown! Coding now..."
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Github"
+msgstr ""
+
+msgid "Blog"
+msgstr ""
+
+msgid "Issues"
+msgstr ""
+
+msgid "Docs"
+msgstr ""
+
+msgid " Options"
+msgstr ""
+
+msgid "Image Uploading..."
+msgstr ""
+
+msgid "Failed To Upload The Image!"
+msgstr ""
+
+msgid "Welcome to the new version of WordPress Editor.md editor, please go to WP Editor.md to configure related settings!"
+msgstr ""
+
+msgid "Recommended Use"
+msgstr ""
+
+msgid "Advanced Settings"
+msgstr ""
+
+msgid "Compatibility Mode"
+msgstr ""
+
+msgid "Enable WordPress's own jQuery library and load first, will fix many compatibility issues."
+msgstr ""
+
+msgid "Debugger"
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "Operating System"
+msgstr ""
+
+msgid "Operating Environment"
+msgstr ""
+
+msgid "PHP Version"
+msgstr ""
+
+msgid "PHP Operating Mode"
+msgstr ""
+
+msgid "Browser Information"
+msgstr ""
+
+msgid "WordPress Version"
+msgstr ""
+
+msgid "WP Editor.md Version"
+msgstr ""
+
+msgid "jQuery Version"
+msgstr ""
+
+msgid "Current Roles"
+msgstr ""
+
+msgid "Site URL"
+msgstr ""
+
+msgid "Home URL"
+msgstr ""
+
+msgid "Use Markdown for comments."
+msgstr ""
+
+msgid "Learn more about Markdown."
+msgstr ""
+
+msgid "Line highlight"
+msgstr ""
+
+msgid "Customize Style"
+msgstr ""
+
+msgid "Customize Style Library"
+msgstr ""
+
+msgid "Get More <a href=\"https://github.com/LuRenJiasWorld/Prism.js-style\" target=\"_blank\" rel=\"nofollow\">Theme Style</a>"
+msgstr ""
+
+msgid "Show Language"
+msgstr ""
+
+msgid "Perhaps this is the best and most perfect Markdown editor in WordPress"
+msgstr ""
+
+msgid "Donate"
+msgstr ""
+
+msgid "It is hard to continue development and support for this plugin without contributions from users like you. If you enjoy using WP-Editor.md and find it useful, please consider making a donation. Your donation will help encourage and support the plugin’s continued development and better user support.Thank You!"
+msgstr ""
+
+msgid "MindMap Settings"
+msgstr ""
+
+msgid "Support LaTeX"
+msgstr ""
+
+msgid "LaTeX Support Library"
+msgstr ""
+
+msgid "Support MindMap"
+msgstr ""
+
+msgid "Customize MindMap Library"
+msgstr ""
+
+msgid "Mermaid Settings"
+msgstr ""
+
+msgid "Support Mermaid"
+msgstr ""
+
+msgid "Mermaid Config"
+msgstr ""
+
+msgid "Support FlowChart,SequenceDiagram and GantDiagrams"
+msgstr ""
+
+msgid "Copy to Clipboard"
+msgstr ""
+
+msgid "Hide Ads"
+msgstr ""
+
+msgid "ImagePaste Upload Source"
+msgstr ""
+
+msgid "Change image paste upload source to https://sm.ms"
+msgstr ""
+
+msgid "Support Front Comment"
+msgstr ""
+
+msgid "Support Reply Comment For edit-comments.php"
+msgstr ""
+
+msgid "Hey, we've noticed that you're running an outdated version of PHP which is no longer supported. Make sure your site is fast and secure, by upgrading PHP to the latest version."
+msgstr ""
+
+msgid "Editor.md Static Resource Addres"
+msgstr ""
+
+msgid "Please make sure the resources are up to date.<br/>"
+msgstr ""
+
+msgid "Please upload the resource (the unzipped folder name is \"assets\") to your server or cdn. If your resource address is: \"http(s)://example.com/myfile/assets\", you should fill in: \"http(s)://example.com/myfile \". <br/>"
+msgstr ""
+
+msgid "The resource package is corrupt, please download again!"
+msgstr ""
+
+msgid "The resources used by the plugin check are outdated. Please upgrade the latest resources."
+msgstr ""
+
+msgid "Status: Please Update!"
+msgstr ""
+
+msgid "Status: Latest"
+msgstr ""
+
+msgid "Downaload"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Support Other (Document ID)"
+msgstr ""
+
+msgid "Image Hyperlink"
+msgstr ""
+
+msgid "Support upload image hyperlink"
+msgstr ""
+
+msgid "Open link in new tab"
+msgstr ""
+
+msgid "Support upload image hyperlink"
+msgstr ""
+
+msgid "Only works for new posts after enabled, or you can manually update every posts"
+msgstr ""
+
+msgid "Use local"
+msgstr ""
+
+msgid "Use CDN"
+msgstr ""
+
+msgid "Export debugging info"
+msgstr ""
+
+msgid "Enabled Plugins List"
+msgstr ""
+
+msgid "sm.ms Auth Token"
+msgstr ""
+
+msgid "Optional, makes your uploaded image binded with your sm.ms account. Get token <a href=\"https://sm.ms/home/apitoken\" target=\"_blank\">Here</a>."
+msgstr ""
+
+msgid "sm.ms Image Management"
+msgstr ""
+
+msgid "Editor Style Preview"
+msgstr ""
+
+msgid "Syntax Highlight Preview"
+msgstr ""
+
+msgid "Successfully upgraded to version %s !"
+msgstr ""

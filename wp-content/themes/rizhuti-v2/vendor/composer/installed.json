@@ -1,0 +1,158 @@
+[
+    {
+        "name": "psr/http-message",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-message.git",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-08-06T14:39:51+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for HTTP messages",
+        "homepage": "https://github.com/php-fig/http-message",
+        "keywords": [
+            "http",
+            "http-message",
+            "psr",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "yurunsoft/pay-sdk",
+        "version": "v3.0.4",
+        "version_normalized": "3.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Yurunsoft/PaySDK.git",
+            "reference": "fe4258546574c8bf03c5e14a8be821f504c5a866"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Yurunsoft/PaySDK/zipball/fe4258546574c8bf03c5e14a8be821f504c5a866",
+            "reference": "fe4258546574c8bf03c5e14a8be821f504c5a866",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5",
+            "yurunsoft/yurun-http": "~4.0"
+        },
+        "time": "2020-08-19T05:51:28+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Yurun\\PaySDK\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "PHP 集成支付 SDK ，集成了支付宝、微信支付的支付接口和其它相关接口的操作。"
+    },
+    {
+        "name": "yurunsoft/yurun-http",
+        "version": "v4.3.0",
+        "version_normalized": "4.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Yurunsoft/YurunHttp.git",
+            "reference": "f694564eb2bb5519a13e4241741b9e487f58a368"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Yurunsoft/YurunHttp/zipball/f694564eb2bb5519a13e4241741b9e487f58a368",
+            "reference": "f694564eb2bb5519a13e4241741b9e487f58a368",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0",
+            "psr/http-message": "~1.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": ">=4",
+            "swoole/ide-helper": "^4.5",
+            "workerman/workerman": "^4.0"
+        },
+        "time": "2020-12-14T08:26:23+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Yurun\\Util\\": "./src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "YurunHttp 是开源的 PHP HTTP 类库，支持链式操作，简单易用。支持 Curl、Swoole，支持 Http、Http2、WebSocket！"
+    },
+    {
+        "name": "yurunsoft/yurun-oauth-login",
+        "version": "v3.0.1",
+        "version_normalized": "3.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Yurunsoft/YurunOAuthLogin.git",
+            "reference": "930209404a718e7ddc6ac61283ea373a942d2a8d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Yurunsoft/YurunOAuthLogin/zipball/930209404a718e7ddc6ac61283ea373a942d2a8d",
+            "reference": "930209404a718e7ddc6ac61283ea373a942d2a8d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.1",
+            "yurunsoft/yurun-http": "~4.0"
+        },
+        "time": "2020-05-28T06:36:49+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Yurun\\OAuthLogin\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "YurunOAuthLogin是一个PHP 第三方登录授权 SDK，集成了QQ、微信、微博、Github等常用接口。"
+    }
+]

@@ -1,0 +1,550 @@
+# Translation of Plugins - DocsPress &#8211; Online Documentation - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - DocsPress &#8211; Online Documentation - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-11-21 06:38:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - DocsPress &#8211; Online Documentation - Stable (latest release)\n"
+
+#: includes/admin/template-vue.php:166
+msgid "Add new section"
+msgstr "新增部分"
+
+#. translators: %2$s - current page link.
+#: templates/feedback-mail.php:398
+msgid "This e-mail was sent from a suggestion form on %1$s. (%2$s)"
+msgstr "此邮件是通过以下网址的建议表单发送： %1$s. (%2$s)"
+
+#: templates/feedback-mail.php:368
+msgid "Suggestion"
+msgstr "建议"
+
+#: templates/feedback-mail.php:360
+msgid "Positive"
+msgstr "有用"
+
+#: templates/feedback-mail.php:360
+msgid "Negative"
+msgstr "没用"
+
+#: templates/feedback-mail.php:355
+msgid "Helpful?"
+msgstr "对您有帮助吗？"
+
+#. translators: %2$s - user IP address.
+#: templates/feedback-mail.php:347
+msgid "%1$s (IP: %2$s)"
+msgstr "%1$s （IP： %2$s)"
+
+#: templates/feedback-mail.php:340
+msgid "From"
+msgstr "来自"
+
+#. translators: %s - doc title.
+#: templates/feedback-mail.php:320
+msgid "New suggestion for doc `%s`"
+msgstr "您的文档 \"%s\" 有新的反馈"
+
+#. translators: %s - blog name.
+#: includes/class-suggestion.php:72
+msgid "[%s] New Doc Suggestion"
+msgstr "[%s]新文档建议"
+
+#: includes/class-suggestion.php:59
+msgid "Anonymous"
+msgstr "匿名"
+
+#: includes/class-ajax.php:457
+msgid "Thank you for suggestions!"
+msgstr "感谢您的建议！"
+
+#: includes/class-ajax.php:451
+msgid "Sorry, something went wrong with the mail server, your suggestions were not sent!"
+msgstr "抱歉，邮件服务器出了问题， 您的建议未发送！"
+
+#: includes/class-ajax.php:429
+msgid "Sorry, something went wrong on the server side!"
+msgstr "抱歉，服务器端出现问题！"
+
+#: includes/admin/class-settings.php:185
+msgid "Display Articles"
+msgstr "显示文章"
+
+#: includes/admin/class-settings.php:161
+msgid "Display Number of Childs"
+msgstr "显示子级数"
+
+#: includes/admin/class-settings.php:155
+msgid "Always display child navigation links (by default displayed only for active parent doc)"
+msgstr "始终显示子导航链接（默认情况下仅对活动父文档显示）"
+
+#: includes/admin/class-settings.php:154
+msgid "Display Child Links"
+msgstr "显示子链接"
+
+#: includes/admin/class-settings.php:148
+msgid "Display Parent Links"
+msgstr "显示父链接"
+
+#: includes/admin/class-settings.php:142
+msgid "Display Search"
+msgstr "显示搜索"
+
+#: includes/admin/class-settings.php:131
+msgid "Display Heading Anchors"
+msgstr "显示标题锚点"
+
+#: includes/admin/class-settings.php:124
+msgid "Suggestion Email"
+msgstr "建议电子邮件"
+
+#: includes/admin/class-settings.php:118
+msgid "Display Suggestion Form After Like"
+msgstr "显示建议表单后点赞"
+
+#: includes/admin/class-settings.php:112
+msgid "Display Likes / Dislikes Count"
+msgstr "显示赞/不喜欢计数"
+
+#: includes/admin/class-settings.php:105
+msgid "Display Feedback Buttons"
+msgstr "显示反馈按钮"
+
+#: includes/admin/class-settings.php:99
+msgid "Display Comments"
+msgstr "显示评论"
+
+#: templates/single/feedback.php:46
+msgid "Was this page helpful?"
+msgstr "此文章有帮助吗？"
+
+#: templates/single/feedback-suggestion.php:52
+msgid "Send"
+msgstr "发送"
+
+#: templates/single/feedback-suggestion.php:50
+msgid "Your Name or Email (Optional)"
+msgstr "您的姓名或电子邮件（可选）"
+
+#: templates/single/feedback-suggestion.php:48
+msgid "Your suggestions"
+msgstr "您的建议"
+
+#: templates/single/feedback-suggestion.php:45
+msgid "How can we improve this documentation?"
+msgstr "我们如何改进本文档？"
+
+#. Author URI of the plugin
+msgid "https://nkdev.info"
+msgstr "https://nkdev.info"
+
+#. Author of the plugin
+msgid "nK"
+msgstr "nK"
+
+#. Description of the plugin
+msgid "Online Documentation Engine for WordPress"
+msgstr "WordPress 的在线文档引擎"
+
+#: templates/single/sidebar.php:25
+msgid "Type to search"
+msgstr "输入以搜索"
+
+#. translators: %s - last time modified.
+#: templates/single/footer.php:28
+msgid "Last modified %s"
+msgstr "最后修改于 %s"
+
+#: templates/single/feedback.php:58
+msgid "No"
+msgstr "否"
+
+#: templates/single/feedback.php:51
+msgid "Yes"
+msgstr "是"
+
+#. translators: %s - dislikes number.
+#: templates/single/feedback.php:40
+msgid "%d person found this not useful"
+msgid_plural "%d persons found this not useful"
+msgstr[0] "%d 人发现此无用"
+
+#. translators: %s - likes number.
+#. translators: %s - dislikes number.
+#: templates/single/feedback.php:37 templates/single/feedback.php:40
+msgid "No votes yet"
+msgstr "还没有投票"
+
+#. translators: %s - likes number.
+#: templates/single/feedback.php:37
+msgid "%d person found this useful"
+msgid_plural "%d persons found this useful"
+msgstr[0] "%d人发现这有用"
+
+#: templates/single/adjacent-links.php:24
+msgid "Doc navigation"
+msgstr "文档导航"
+
+#. translators: %s search query.
+#: templates/search.php:26
+msgid "Documentation search: \"%s\""
+msgstr "文档搜索：\"%s\""
+
+#: templates/archive.php:68 templates/search.php:66 templates/single.php:38
+msgid "Pages:"
+msgstr "页面："
+
+#. translators: %s articles count.
+#: templates/archive/loop-title.php:34
+msgid "%s Article"
+msgid_plural "%s Articles"
+msgstr[0] "%s 篇文章"
+
+#. translators: %s articles count.
+#: templates/archive/loop-articles.php:65
+msgid "+%s More"
+msgstr "+%s更多"
+
+#: includes/class-settings-api.php:372
+msgid "Choose File"
+msgstr "选择文件"
+
+#: includes/class-ajax.php:412
+msgid "Thank you for feedback!"
+msgstr "感谢您的反馈！"
+
+#: includes/class-ajax.php:391
+msgid "Sorry, you've already recorded your feedback!"
+msgstr "抱歉，您已经做过反馈！"
+
+#: includes/class-ajax.php:278
+msgid "You are not allowed to delete this item."
+msgstr "您不能删除此项目。"
+
+#. translators: %s - link.
+#: includes/admin/template-vue.php:193
+msgid "create one"
+msgstr "创建一个"
+
+#. translators: %s - link.
+#: includes/admin/template-vue.php:193
+msgid "No documentations has been found. Perhaps %s?"
+msgstr "未找到文档。也许 %s？"
+
+#: includes/admin/template-vue.php:182
+msgid "Export as HTML"
+msgstr "导出为 HTML"
+
+#: includes/admin/template-vue.php:176
+msgid "Clone"
+msgstr "克隆"
+
+#: includes/admin/template-vue.php:120 includes/admin/template-vue.php:149
+msgid "Delete this article"
+msgstr "删除文档"
+
+#: includes/admin/template-vue.php:114 includes/admin/template-vue.php:143
+msgid "Preview the article"
+msgstr "预览文档"
+
+#: includes/admin/template-vue.php:95 includes/admin/template-vue.php:125
+msgid "Add a new article"
+msgstr "添加文档"
+
+#: includes/admin/template-vue.php:90
+msgid "Delete this section"
+msgstr "删除章节"
+
+#: includes/admin/template-vue.php:84
+msgid "Preview the section"
+msgstr "预览章节"
+
+#: includes/admin/template-vue.php:46
+msgid "Delete this doc"
+msgstr "删除文档"
+
+#: includes/admin/template-vue.php:40
+msgid "Preview the doc"
+msgstr "预览文档"
+
+#: includes/admin/template-vue.php:15
+msgid "Add Doc"
+msgstr "添加文档"
+
+#: includes/admin/class-settings.php:250
+msgid "&mdash; Select Page &mdash;"
+msgstr "&mdash; 选择页面 &mdash;"
+
+#: includes/admin/class-settings.php:218
+msgid "Each regexp on new line (change it only if you understand what you do)"
+msgstr "新行上的每一个 regexp（只有当您了解您做什么时才更改它）"
+
+#: includes/admin/class-settings.php:217
+msgid "Clean HTML RegExp"
+msgstr "清洁 HTML RegExp"
+
+#: includes/admin/class-settings.php:209
+msgid "Custom JS"
+msgstr "自定义JS"
+
+#: includes/admin/class-settings.php:202 includes/admin/class-settings.php:210
+msgid "Added in exported HTML files"
+msgstr "在导出的 HTML 文件中添加"
+
+#: includes/admin/class-settings.php:201
+msgid "Custom CSS"
+msgstr "自定义 CSS"
+
+#: includes/admin/class-settings.php:193
+msgid "Type -1 to display all available articles"
+msgstr "键入 -1 以显示所有可用文章"
+
+#: includes/admin/class-settings.php:192
+msgid "Number of Articles"
+msgstr "文章数量"
+
+#: includes/admin/class-settings.php:186
+msgid "Top level articles list"
+msgstr "顶级文章列表"
+
+#: includes/admin/class-settings.php:176
+msgid "Run custom JS after document loaded via AJAX"
+msgstr "通过AJAX加载文档后运行自定义JS"
+
+#: includes/admin/class-settings.php:175
+msgid "AJAX Custom JS"
+msgstr "AJAX自定义JS"
+
+#: includes/admin/class-settings.php:169
+msgid "AJAX loading"
+msgstr "AJAX加载"
+
+#: includes/admin/class-settings.php:162
+msgid "Display in the title of parent link the number of childs"
+msgstr "在父链接的标题中显示子链接的数目"
+
+#: includes/admin/class-settings.php:137
+msgid "Sidebar"
+msgstr "侧边栏"
+
+#: includes/admin/class-settings.php:106
+msgid "Helpful feedback"
+msgstr "有用的反馈"
+
+#: includes/admin/class-settings.php:91
+msgid "Page to display documentations list. <br> If you see the 404 error, please go to Settings > Permalinks and press \"Save Changes\" button."
+msgstr "用于显示文档列表的页面。 <br> 如果您看到 404 错误，请转到\"设置\">\"永久链接\"并按\"保存更改\"按钮。"
+
+#: includes/admin/class-settings.php:90
+msgid "Documentation Archive Page"
+msgstr "文档归档页"
+
+#: includes/admin/class-settings.php:70
+msgid "Export"
+msgstr "导出"
+
+#: includes/admin/class-settings.php:66
+msgid "Archive"
+msgstr "归档"
+
+#: includes/admin/class-settings.php:62
+msgid "Single Document"
+msgstr "单篇文档"
+
+#: includes/admin/class-settings.php:58
+msgid "General"
+msgstr "通用"
+
+#: includes/admin/class-settings.php:42
+msgid "Settings"
+msgstr "设置"
+
+#: includes/admin/class-settings.php:41
+msgid "DocsPress Settings"
+msgstr "DocsPress 设置"
+
+#: includes/admin/class-docs-list-table.php:139
+msgid "Votes"
+msgstr "投票"
+
+#: includes/admin/class-docs-list-table.php:34
+msgid "Helpfulness"
+msgstr "有用"
+
+#. translators: %s - docs page url.
+#: includes/admin/class-admin.php:212
+msgid "Use the <a href=\"%s\">classic UI</a>."
+msgstr "使用 <a href=\"%s\">标准界面</a>。"
+
+#: includes/admin/class-admin.php:209
+msgid "Thank you for using <strong>DocsPress</strong>."
+msgstr "感谢使用 <strong>DocsPress</strong>。"
+
+#: includes/admin/class-admin.php:135 includes/admin/class-admin.php:136
+#: includes/admin/template-vue.php:12
+msgid "Documentations"
+msgstr "文档"
+
+#. Plugin Name of the plugin
+#: includes/admin/class-admin.php:125 includes/admin/class-admin.php:126
+#: includes/admin/class-admin.php:181
+msgid "DocsPress"
+msgstr "文档"
+
+#: includes/admin/class-admin.php:99
+msgid "Close"
+msgstr "关闭"
+
+#: includes/admin/class-admin.php:98
+msgid "Download ZIP"
+msgstr "下载ZIP"
+
+#: includes/admin/class-admin.php:97
+msgid "Successfully Exported"
+msgstr "导出成功"
+
+#: includes/admin/class-admin.php:96
+msgid "Starting"
+msgstr "已开始"
+
+#: includes/admin/class-admin.php:95
+msgid "Exporting..."
+msgstr "导出中..."
+
+#. translators: %s - export.
+#: includes/admin/class-admin.php:94
+msgid "Export!"
+msgstr "导出！"
+
+#. translators: %s - export.
+#: includes/admin/class-admin.php:93
+msgid "Export %s?"
+msgstr "导出 %s?"
+
+#: includes/admin/class-admin.php:91
+msgid "This process may take a while depending on your documentation size."
+msgstr "此过程可能需要一段时间，具体取决于文档的大小。"
+
+#: includes/admin/class-admin.php:90
+msgid "This post has been deleted"
+msgstr "此文章已被删除"
+
+#: includes/admin/class-admin.php:88
+msgid "Are you sure to delete the article?"
+msgstr "您确定要删除这篇文章吗？"
+
+#: includes/admin/class-admin.php:85
+msgid "Are you sure to delete the entire section? Articles inside this section will be deleted too!"
+msgstr "您确定要删除整个部分吗？本节中的文章也将被删除！"
+
+#: includes/admin/class-admin.php:83 includes/admin/class-admin.php:86
+#: includes/admin/class-admin.php:89
+msgid "Yes, delete it!"
+msgstr "是的，删除它！"
+
+#: includes/admin/class-admin.php:82
+msgid "Are you sure to delete the entire documentation? Sections and articles inside this doc will be deleted too!"
+msgstr "您确定要删除整个文档吗？本文档中的章节和文章也将被删除！"
+
+#. translators: %s - copy.
+#: includes/admin/class-admin.php:81 includes/admin/class-admin.php:84
+#: includes/admin/class-admin.php:87
+msgid "Are you sure?"
+msgstr "您确定吗？"
+
+#. translators: %s - copy.
+#: includes/admin/class-admin.php:80
+msgid "%s Copy"
+msgstr "%s复制"
+
+#: includes/admin/class-admin.php:78
+msgid "Enter section title"
+msgstr "输入章节标题"
+
+#: includes/admin/class-admin.php:77
+msgid "Enter doc title"
+msgstr "输入文档标题"
+
+#: docspress.php:530
+msgid "Docs"
+msgstr "文档"
+
+#: docspress.php:524
+msgid "Home"
+msgstr "主页"
+
+#: docspress.php:365 includes/admin/class-admin.php:143
+#: includes/admin/class-admin.php:144
+msgid "Categories"
+msgstr "分类目录"
+
+#: docspress.php:363
+msgid "Docs Categories"
+msgstr "文档分类"
+
+#: docspress.php:326
+msgid "Not found in Trash"
+msgstr "在回收站中找不到"
+
+#: docspress.php:325
+msgid "Not documentation found"
+msgstr "没有找到文档"
+
+#: docspress.php:324
+msgid "Search Documentation"
+msgstr "搜索文档"
+
+#: docspress.php:323
+msgid "Update Documentation"
+msgstr "更新文档"
+
+#: docspress.php:322
+msgid "Edit Documentation"
+msgstr "编辑文档"
+
+#: docspress.php:321
+msgid "Add New"
+msgstr "添加"
+
+#: docspress.php:320
+msgid "Add Documentation"
+msgstr "添加文档"
+
+#: docspress.php:319
+msgid "View Documentation"
+msgstr "查看文档"
+
+#: docspress.php:318
+msgid "All Documentations"
+msgstr "所有文档"
+
+#: docspress.php:317
+msgid "Parent Doc"
+msgstr "父文档"
+
+#: docspress.php:316 docspress.php:486
+msgid "Documentation"
+msgstr "文档"
+
+#: docspress.php:315
+msgctxt "Post Type Singular Name"
+msgid "Doc"
+msgstr "文档"
+
+#: docspress.php:314
+msgctxt "Post Type General Name"
+msgid "DocsPress"
+msgstr "DocsPress"
+
+#: docspress.php:231
+msgid "Archive Thumbnail (DocsPress)"
+msgstr "归档缩略图(DocsPress)"
+
+#: docspress.php:129
+msgid "DocsPress Manager"
+msgstr "文档管理器"

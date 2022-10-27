@@ -1,0 +1,446 @@
+/*  .dark-open  */
+
+body.dark-open {
+  background-color: #202634;
+  color: #c6cfd8;
+}
+.dark-open h1,
+.dark-open h2,
+.dark-open h3,
+.dark-open h4,
+.dark-open h5,
+.dark-open h6 {
+  color: #c6cfd8;
+}
+.dark-open a {
+  color: #c6cfd8;
+}
+.dark-open a:hover {
+  color: #e9ecef;
+}
+.dark-open .site-header {
+  background-color: #293042;
+}
+.dark-open .navbar .sep:after {
+  background-color: #202634;
+}
+.dark-open .navbar .menu-item.current-menu-item a {
+  color: hsla(0, 0%, 100%, 0.7);
+}
+.dark-open .navbar .menu-item > a {
+  color: hsla(0, 0%, 100%, 0.5);
+}
+.dark-open .btn-light {
+  color: #adb5bd;
+  background-color: #3a4258;
+  border-color: #3a4258;
+  background: linear-gradient(to right, #3a4258, #42495f);
+}
+.dark-open .navbar .navbar-button,
+.dark-open .off-canvas .canvas-close {
+  color: #adb5bd;
+}
+.dark-open .navbar .sub-menu {
+  background-color: #293042;
+}
+.dark-open .navbar .menu-item:hover > .sub-menu:before {
+  border-color: transparent;
+}
+.dark-open .mega-menu {
+  background-color: #293042;
+}
+.dark-open.modular-title-3 .section-title:after {
+  background-color: #fd7e20;
+}
+.dark-open .posts-wrapper .post-list,
+.dark-open .posts-wrapper .post-grid,
+.dark-open .carousel .post-grid {
+  background-color: #293042;
+}
+.dark-open .content-area .article-content {
+  background: #293042;
+}
+.dark-open .article-content .wp-block-quote,
+.dark-open .article-content blockquote {
+  background: #202634;
+}
+.dark-open .article-content .h2,
+.dark-open .article-content h2 {
+  border-bottom: 4px solid #212735;
+}
+.dark-open .widget-area .widget {
+  background-color: #293042;
+}
+.dark-open form.inline button[type="submit"] {
+  color: #adb5bd;
+}
+.dark-open .entry-page-next,
+.dark-open .entry-page-prev {
+  border-color: #293042;
+}
+.dark-open .site-footer {
+  background: #293042;
+}
+.dark-open .card {
+  background-color: #293042;
+  border: 0.0625rem solid rgb(41 48 66);
+}
+.dark-open .card-header {
+  background-color: #293042;
+  border-bottom: 0.0625rem solid rgb(54 62 82);
+}
+.dark-open .card-footer {
+  background-color: #293042;
+  border-top: 0.0625rem solid rgb(54 62 82);
+}
+.dark-open .bg-img-hero {
+  background-image: unset !important;
+}
+.dark-open .text-body {
+  color: #a6b5bd !important;
+}
+.dark-open .text-dark {
+  color: #a6b5bd !important;
+}
+.dark-open .nav-segment {
+  background-color: #202634;
+}
+.dark-open .nav-segment .nav-link.active {
+  color: #ffffff;
+  background-color: #293042;
+  box-shadow: 0 3px 6px 0 rgb(32 38 52);
+}
+.dark-open .nav .nav-link {
+  color: #adb5bd;
+}
+.dark-open .navbar-vertical .nav-tabs .active .nav-link,
+.dark-open .navbar-vertical .nav-tabs .active.nav-link {
+  background-color: rgb(32 38 52);
+}
+.dark-open .form-control {
+  color: #495057;
+  background-color: #202634;
+  border: 0.0625rem solid #293042;
+}
+.dark-open .form-control:focus {
+  color: #1e2022;
+  background-color: #283144;
+  border-color: rgb(32 38 52);
+  outline: 0;
+  box-shadow: 0 0 10px rgb(32 38 52);
+}
+.dark-open .list-group-item {
+  background-color: transparent;
+}
+.dark-open label {
+  color: #a0a8b2;
+}
+.dark-open .rizhuti_v2-widget-shop-down .pricing-options li + li {
+  border-top: 1px solid #202634;
+}
+.dark-open .burger:before,
+.dark-open .burger:after {
+  background-color: #adb5bd;
+}
+.dark-open .owl .owl-prev,
+.dark-open .owl .owl-next {
+  background-color: #293042;
+}
+.dark-open .owl .owl-prev.disabled,
+.dark-open .owl .owl-next.disabled {
+  background-color: #1c222f;
+}
+.dark-open .off-canvas {
+  background-color: #293042;
+}
+.dark-open .off-canvas .canvas-close {
+  background-color: rgb(247 247 247);
+}
+.dark-open .slicknav_menu .slicknav_nav li.current-menu-item a {
+  color: #c9bbc2;
+}
+.dark-open .slicknav_menu .menu-item > a {
+  background: #202634;
+}
+.dark-open .slicknav_menu .slicknav_nav .sub-menu {
+  background: #1c202b;
+}
+.dark-open .slicknav_menu .slicknav_nav .sub-menu > li > a {
+  background: #202634;
+}
+.dark-open .widget-title:before {
+  background-color: #fd7e20;
+}
+.dark-open .u-border-title:before {
+  background-color: #fd7e20;
+}
+.dark-open .swal2-popup {
+  background: #293042;
+}
+.dark-open .swal2-popup .pay-button-box .pay-item + .pay-item {
+  border-top: 1px solid #242a3a;
+}
+.dark-open.page-template-page-login .header-section {
+  background-color: #293042;
+}
+.dark-open .login-page-title {
+  border-bottom: 1px dashed #333c50;
+}
+.dark-open .rizhuti_v2-widget-shop-down .price {
+  background: #1c212d;
+  background: linear-gradient(to right, #1c212d, #293042);
+}
+.dark-open .rizhuti_v2-widget-shop-down .down-info > h5 {
+  color: #adb5bd;
+}
+.dark-open .rizhuti_v2-widget-shop-down ul.infos li p {
+  color: #8f929c;
+}
+.dark-open .btn-warning {
+  color: #9c3a00;
+}
+.dark-open .btn-primary {
+  color: #fff;
+}
+.dark-open .btn-warning:hover {
+  color: #000;
+}
+.dark-open .pagination a,
+.dark-open .pagination span {
+  background-color: #293042;
+  border-color: #202634;
+  border: 1px solid #313848;
+}
+.dark-open .archive-filter {
+  color: unset;
+  background: #293042;
+}
+.dark-open .archive-filter .filter {
+  border-bottom: 1px dotted #20242f;
+}
+.dark-open .pay-vip-item.ok {
+  background-color: #141821;
+}
+.dark-open .article-crumb {
+  border-bottom: 1px dashed #40485a;
+}
+.dark-open #header-widget-shop-down .rizhuti_v2-widget-shop-down {
+  background: #202634;
+  border: dashed #323a4c 1px;
+}
+.dark-open .site-footer .footer-links a {
+  color: #adb5bd;
+}
+.dark-open .site-footer .footer-copyright {
+  border-top: solid 1px #384156;
+}
+.dark-open .rollbar .actions li {
+  background: #293042;
+}
+.dark-open .rollbar .rollbar-item {
+  background-color: #293042;
+}
+.dark-open .rollbar .actions li + li {
+  border-top: solid #202634 1px;
+}
+.dark-open .user-favpage .post-list {
+  border-bottom: solid #3b4458 1px;
+}
+.dark-open .article-content .entry-share {
+  border-top: 1px solid #202634;
+}
+.dark-open .rizhuti_v2-widget-post .post-list {
+  border-bottom: 1px solid #202634;
+}
+.dark-open .article-content .post-note {
+  background-color: #202634;
+  border-color: #202634;
+}
+.dark-open .rollbar .actions li > a > span {
+  color: #adb5bd;
+}
+.dark-open .rollbar .actions li > a > i {
+  background-image: linear-gradient(to bottom, #adb5bd 0, #90979e 100%);
+}
+.dark-open .article-content .ripay-content {
+  border: 2px dashed rgb(187 187 187 / 50%);
+}
+.dark-open .navbar .logo-wrapper:before {
+  background-color: rgb(41 48 66 / 50%);
+}
+.dark-open ._404 {
+  background: #293042;
+}
+.dark-open .omnisearch .omnisearch-form .form-control {
+  display: block;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  color: #6c757d;
+  box-shadow: 0 0 10px rgba(55, 125, 255, 0.1);
+}
+.dark-open .user-top-header .bg-white {
+  background-color: #293042 !important;
+}
+.dark-open th,
+.dark-open td {
+  border-color: #363e52;
+}
+.dark-open .table td,
+.dark-open .table th {
+  border-color: #363e52;
+}
+.dark-open .table thead th {
+  border-color: #363e52;
+}
+.dark-open .navbar .dropdown-menu {
+  box-shadow: 0 10px 30px 0 rgb(32 38 52 / 0.5);
+  background-color: #293042;
+}
+.dark-open .dropdown-item {
+  color: #abb2ba;
+}
+.dark-open .dropdown-item:hover {
+  color: #fff;
+  background-color: #202634;
+}
+.dark-open .dropdown-divider {
+  border-top: 1px solid #202634;
+}
+.dark-open .tags-substr {
+  background: #202634;
+  color: #5b6888;
+}
+.dark-open .archive-filter .filter li {
+  border-right: 1px solid #262c3a;
+}
+.dark-open .related-posts .post-list {
+  background: #293042;
+}
+.dark-open .rizhuti_v2-widget-post .post-list .entry-title a {
+  color: #a8b1b8;
+}
+.dark-open .article-content .entry-tags a {
+  color: #adb5bd;
+}
+.dark-open .pay_coin_box {
+  border-color: rgb(255 130 130);
+}
+.dark-open .pay_coin_bg {
+  background: #242a3a;
+}
+.dark-open .card-body hr {
+  border-color: #202634;
+}
+.dark-open .widget .tagcloud a {
+  background-color: #202634;
+}
+.dark-open .question-area {
+  background: #293042;
+}
+.dark-open .post-list.question {
+  border-color: #202634;
+}
+.dark-open .widget.question-users ul > li {
+  border-color: #202634;
+}
+.dark-open .question-list .question-item {
+  background: #293042;
+}
+.dark-open .question-item footer > span {
+  color: #eee;
+}
+.dark-open .question-list .question-form {
+  background-color: #293042;
+}
+.dark-open .entry-comments {
+  background: #293042;
+}
+.dark-open .comment-form {
+  border-color: #384156;
+  background: #202634;
+}
+.dark-open .comment-form-comment textarea {
+  border-color: #384156;
+  background: #202634;
+}
+.dark-open .comment-form-author input,
+.dark-open .comment-form-email input,
+.dark-open .comment-form-url input {
+  background: transparent;
+  border-color: #384156;
+}
+.dark-open .comments-list .comment {
+  border-color: #222938;
+}
+.dark-open .comments-list .comment-children {
+  background: #282e3e;
+  border-color: #222938;
+}
+.dark-open .comments-list .comment-children:before {
+  border-bottom: 10px solid #222938;
+}
+.dark-open .rizhuti_v2-widget-shop-down .down-info > h5 {
+  border-color: #202634;
+}
+.dark-open .single-download-nav {
+  background: #293042;
+}
+.dark-open .single-download-nav .nav.nav-pills {
+  border-color: #202634;
+}
+.dark-open .single-download-nav li .nav-link {
+  border-color: #42475f;
+}
+.dark-open .tab-content .accordion {
+  background: #293042;
+}
+.dark-open .accordion .card-header {
+  background-color: #202634;
+}
+.dark-open .accordion .card {
+  border: 0.0625rem solid rgb(34 40 55);
+}
+.dark-open .tab-content .accordion .text-left {
+  color: #adb5bd;
+}
+.dark-open .tab-content .related-posts {
+  background: #293042;
+}
+.dark-open .bootstrap-select .dropdown-menu {
+  background-color: #202634;
+}
+.dark-open .dropdown-item.active,
+.dark-open .dropdown-item:active {
+  background-color: #293042;
+}
+.dark-open .omnisearch .omnisearch-form {
+  background: #293042;
+}
+.dark-open .bootstrap-select > .dropdown-toggle {
+  color: #bfc1c7;
+  background-color: #202634;
+  border-color: #202634;
+}
+.dark-open .omnisearch .omnisearch-suggestions {
+  background: #293042;
+}
+.dark-open .omnisearch .omnisearch-suggestions:before {
+  background: #293042;
+}
+.dark-open .omnisearch .omnisearch-suggestions .search-keywords a {
+  background: #202634;
+}
+.dark-open .search-form .search-fields input {
+  border: 2px solid #202634;
+  background: #293042;
+  color: #bfc1c7;
+}
+.dark-open .search-form .search-select .dropdown > button {
+  color: #bfc1c7;
+  background-color: #202634;
+  border-color: #202634;
+}
+.dark-open .rizhuti_v2-widget-division {
+  background: #293042;
+}

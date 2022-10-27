@@ -1,0 +1,13 @@
+<?php
+$wppay_fields_index = $shop_fields_index + 3;
+        $wppay_fields = CSF::$args['sections']['_riprov2_options'][$wppay_fields_index]['fields'];
+        foreach ($wppay_fields as $key => $value) {
+            if (isset($value) && $value['id'] === 'wppay_type' && !isset($value['options'][7])) {
+                $wppay_fields[$key]['options'] = array_merge($wppay_fields[$key]['options'], [
+                    '7' => esc_html__('视频课程', 'rizhuti-v2'),
+                    '8' => esc_html__('资源推荐', 'rizhuti-v2'),
+                ]);
+            }
+        }
+        CSF::$args['sections']['_riprov2_options'][$wppay_fields_index]['fields'] = $wppay_fields;
+        CSF::set_used_fields($wppay_fields);

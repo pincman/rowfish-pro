@@ -1,0 +1,138 @@
+/* 备用样式 html, */
+/* body,
+#app {
+  height: 100vh;
+}
+:root {
+  font-size: 62.5%;
+  font-family: "Source Sans Pro", "Hiragino Sans GB", "Microsoft Yahei", SimSun,
+    Helvetica, Arial, Sans-serif, monospace;
+}
+.term-bar {
+  margin-top: 60px;
+  flex: 0 0 auto;
+}
+
+.post-grid .meta-vip-price {
+  top: 143px;
+}
+.img-link:hover {
+  transform: scale(1.5);
+}
+.archive-filter .filter li {
+  padding: 0;
+}
+.entry-header > .entry-title {
+  text-align: center;
+}
+.archive-list .entry-header > .entry-title,
+.user-favpage .entry-header > .entry-title {
+  text-align: left;
+}
+.docspress-single-articles ul {
+  margin-top: 20px !important;
+  padding-left: 0 !important;
+}
+.docspress-nav-list ul[class="children"] {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.docspress-single-content #toc_container {
+  position: fixed;
+  top: 90px;
+  right: 30px;
+  background-color: rgba(230, 230, 230, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  z-index: 999;
+}
+
+.docspress-single-content #toc_container > ul[class="toc_list"] {
+  display: block;
+  max-height: 30rem;
+  overflow: auto;
+}
+.docspress-single-content #toc_container li {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.docspress-single-content #toc_container li a {
+  color: #000;
+}
+
+.docspress-single-articles ul li,
+.docspress-single-content .toc_list li {
+  list-style-type: none;
+}
+
+.full-content .article-content {
+  margin: 0 auto;
+  overflow-y: auto;
+  max-height: 100vh;
+  height: 100vh;
+}
+
+.rizhuti_v2-widget-catbox-carousel {
+  padding-top: 0;
+  margin-bottom: 30px;
+}
+.rizhuti_v2-widget-division {
+  background: none;
+}
+.rizhuti_v2-widget-division .container > .row {
+  background-color: #fff;
+  padding: 15px 10px;
+  border-radius: 4px;
+}
+.rizhuti_v2-widget-division .container > .row > div {
+  margin-bottom: 0 !important;
+}
+.rizhuti_v2-widget-division .container .desc {
+  font-size: 0.75rem;
+}
+.rizhuti_v2-widget-division .container .title {
+  font-size: 0.875rem;
+}
+
+.price-widget-body-full {
+  height: auto;
+}
+
+.doc-content .docspress-single-content {
+  height: 100vh;
+}
+.doc-content .docspress-single-content {
+  overflow: auto;
+}
+
+pre {
+  padding: 0 !important;
+  overflow-y: auto !important;
+  max-height: 350px !important;
+}
+.wedocs-shortcode-wrap ul[class*="col-"] {
+  max-width: 100% !important;
+}
+.ap-minimal-placeholder {
+  display: none !important;
+}
+.dwqa-container .fa-arrows-alt:before {
+  content: "\f0b2" !important;
+}
+.dwqa-container select {
+  line-height: inherit;
+}
+
+.dark-open .rizhuti_v2-widget-division {
+  background: none;
+}
+.dark-open .rizhuti_v2-widget-division .container > .row {
+  background: #293042;
+}
+.doc-content .docspress-single-content {
+  height: 100vh;
+}
+.doc-content .docspress-single-content {
+  overflow: auto;
+} */

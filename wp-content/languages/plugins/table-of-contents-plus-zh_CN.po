@@ -1,0 +1,468 @@
+# Translation of Plugins - Table of Contents Plus - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Table of Contents Plus - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-24 02:11:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Table of Contents Plus - Stable (latest release)\n"
+
+#. Author URI of the plugin
+msgid "http://dublue.com/"
+msgstr "http://dublue.com/"
+
+#. Author of the plugin
+msgid "Michael Tran"
+msgstr "Michael Tran"
+
+#. Description of the plugin
+msgid "A powerful yet user friendly plugin that automatically creates a table of contents. Can also output a sitemap listing all pages and categories."
+msgstr "一个功能强大对用户友好的插件，可自动创建目录。 还可以输出列出所有页面和类别的站点地图。"
+
+#. Plugin Name of the plugin
+msgid "Table of Contents Plus"
+msgstr "Table of Contents Plus"
+
+#: class-toc-plus.php:1719
+msgid "For the following content types:"
+msgstr "针对以下内容类型："
+
+#: class-toc-plus.php:1715
+msgid "Show the table of contents only in the sidebar"
+msgstr "仅在侧边栏中显示文章目录"
+
+#: class-toc-plus.php:1611
+msgid "Display the table of contents in the sidebar with this widget"
+msgstr "在侧边栏小工具中显示文章目录"
+
+#: class-toc-plus.php:1080
+msgid "Update Options"
+msgstr "更新设置"
+
+#: class-toc-plus.php:1071
+msgid "Uses h6 to display %s on a page listing excluding pages with IDs 1 and 15"
+msgstr "使用h6在一个排除包含ID 1 和15页面的页面列表上显示 %s"
+
+#: class-toc-plus.php:1070
+msgid "hides the heading from a category listing"
+msgstr " 将标题从分类列表中移除"
+
+#: class-toc-plus.php:1068
+msgid "Examples"
+msgstr "例"
+
+#: class-toc-plus.php:1067
+msgid "lets you print out a listing of only pages. Similarly %s can be used to print out a category listing. They both can accept a number of attributes so visit the help tab for more information."
+msgstr "用于仅输出页面列表，相应的 %s 可以用于输出分类列表。他们都可以具有多重属性，参阅帮助标签页了解更多信息。"
+
+#: class-toc-plus.php:1065
+msgid "Advanced usage"
+msgstr "高级功能"
+
+#: class-toc-plus.php:1059
+msgid "Eg: Categories, Category List"
+msgstr "例：分类、分类列表"
+
+#: class-toc-plus.php:1057
+msgid "Categories label"
+msgstr "分类标签"
+
+#: class-toc-plus.php:1053
+msgid "Eg: Pages, Page List"
+msgstr "例：页面、页面列表"
+
+#: class-toc-plus.php:1051
+msgid "Pages label"
+msgstr "页面标签"
+
+#. translators: the full line is supposed to read - Use [h1-h6 drop down list]
+#. to print out the titles
+#: class-toc-plus.php:1047
+msgid "to print out the titles"
+msgstr "输出标题"
+
+#. translators: the full line is supposed to read - Use [1-6 drop down list] to
+#. print out the titles
+#: class-toc-plus.php:1034
+msgid "Use"
+msgstr "使用"
+
+#: class-toc-plus.php:1031
+msgid "Heading type"
+msgstr "标题类型"
+
+#: class-toc-plus.php:1027
+msgid "Show category listing"
+msgstr "显示分类列表"
+
+#: class-toc-plus.php:1023
+msgid "Show page listing"
+msgstr "显示页面列表"
+
+#: class-toc-plus.php:1019
+msgid "At its simplest, placing %s into a page will automatically create a sitemap of all pages and categories. This also works in a text widget."
+msgstr "最简单的法子，将 %s 放在一个页面中将自动产生一个包括所有页面和目录的网站地图。在文本小工具中同样奏效。"
+
+#: class-toc-plus.php:1011
+msgid "If you would like to fully customise the position of the table of contents, you can use the %s shortcode by placing it at the desired position of your post, page or custom post type. This method allows you to generate the table of contents despite having auto insertion disabled for its content type. Please visit the help tab for further information about this shortcode."
+msgstr "如果喜欢完全自定义文章目录位置，可以将 %s 短代码放在文章、页面或者自定义文章类型需要的位置。此方法在即便禁用向它的文章类型自动插入时也可以生成文章目录。请参阅帮助标签页了解短代码的更多信息。"
+
+#. translators: advanced usage
+#: class-toc-plus.php:1010
+msgid "Usage"
+msgstr "使用"
+
+#. translators: example anchor prefixes when no ascii characters match
+#: class-toc-plus.php:1002
+msgid "Eg: i, toc_index, index, _"
+msgstr "例：i, toc_index, index, _"
+
+#: class-toc-plus.php:999
+msgid "This option normally applies to content written in character sets other than ASCII."
+msgstr "此选项只能输入字符集而不是ASCII。"
+
+#: class-toc-plus.php:998
+msgid "Anchor targets are restricted to alphanumeric characters as per HTML specification (see readme for more detail). The default anchor prefix will be used when no characters qualify. When left blank, a number will be used instead."
+msgstr "因为HTML规范化的要求，锚目标只能使用数字或者字母。(参阅自述了解更多)。如果标题中不包含字母将使用默认锚前缀。留空则使用数字。"
+
+#: class-toc-plus.php:995
+msgid "Default anchor prefix"
+msgstr "默认锚前缀"
+
+#. translators: example URL path restriction
+#: class-toc-plus.php:991
+msgid "Eg: /wiki/, /corporate/annual-reports/"
+msgstr "例：/wiki/，/corporate/annual-reports/"
+
+#: class-toc-plus.php:988
+msgid "Restrict generation of the table of contents to pages that match the required path. This path is from the root of your site and always begins with a forward slash."
+msgstr "限制文章目录产生页面与要求的路径相匹配，此路径相对站点根目录，以斜杠（/）开始。"
+
+#: class-toc-plus.php:985
+msgid "Restrict path"
+msgstr "限制路径"
+
+#: class-toc-plus.php:981
+msgid "If you have a consistent menu across the top of your site, you can adjust the top offset to stop the headings from appearing underneath the top menu. A setting of 30 accommodates the WordPress admin bar. This setting appears after you have enabled smooth scrolling from above."
+msgstr "如果站点顶部有固定的菜单栏，可以调整顶部偏移让标题显示在该菜单栏下面。推荐使用的数值30是为Wordpress管理菜单栏设计的。在上方启用平滑滚动后此设置有效。"
+
+#: class-toc-plus.php:978
+msgid "Smooth scroll top offset"
+msgstr "平滑滚动顶部偏移"
+
+#: class-toc-plus.php:973
+msgid "<code>Apple Tree|Oranges|Yellow Bananas</code> ignore headings that are exactly \"Apple Tree\", \"Oranges\" or \"Yellow Bananas\""
+msgstr "<code>苹果树|橘子|黄香蕉</code> 将忽略与 \"苹果树\" ，\"橘子\" ，或者 \"黄香蕉\" 精确匹配的标题"
+
+#: class-toc-plus.php:972
+msgid "<code>*Fruit Diet*</code> ignore headings with \"Fruit Diet\" somewhere in the heading"
+msgstr "<code>*水果饮食*</code> 将忽略在任何一处包含 \"水果饮食\" 的标题"
+
+#: class-toc-plus.php:971
+msgid "<code>Fruit*</code> ignore headings starting with \"Fruit\""
+msgstr "<code>水果*</code> 将忽略 \"水果\" 开头的标题"
+
+#: class-toc-plus.php:969
+msgid "Specify headings to be excluded from appearing in the table of contents.  Separate multiple headings with a pipe <code>|</code>.  Use an asterisk <code>*</code> as a wildcard to match other text.  Note that this is not case sensitive. Some examples:"
+msgstr "指定在文章目录中排除的标题。多个标题使用管道符号 <code>|</code> 。使用星号 <code>*</code> 作为通配符匹配其他文本。注意此处对大小写不敏感。举例如下："
+
+#: class-toc-plus.php:966
+msgid "Exclude headings"
+msgstr "排除的标题"
+
+#: class-toc-plus.php:960
+msgid "heading "
+msgstr "标题 "
+
+#: class-toc-plus.php:952
+msgid "Include the following heading levels. Deselecting a heading will exclude it."
+msgstr "包含以下标题层级，留空的层级将会被忽略"
+
+#: class-toc-plus.php:950
+msgid "Heading levels"
+msgstr "标题层级"
+
+#: class-toc-plus.php:947
+msgid "If your theme includes background images for unordered list elements, enable this to support them"
+msgstr "如果您的主题有修改无序列表的背景图片时，您可以开启此功能添加主题兼容。"
+
+#: class-toc-plus.php:946
+msgid "Preserve theme bullets"
+msgstr "主题兼容"
+
+#: class-toc-plus.php:943
+msgid "Prevent the loading of this plugin's CSS styles. When selected, the appearance options from above will also be ignored."
+msgstr "禁止加载本插件的CSS样式，选中后以上外观选项将失效"
+
+#: class-toc-plus.php:942
+msgid "Exclude CSS file"
+msgstr "不加载CSS"
+
+#: class-toc-plus.php:939
+msgid "Show the table of contents for qualifying items on the homepage"
+msgstr "对首页中排序的列表也添加目录内容支持"
+
+#: class-toc-plus.php:938
+msgid "Include homepage"
+msgstr "包含首页"
+
+#: class-toc-plus.php:935
+msgid "Use - rather than _ in anchors"
+msgstr "使用 - 而非 _ 作为连字符"
+
+#: class-toc-plus.php:934
+msgid "Hyphenate"
+msgstr "连字符"
+
+#: class-toc-plus.php:931
+msgid "Ensure anchors are in lowercase"
+msgstr "确保锚点小写"
+
+#: class-toc-plus.php:930
+msgid "Lowercase"
+msgstr "小写"
+
+#: class-toc-plus.php:926
+msgid "Power options"
+msgstr "动力设置"
+
+#: class-toc-plus.php:924 class-toc-plus.php:1065
+msgid "show"
+msgstr "显示"
+
+#: class-toc-plus.php:924
+msgid "Advanced"
+msgstr "高级"
+
+#: class-toc-plus.php:917
+msgid "Leaving the value as %s will inherit your theme's styles"
+msgstr "使用 %s 将会继承主题样式"
+
+#: class-toc-plus.php:910
+msgid "Links (visited)"
+msgstr "链接（访问过的）"
+
+#: class-toc-plus.php:906
+msgid "Links (hover)"
+msgstr "链接（鼠标悬浮）"
+
+#: class-toc-plus.php:902
+msgid "Links"
+msgstr "链接"
+
+#: class-toc-plus.php:898 class-toc-plus.php:1709
+msgid "Title"
+msgstr "标题"
+
+#: class-toc-plus.php:894
+msgid "Border"
+msgstr "边框"
+
+#: class-toc-plus.php:890
+msgid "Background"
+msgstr "背景"
+
+#: class-toc-plus.php:880
+msgid "Custom"
+msgstr "自定义"
+
+#: class-toc-plus.php:875
+msgid "Transparent"
+msgstr "透明"
+
+#: class-toc-plus.php:870
+msgid "Black"
+msgstr "黑色"
+
+#: class-toc-plus.php:865
+msgid "White"
+msgstr "白色"
+
+#: class-toc-plus.php:860
+msgid "Light blue"
+msgstr "淡蓝色"
+
+#: class-toc-plus.php:855
+msgid "Grey (default)"
+msgstr "灰色（默认）"
+
+#. translators: appearance / colour / look and feel options
+#: class-toc-plus.php:852
+msgid "Presentation"
+msgstr "风格"
+
+#: class-toc-plus.php:839
+msgid "Font size"
+msgstr "字体大小"
+
+#: class-toc-plus.php:834
+msgid "Right"
+msgstr "向右"
+
+#: class-toc-plus.php:833
+msgid "Left"
+msgstr "向左"
+
+#: class-toc-plus.php:832
+msgid "None (default)"
+msgstr "无（默认）"
+
+#: class-toc-plus.php:829
+msgid "Wrapping"
+msgstr "自动换行"
+
+#. translators: ignore %s as it's some HTML label tags
+#: class-toc-plus.php:818
+msgid "Please enter a number and %s select its units, eg: 100px, 10em"
+msgstr "请输入一个数字并 %s 选择单位，例如：100px，10em"
+
+#: class-toc-plus.php:812
+msgid "User defined"
+msgstr "用户自定义"
+
+#. translators: other width
+#: class-toc-plus.php:811
+msgid "Other"
+msgstr "其他"
+
+#: class-toc-plus.php:801
+msgid "Auto (default)"
+msgstr "自动（默认）"
+
+#: class-toc-plus.php:800
+msgid "Relative"
+msgstr "相对宽度"
+
+#: class-toc-plus.php:789
+msgid "Fixed width"
+msgstr "固定宽度"
+
+#: class-toc-plus.php:786
+msgid "Width"
+msgstr "宽度"
+
+#: class-toc-plus.php:782
+msgid "Appearance"
+msgstr "外观"
+
+#: class-toc-plus.php:777
+msgid "Scroll rather than jump to the anchor link"
+msgstr "平滑滚动到相应锚位置而不是跳转"
+
+#: class-toc-plus.php:776
+msgid "Enable smooth scroll effect"
+msgstr "开启平滑滚动效果"
+
+#: class-toc-plus.php:772
+msgid "Number list items"
+msgstr "显示编号"
+
+#: class-toc-plus.php:768
+msgid "Show hierarchy"
+msgstr "显示目录层级"
+
+#: class-toc-plus.php:762
+msgid "Hide the table of contents initially"
+msgstr "默认隐藏文章目录"
+
+#. translators: example text to display when you want to collapse the table of
+#. contents
+#: class-toc-plus.php:758
+msgid "Eg: hide"
+msgstr "例：隐藏"
+
+#: class-toc-plus.php:754
+msgid "Hide text"
+msgstr "隐藏文本"
+
+#. translators: example text to display when you want to expand the table of
+#. contents
+#: class-toc-plus.php:751
+msgid "Eg: show"
+msgstr "例：显示"
+
+#: class-toc-plus.php:747
+msgid "Show text"
+msgstr "显示文本"
+
+#: class-toc-plus.php:742
+msgid "Allow the user to toggle the visibility of the table of contents"
+msgstr "允许用户显示/隐藏文章目录"
+
+#: class-toc-plus.php:740
+msgid "Eg: Contents, Table of Contents, Page Contents"
+msgstr "例：内容，文章目录，页面内容"
+
+#: class-toc-plus.php:737
+msgid "Show title on top of the table of contents"
+msgstr "在文章目录顶部显示标题"
+
+#. translators: this is the title of the table of contents
+#: class-toc-plus.php:735
+msgid "Heading text"
+msgstr "标题文本"
+
+#: class-toc-plus.php:720
+msgid "Auto insert for the following content types"
+msgstr "自动插入以下类别的内容中"
+
+#. translators: text follows drop down list of numbers
+#: class-toc-plus.php:716
+msgid "or more headings are present"
+msgstr "或者更多标题存在时"
+
+#: class-toc-plus.php:704
+msgid "Show when"
+msgstr "何时显示"
+
+#: class-toc-plus.php:699
+msgid "Bottom"
+msgstr "底部"
+
+#: class-toc-plus.php:698
+msgid "Top"
+msgstr "顶部"
+
+#: class-toc-plus.php:697
+msgid "After first heading"
+msgstr "在第一个标题之后"
+
+#: class-toc-plus.php:696
+msgid "Before first heading (default)"
+msgstr "第一个标题前面（默认）"
+
+#: class-toc-plus.php:693
+msgid "Position"
+msgstr "位置"
+
+#: class-toc-plus.php:685
+msgid "Help"
+msgstr "帮助"
+
+#: class-toc-plus.php:684
+msgid "Sitemap"
+msgstr "站点地图"
+
+#: class-toc-plus.php:683
+msgid "Main Options"
+msgstr "主要选项"
+
+#: class-toc-plus.php:670
+msgid "Save failed."
+msgstr "保存失败。"
+
+#: class-toc-plus.php:668
+msgid "Options saved."
+msgstr "选项已保存。"
+
+#: class-toc-plus.php:489 class-toc-plus.php:490
+msgid "TOC"
+msgstr "TOC"
+
+#: class-toc-plus.php:173
+msgid "Settings"
+msgstr "设置"

@@ -1,0 +1,139 @@
+/* 短代码 */
+.content-preview .alert {
+  background: #eef6fd !important;
+  padding: 8px 20px !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-right: none !important;
+  border-left: 3px solid #38a3fd !important;
+  border-radius: 0 5px 5px 0 !important;
+  margin-bottom: 10px !important;
+  color: #777 !important;
+  display: inline-block !important;
+  width: 100% !important;
+}
+
+.content-preview .alert::before {
+  background: #38a3fd;
+  border-radius: 50%;
+  color: #fff;
+  content: "i";
+  font-family: Dosis, "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  height: 21px;
+  line-height: 21px;
+  margin-left: -32px;
+  margin-top: 5px;
+  position: absolute;
+  text-align: center;
+  width: 21px;
+}
+
+.content-preview .alert-secondary {
+  border-left-color: #ddd !important;
+  background: #efefef !important;
+}
+
+.content-preview .alert-secondary::before {
+  background: #ddd !important;
+  content: "\0040" !important;
+}
+
+.content-preview .alert-warning {
+  border-left-color: #ff7800 !important;
+  background: #fcf2e9 !important;
+}
+
+.content-preview .alert-warning::before {
+  background: #ff7800 !important;
+  content: "\0021" !important;
+}
+
+.content-preview .alert-danger {
+  border-left-color: #ed0000 !important;
+  background: #fcf1f1 !important;
+}
+
+.content-preview .alert-danger::before {
+  background: #ed0000 !important;
+  content: "\00D7" !important;
+}
+
+.content-preview .alert-primary,
+.content-preview .alert-info {
+  border-left-color: #38a3fd !important;
+  background: #eef6fd !important;
+}
+
+.content-preview .alert-success {
+  border-left-color: #86cc00 !important;
+  background: #f0f8e5 !important;
+}
+
+.content-preview .alert-success::before {
+  background: #86cc00 !important;
+  content: "\221a" !important;
+}
+
+.content-preview .card {
+  box-shadow: 0 0 3px rgb(0 0 0 / 10%);
+  margin: 0 0 15px 0;
+  padding: 0;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.content-preview .tabs-card > .card-body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.content-preview .tabs-card > .card-body > nav > .nav-tabs {
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+  white-space: nowrap;
+  height: 100%;
+  overflow-y: hidden;
+  border-bottom: none;
+  display: block;
+}
+
+.content-preview .tabs-card > .card-body > nav .nav-link {
+  position: relative;
+  padding: 10px 15px;
+  border: none;
+  display: inline-block;
+  height: 2.5rem;
+  line-height: 1.5rem;
+  font-size: 0.875rem;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.content-preview .tabs-card > .card-body > nav .nav-link.active {
+  background: none;
+}
+
+.content-preview .tabs-card > .card-body > nav .nav-link::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.content-preview .tabs-card > .card-body > nav .nav-link.active:before {
+  left: 0;
+  right: 0;
+  border-bottom-color: #000;
+}
+
+.content-preview .tabs-card > .card-body > .tab-content {
+  padding: 15px;
+  margin: 0;
+}

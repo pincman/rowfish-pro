@@ -1,0 +1,187 @@
+<?php
+
+defined('ABSPATH') || exit;
+
+if (!function_exists('_rowfish')) {
+    function _rowfish($option = '', $default = null)
+    {
+        $options_meta = _RF_OPTIONS_PRE;
+        $options      = get_option($options_meta);
+        return (isset($options[$option])) ? $options[$option] : $default;
+    }
+}
+function isDocsPress()
+{
+    return is_plugin_active('docspress/docspress.php');
+}
+function isAnsPress()
+{
+    return is_plugin_active('anspress-question-answer/anspress-question-answer.php');
+}
+function get_current_post_for_box()
+{
+    global $post;
+
+    if (empty($post) && array_key_exists('post', $_GET)) {
+        $post = get_post($_GET['post']);
+    }
+
+    // Optional: get an empty post object from the post_type
+    if (empty($post) && array_key_exists('post_type', $_GET)) {
+        $object = new stdClass();
+        $object->post_type = $_GET['post_type'];
+        return new WP_Post($object);
+    }
+
+    if (empty($post)) {
+        return null;
+    }
+
+    return $post;
+}
+
+
+/**
+ * 是否付费查看视频
+ * @Author   Dadong2g
+ * @DateTime 2021-04-13T13:50:33+0800
+ * @param    [type]                   $post [description]
+ * @return   boolean                        [description]
+ */
+function rf_is_post_shop_video($post_ID = null)
+{
+    if (empty($post_ID)) {
+        global $post;
+        $post_ID = $post->ID;
+    }
+
+    if (get_post_meta($post_ID, 'rf_post_type', true) == '3') {
+        return true;
+    }
+    return false;
+}
+
+function rf_is_post_oss($post_ID = null)
+{
+    if (empty($post_ID)) {
+        global $post;
+        $post_ID = $post->ID;
+    }
+
+    if (get_post_meta($post_ID, 'rf_post_type', true) == '2') {
+        return true;
+    }
+    return false;
+}
+
+function rf_is_post_course($post_ID = null)
+{
+    if (empty($post_ID)) {
+        global $post;
+        $post_ID = $post->ID;
+    }
+
+    if (get_post_meta($post_ID, 'rf_post_type', true) == '1') {
+        return true;
+    }
+    return false;
+}
+
+
+/**
+ * 顶部是否显示hero效果
+ * @Author   Dadong2g
+ * @DateTime 2021-01-16T13:50:20+0800
+ * @return   [type]                   [description]
+ */
+function rf_show_hero()
+{
+    if (empty($post_ID)) {
+        global $post;
+        $post_ID = $post->ID;
+    }
+    if (!is_singular('post') || is_singular('question')) {
+        return false;
+    }
+
+    if (!is_close_site_shop() && _cao('is_single_shop_template', true) && is_post_shop_down()) {
+        return 'wide';
+    }
+
+    if (rf_is_post_shop_video() || rf_is_post_oss() || rf_is_post_course()) {
+        if (get_post_meta(get_the_ID(), 'hero_single_style', 1) == 'none') {
+            update_post_meta(get_the_ID(), 'hero_single_style', 'wide');
+        }
+        return 'wide';
+    }
+
+    return (is_singular()) && ripro_v2_compare_options(_cao('hero_single_style', 'none'), get_post_meta(get_the_ID(), 'hero_single_style', 1)) != 'none';
+}
+
+function rf_shop_post_info($post_ID = null, $meta_key = null)
+{
+    global $current_user, $ri_vip_options;
+    if (empty($post_ID)) {
+        global $post;
+        $post_ID = $post->ID;
+    }
+    $post_id = $post_ID;
+    $user_id = $current_user->ID;
+    $user_type  = _get_user_vip_type($user_id);
+    $is_datevip = $user_type == 'vip';
+    $is_boosvip = $user_type == 'boosvip';
+    $is_vip = $is_datevip || $is_boosvip;
+    $RiClass = new RiClass($post_ID, $user_id);
+    $is_paid = $RiClass->is_pay_post();
+    $price = get_post_price($post_id, $user_type);
+    $is_free = $price == 0 || empty(get_post_meta($post_ID, 'rf_shop_enabled', true));
+    if ($is_free) $is_paid = 1;
+    // 是否vip专属资源
+    $only_vip = $price == -1;
+    // 半高背景图
+    $hero_image =  get_post_meta($post_ID, 'hero_image', 1);
+    // 文章类型
+    $post_type =  get_post_meta($post_ID, 'rf_post_type', 1);
+    $collection = compact('post_id', 'user_id', 'user_type', 'is_datevip', 'is_boosvip', 'is_vip', 'is_paid', 'price', 'is_free', 'only_vip', 'post_type');
+    if ($meta_key) {
+        return key_exists($meta_key, $collection) ? $collection[$meta_key] : null;
+    }
+    return $collection;
+}
+function rf_is_free_nologin_play(){
+    return !empty(_cao('free_onlogin_play',false));
+}
+
+
+                <!-- <div class="input-group-prepend d-flex align-items-center" style=" max-width: 10%; margin-right: 20px;">
+                    <select name="type" id="omnisearch-type" class="selectpicker" tabindex="-98">
+                        <option value="all" selected>全部</option>
+                        <option value="course">课程</option>
+                        <option value="post">文章</option>
+                    </select>
+                </div> -->
+                <!-- <div class="input-group-prepend d-flex align-items-center" style=" max-width: 20%; margin-right: 20px;">
+                    <?php wp_dropdown_categories(array(
+                        'hide_empty'       => true,
+                        'orderby'          => 'name',
+                        'hierarchical'     => true,
+                        'depth'     => 1,
+                        'id'     => 'omnisearch-cat',
+                        'class'     => 'selectpicker',
+                        'show_option_none' => esc_html__('全部', 'rizhuti-v2'),
+                        'option_none_value' => '',
+                    )); ?>
+                </div>
+                <div class="input-group-prepend d-flex align-items-center" style=" max-width: 20%; ">
+                    <?php wp_dropdown_categories(array(
+                        'hide_empty'       => true,
+                        'orderby'          => 'name',
+                        'hierarchical'     => true,
+                        'depth'     => 1,
+                        'id'     => 'omnisearch-course-cat',
+                        'class'     => 'selectpicker',
+                        'show_option_none' => esc_html__('全部', 'rizhuti-v2'),
+                        'option_none_value' => '',
+                        'taxonomy'          => 'course_category',
+                    )); ?>
+                </div> -->

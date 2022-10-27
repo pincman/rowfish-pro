@@ -1,0 +1,4159 @@
+# Translation of Plugins - AnsPress &#8211; Question and answer - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - AnsPress &#8211; Question and answer - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-07 06:20:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - AnsPress &#8211; Question and answer - Stable (latest release)\n"
+
+#: addons/email/email.php:917
+msgid "Your answer is selected as best!"
+msgstr "您的答案被选为最佳！"
+
+#. translators: %s is file size in MB.
+#: templates/functions.php:44
+msgid "File size is bigger than %s MB"
+msgstr "文件大小大于 %s MB"
+
+#: includes/functions.php:2198
+msgid "You do not have permission to answer this question."
+msgstr "您无权回答此问题。"
+
+#. Translators: Placeholder contain form name.
+#: lib/class-form.php:207
+msgid "No fields found for form: %s"
+msgstr "找不到表单的字段：%s"
+
+#: lib/class-anspress-cli.php:90
+msgid "Successfully enabled addon"
+msgstr "成功启用插件"
+
+#: lib/class-anspress-cli.php:87
+msgid "Unable to activate addon. May be its already active or wrong name passed."
+msgstr "无法激活插件。也许已经激活或输入了错误的名字。"
+
+#: lib/class-anspress-cli.php:80
+msgid "You must pass a addon name i.e. free/avatar.php"
+msgstr "您必须传递一个插件名称，比如 free/avatar.php"
+
+#: lib/class-anspress-upgrader.php:372
+msgid "Categories data migrated"
+msgstr "分类数据已迁移"
+
+#: lib/class-anspress-upgrader.php:301
+msgid "Migrated all reputations"
+msgstr "迁移所有声誉"
+
+#. translators: %s is question ID.
+#: lib/class-anspress-upgrader.php:72
+msgid "Migrating question: %d"
+msgstr "迁移问题： %d"
+
+#: lib/class-validate.php:740
+msgid "File type is not allowed to upload."
+msgstr "不允许上传文件类型。"
+
+#. Translators: %1$d contain maximum files user can upload, %2$s contain label
+#. of field.
+#: lib/class-validate.php:730
+msgid "You cannot upload more than %1$d file in field %2$s"
+msgstr "您不能在%2$s字段中上传超过 %1$d 个文件"
+
+#: lib/class-validate.php:717
+msgid "You are not allowed to upload file(s)"
+msgstr "您无权上传文件"
+
+#: lib/class-validate.php:627
+msgid "A PHP extension stopped the file upload."
+msgstr "一个 PHP 扩展中断了文件上传。"
+
+#: lib/class-validate.php:625
+msgid "Missing a temporary folder"
+msgstr "缺少临时文件夹"
+
+#: lib/class-validate.php:624
+msgid "No file was uploaded"
+msgstr "没有文件被上传"
+
+#: lib/class-validate.php:623
+msgid "The uploaded file was only partially uploaded"
+msgstr "上传的文件不完整。"
+
+#: lib/class-validate.php:622
+msgid "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form"
+msgstr "上传的文件超过了HTML表单中指定的MAX_FILE_SIZE值"
+
+#: lib/class-validate.php:621
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr "上传文件的尺寸超过 php.ini 中定义的 upload_max_filesize 值。"
+
+#: lib/class-validate.php:620
+msgid "There is no error, the file uploaded with success"
+msgstr "没有错误，文件上传成功"
+
+#. Translators: placeholder contain field label.
+#: lib/class-validate.php:602
+msgid "Found bad words in field %s. Remove them and try again."
+msgstr "在%s字段中发现不好的词。 删除它们，然后重试。"
+
+#. Translators: placeholder contain field label.
+#: lib/class-validate.php:547
+msgid "Maximum values allowed in field %2$s is %1$d."
+msgstr "字段 %2$s 允许的最大值为 %1$d。"
+
+#. Translators: placeholder contain field label.
+#: lib/class-validate.php:524
+msgid "Minimum %1$d values are required in field %2$s."
+msgstr "字段%2$s 中要求至少%1$d 个值。"
+
+#. Translators: placeholder contain field label.
+#: lib/class-validate.php:502
+msgid "Value provided in field %s is not an array."
+msgstr "字段%s 中提供的值不是数组。"
+
+#. Translators: placeholder contain field label.
+#: lib/class-validate.php:479
+msgid "Value provided in field %1$s must not exceeds %2$d characters."
+msgstr "字段 %1$s 中提供的值不能超过 %2$d 个字符。"
+
+#. Translators: placeholder contain field label.
+#: lib/class-validate.php:451
+msgid "Value provided in field %1$s must be at least %2$d characters long."
+msgstr "字段 %1$s 中提供的值至少 %2$d 个字符。"
+
+#. Translators: placeholder contain field label.
+#: lib/class-validate.php:425
+msgid "Value provided in field %s is not numeric."
+msgstr "字段%s 中提供的值不是数字。"
+
+#. Translators: placeholder contain field label.
+#: lib/class-validate.php:406
+msgid "Value provided in field %s is not a valid URL."
+msgstr "字段%s 中提供的值不是有效网址"
+
+#. Translators: placeholder contain field label.
+#: lib/class-validate.php:387
+msgid "Value provided in field %s is not a valid email."
+msgstr "字段%s 中提供的值不是有效电子邮件"
+
+#: lib/form/class-upload.php:442
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr "抱歉，出于安全原因，不允许使用此文件类型。"
+
+#: lib/form/class-upload.php:424
+msgid "Specified file failed upload test."
+msgstr "指定的文件上传测试失败。"
+
+#: lib/form/class-upload.php:419
+msgid "File is bigger than the allowed limit."
+msgstr "文件超过允许的大小。"
+
+#: lib/form/class-upload.php:414
+msgid "File is empty. Please upload something more substantial."
+msgstr "文件为空。请上传有内容的文件。"
+
+#: lib/form/class-upload.php:402
+msgid "File upload stopped by extension."
+msgstr "文件上传被扩展中止。"
+
+#: lib/class-validate.php:626 lib/form/class-upload.php:401
+msgid "Failed to write file to disk."
+msgstr "向磁盘写入文件失败。"
+
+#: lib/form/class-upload.php:400
+msgid "Missing a temporary folder."
+msgstr "缺少一个临时文件夹。"
+
+#: lib/form/class-upload.php:398
+msgid "No file was uploaded."
+msgstr "没有文件被上传。"
+
+#: lib/form/class-upload.php:397
+msgid "The uploaded file was only partially uploaded."
+msgstr "上传的文件仅上传了一部分。"
+
+#: lib/form/class-upload.php:396
+msgid "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form."
+msgstr "上传的文件超出了HTML表单中指定的MAX_FILE_SIZE值。"
+
+#: lib/form/class-upload.php:395
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr "上传的文件大小超出了php.ini中的upload_max_filesize值。"
+
+#. Translators: %d contains maximum files allowed to upload.
+#: lib/form/class-upload.php:118
+msgid "You cannot add more then %d files"
+msgstr "您不能添加超过 %d个文件"
+
+#: lib/form/class-upload.php:110
+msgid "This file type is not allowed to upload."
+msgstr "不允许上传此文件类型。"
+
+#: lib/form/class-upload.php:100
+msgid "Select file(s) to upload"
+msgstr "选择要上传的文件"
+
+#: lib/form/class-upload.php:98
+msgid "AnsPress Upload Field"
+msgstr "AnsPress上传字段"
+
+#: lib/class-form.php:433 lib/form/class-field.php:402
+msgid "Error found in fields, please check and re-submit"
+msgstr "在字段中发现错误，请检查并重新提交"
+
+#: lib/form/class-textarea.php:44
+msgid "AnsPress Textarea Field"
+msgstr "AnsPress文字区字段"
+
+#: lib/form/class-input.php:55
+msgid "AnsPress Input Field"
+msgstr "AnsPress输入字段"
+
+#: lib/form/class-checkbox.php:44
+msgid "AnsPress Checkbox Field"
+msgstr "AnsPress复选框字段"
+
+#: lib/form/class-radio.php:44
+msgid "AnsPress Radio Field"
+msgstr "AnsPress单选字段"
+
+#. translators: %s is field label.
+#: lib/form/class-repeatable.php:170
+msgid "Add More %s"
+msgstr "添加更多 %s"
+
+#: lib/form/class-repeatable.php:59
+msgid "AnsPress Repeatable Field"
+msgstr "AnsPress可重复字段"
+
+#: lib/form/class-group.php:52
+msgid "AnsPress Group Field"
+msgstr "AnsPress组字段"
+
+#: lib/form/class-select.php:92
+msgid "Select an option"
+msgstr "选择一个选项"
+
+#: lib/form/class-select.php:44
+msgid "AnsPress Select Field"
+msgstr "AnsPress选择字段"
+
+#: lib/form/class-editor.php:211
+msgid "Sorry an error occured while processing your image, please remove it and insert again"
+msgstr "抱歉，在处理图片时发生错误，请先将其移除再重新插入"
+
+#: lib/form/class-editor.php:54
+msgid "AnsPress Editor Field"
+msgstr "AnsPress编辑器字段"
+
+#: lib/form/class-tags.php:44
+msgid "AnsPress Tags Field"
+msgstr "AnsPress标签字段"
+
+#. translators: %s is total comments found.
+#: includes/comments.php:407
+msgid "Show %s more comments"
+msgstr "显示 %s更多评论"
+
+#: includes/comments.php:361 includes/comments.php:394
+msgid "No comments found."
+msgstr "找不到评论。"
+
+#: includes/comments.php:346
+msgid "Sorry, you do not have permission to read comments."
+msgstr "抱歉，你无权阅读评论。"
+
+#: includes/comments.php:341
+msgid "Not a valid post ID."
+msgstr "不是一个有效的帖子ID。"
+
+#. translators: %d is count of questions.
+#: includes/ajax-hooks.php:106
+msgid "We have found some similar questions that have been asked earlier."
+msgstr "我们发现了一些先前已经问过的类似问题。"
+
+#. translators: %s is post type.
+#: includes/post-status.php:129
+msgid "This %s is not published yet and is not accessible to anyone until it get published."
+msgstr "此%s 尚未发布，在发布之前任何人都无法访问。"
+
+#: includes/post-types.php:161
+msgid "All answers"
+msgstr "所有答案"
+
+#: includes/post-types.php:85
+msgid "View question"
+msgstr "查看问题"
+
+#: includes/post-types.php:84
+msgid "All questions"
+msgstr "所有问题"
+
+#: includes/activity.php:60
+msgid "Not AnsPress posts"
+msgstr "不是AnsPress帖子"
+
+#: includes/votes.php:580 includes/votes.php:585
+msgid "Withdraw your vote"
+msgstr "撤回您的投票"
+
+#: includes/votes.php:580 includes/votes.php:585
+msgid "You have already voted"
+msgstr "你已经投票"
+
+#: includes/class-form-hooks.php:1002
+msgid "Select image(s) to upload. Only .jpg, .png and .gif files allowed."
+msgstr "选择要上传的图像。 仅允许使用.jpg，.png和.gif文件。"
+
+#: includes/class-form-hooks.php:998
+msgid "Upload & insert"
+msgstr "上传 & 插入"
+
+#: includes/class-form-hooks.php:813
+msgid "There is no change in your comment."
+msgstr "您的评论没有改变。"
+
+#: includes/class-form-hooks.php:803
+msgid "You cannot edit this comment."
+msgstr "您无法编辑此评论。"
+
+#: includes/class-form-hooks.php:733
+msgid "Your answer is posted successfully."
+msgstr "您的答案已成功发布。"
+
+#: includes/class-form-hooks.php:731
+msgid "Answer updated successfully. Redirecting you to question page."
+msgstr "答案已成功更新。 将您重定向到问题页面。"
+
+#. Translators: placeholder contain error message.
+#: includes/class-form-hooks.php:677
+msgid "Unable to post answer. Error: %s"
+msgstr "无法发布答案。 错误：%s"
+
+#: includes/class-form-hooks.php:616
+msgid "Please check field"
+msgstr "请检查字段"
+
+#: includes/class-form-hooks.php:517
+msgid "Your question is posted successfully, you'll be redirected in a moment."
+msgstr "您的问题已成功发布，稍后您将被重定向。"
+
+#: includes/class-form-hooks.php:515
+msgid "Question updated successfully, you'll be redirected in a moment."
+msgstr "问题已成功更新，稍后您将被重定向。"
+
+#. Translators: placeholder contain error message.
+#: includes/class-form-hooks.php:471
+msgid "Unable to post question. Error: %s"
+msgstr "无法发布问题。 错误：%s"
+
+#: includes/class-form-hooks.php:408
+msgid "You are trying to post a duplicate question. Please search existing questions before posting a new one."
+msgstr "您正在尝试发布重复的问题。 在发布新问题之前，请先搜索现有问题。"
+
+#: includes/class-form-hooks.php:386 includes/class-form-hooks.php:420
+msgid "Failed to insert question"
+msgstr "插入问题失败"
+
+#: includes/class-form-hooks.php:380 includes/class-form-hooks.php:414
+msgid "Unable to post question."
+msgstr "无法发布问题。"
+
+#: includes/class-form-hooks.php:291
+msgid "Enter link to your website."
+msgstr "输入指向您网站的链接。"
+
+#: includes/class-form-hooks.php:289
+msgid "Your Website"
+msgstr "你的网站"
+
+#: includes/class-form-hooks.php:281
+msgid "Enter your email to get follow up notifications."
+msgstr "输入您的电子邮件以获取后续通知。"
+
+#: includes/class-form-hooks.php:272
+msgid "Enter your name to display."
+msgstr "输入您的姓名用于展示"
+
+#: includes/class-form-hooks.php:256
+msgid "Write your comment here..."
+msgstr "请在此输入您的评论... ..."
+
+#: includes/class-form-hooks.php:248
+msgid "Submit Comment"
+msgstr "提交评论"
+
+#: includes/class-form-hooks.php:91 includes/class-form-hooks.php:205
+msgid "Enter your email"
+msgstr "输入您的电子邮件地址"
+
+#: includes/class-form-hooks.php:89 includes/class-form-hooks.php:203
+#: includes/class-form-hooks.php:279
+msgid "Your Email"
+msgstr "您的电子邮件"
+
+#: includes/class-form-hooks.php:78 includes/class-form-hooks.php:192
+#: includes/class-form-hooks.php:270
+msgid "Your Name"
+msgstr "您的名字"
+
+#: includes/class-form-hooks.php:70 includes/class-form-hooks.php:184
+msgid "Is private?"
+msgstr "是私人的吗？"
+
+#: includes/class-form-hooks.php:45
+msgid "Question title"
+msgstr "问题标题"
+
+#: includes/class-form-hooks.php:37
+msgid "Submit Question"
+msgstr "提交问题"
+
+#: includes/upload.php:223
+msgid "Successfully uploaded image"
+msgstr "成功上传图片"
+
+#: includes/upload.php:206
+msgid "Unable to upload image(s). Please check errors."
+msgstr "无法上传图片。 请检查错误。"
+
+#: includes/upload.php:165
+msgid "Select image file to upload"
+msgstr "选择要上传的图像文件"
+
+#: includes/upload.php:135 includes/upload.php:186
+msgid "Sorry! you do not have permission to upload image."
+msgstr "抱歉! 您无权上传图片。"
+
+#: includes/functions.php:2367
+msgid "Page used to display all anspress activities."
+msgstr "用于显示所有动态的页面。"
+
+#: includes/functions.php:2366
+msgid "Activities page"
+msgstr "动态页面"
+
+#: includes/functions.php:2361
+msgid "Page used to display question tags. NOTE: Tags addon must be enabled to render this page."
+msgstr "用于显示问题标签的页面。 注意：必须启用标签插件才能呈现此页面。"
+
+#: includes/functions.php:2360
+msgid "Tags page"
+msgstr "标签页面"
+
+#: includes/functions.php:2355
+msgid "Page used to display question categories. NOTE: Categories addon must be enabled to render this page."
+msgstr "用于显示问题类别的页面。 注意：必须启用类别插件才能呈现此页面。"
+
+#: includes/functions.php:2354
+msgid "Categories page"
+msgstr "分类页面"
+
+#: includes/functions.php:2349
+msgid "Page used to display user profile."
+msgstr "用于显示用户个人资料的页面。"
+
+#: includes/functions.php:2348
+msgid "User page"
+msgstr "用户页面"
+
+#: includes/functions.php:2344
+msgid "Ask a question"
+msgstr "提问"
+
+#: includes/functions.php:2343
+msgid "Page used to display ask form."
+msgstr "用于显示询问表单的页面。"
+
+#: includes/functions.php:2342
+msgid "Ask page"
+msgstr "咨询页面"
+
+#: includes/functions.php:2337
+msgid "Page used to display question archive (list). Sometimes this page is used for displaying other subpages of AnsPress.<br/>This page is also referred as <b>Base Page</b> in AnsPress documentations and support forum."
+msgstr "用于显示问题存档（列表）的页面。 有时，该页面用于显示AnsPress的其他子页面。<br/>在AnsPress文档和支持论坛中，该页面也称为<b>基础页面</b>。"
+
+#: includes/functions.php:2336
+msgid "Archives page"
+msgstr "存档页面"
+
+#: includes/functions.php:2193
+msgid "You cannot edit this answer."
+msgstr "您不能编辑这个回答。"
+
+#: includes/functions.php:1664
+msgid "Check for spam in post content."
+msgstr "检查帖子内容中的垃圾。"
+
+#: includes/functions.php:1660
+msgid "Add syntax highlighter support."
+msgstr "添加syntax highlighter支持。"
+
+#: includes/functions.php:1659
+msgid "Syntax Highlighter"
+msgstr "Syntax Highlighter"
+
+#: includes/functions.php:1656
+msgid "Add reCaptcha verification in question, answer and comment forms."
+msgstr "在问题，答案和评论表单中添加reCaptcha验证。"
+
+#: includes/functions.php:1652
+msgid "User profile for users."
+msgstr "用户个人资料。"
+
+#: includes/functions.php:1651
+msgid "User Profile"
+msgstr "用户资料"
+
+#: includes/functions.php:1648
+msgid "Integrate AnsPress with BuddyPress."
+msgstr "AnsPress与BuddyPress集成。"
+
+#: includes/functions.php:1647
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#: includes/functions.php:1644
+msgid "Generate user avatar based on display name initials."
+msgstr "根据显示名称首字母生成用户头像。"
+
+#: includes/functions.php:1640
+msgid "Award points to user based on activities."
+msgstr "根据活动向用户授予积分。"
+
+#: includes/functions.php:1636
+msgid "Add tag support in AnsPress questions."
+msgstr "在AnsPress问题中添加标签支持。"
+
+#: includes/functions.php:1628
+msgid "Add category support in AnsPress questions."
+msgstr "在AnsPress问题中添加类别支持。"
+
+#: includes/functions.php:1632
+msgid "Adds a fancy user notification dropdown like Facebook and Stackoverflow."
+msgstr "添加精美的用户通知下拉列表，像Facebook和Stackoverflow一样。"
+
+#: includes/functions.php:1624
+msgid "Notifies users and admins by email for various events and activities."
+msgstr "通过电子邮件通知用户和管理员各种事件和活动。"
+
+#: includes/class/class-activity.php:491
+msgid "Yesterday"
+msgstr "昨天"
+
+#: includes/class/class-activity.php:489
+msgid "Today"
+msgstr "今天"
+
+#: includes/class/class-activity.php:487
+msgid "Just now"
+msgstr "刚才"
+
+#: includes/class/class-activity-helper.php:452
+msgid "Failed to delete activity rows."
+msgstr "无法删除活动行。"
+
+#: includes/class/class-activity-helper.php:355
+msgid "Invalid date"
+msgstr "失效日期"
+
+#: includes/class/class-activity-helper.php:344
+msgid "Not a valid action"
+msgstr "无效操作"
+
+#: includes/class/class-activity-helper.php:339
+msgid "Question id is required."
+msgstr "问题 id 必填"
+
+#: includes/class/class-activity-helper.php:246
+msgid "Unselected an answer"
+msgstr "未选择答案"
+
+#: includes/class/class-activity-helper.php:241
+msgid "Selected answer as best"
+msgstr "选择最佳答案"
+
+#: includes/class/class-activity-helper.php:236
+msgid "Edited comment"
+msgstr "编辑评论"
+
+#: includes/class/class-activity-helper.php:231
+msgid "Posted new comment"
+msgstr "发表新评论"
+
+#: includes/class/class-activity-helper.php:226
+msgid "Marked as closed"
+msgstr "标记为已关闭"
+
+#: includes/class/class-activity-helper.php:221
+msgid "Marked as featured question"
+msgstr "标记为特色问题"
+
+#: includes/class/class-activity-helper.php:211
+msgid "Changed visibility to private"
+msgstr "将可见更改为私人"
+
+#: includes/class/class-activity-helper.php:206
+msgid "Changed status to moderate"
+msgstr "状态更改为中度"
+
+#: includes/class/class-activity-helper.php:201
+msgid "Changed publish date to future"
+msgstr "将发布日期更改为将来"
+
+#: includes/class/class-activity-helper.php:196
+msgid "Changed status to publish"
+msgstr "更改状态以发布"
+
+#: includes/class/class-activity-helper.php:191
+msgid "Edited answer"
+msgstr "编辑答案"
+
+#: includes/class/class-activity-helper.php:186
+msgid "Answered question"
+msgstr "已回答的问题"
+
+#: includes/class/class-activity-helper.php:181
+msgid "Edited question"
+msgstr "编辑问题"
+
+#: includes/class/class-activity-helper.php:176
+msgid "Asked question"
+msgstr "问的问题"
+
+#: includes/class/class-singleton.php:34 includes/class/class-singleton.php:44
+msgid "Cheatin&#8217; huh?"
+msgstr "小样，想作弊？"
+
+#: includes/mce-languages.php:38
+msgid "Insert your code."
+msgstr "插入代码。"
+
+#: includes/mce-languages.php:37
+msgid "Inline?"
+msgstr "内嵌？"
+
+#: includes/mce-languages.php:36
+msgid "Insert"
+msgstr "插入"
+
+#: includes/mce-languages.php:35
+msgid "Insert codes (AnsPress)"
+msgstr "插入代码(AnsPress)"
+
+#: includes/mce-languages.php:33
+msgid "Media preview"
+msgstr "媒体预览"
+
+#: includes/mce-languages.php:32
+msgid "Image title"
+msgstr "图像标题"
+
+#: includes/mce-languages.php:31
+msgid "Browse from computer"
+msgstr "从计算机浏览"
+
+#: includes/mce-languages.php:30
+msgid "Select File"
+msgstr "选择文件"
+
+#: includes/mce-languages.php:28
+msgid "Insert Media (AnsPress)"
+msgstr "插入媒体(AnsPress)"
+
+#: includes/mce-languages.php:27 lib/form/class-editor.php:83
+msgid "Insert image"
+msgstr "插入图像"
+
+#: includes/subscribers.php:221
+msgid "All 3 arguments $event, $ref_id and $user_id are deprecated."
+msgstr "三个参数$event, $ref_id 和 $user_id 均已弃用。"
+
+#: includes/subscribers.php:155
+msgid "All 2 arguments $event and $ref_id are deprecated."
+msgstr "两个参数$event 和 $ref_id均已弃用。"
+
+#: includes/common-pages.php:84
+msgid "This question is awaiting moderation and cannot be viewed. Please check back later."
+msgstr "这个问题正在等待审核，无法查看。 请稍后再检查。"
+
+#: includes/common-pages.php:29 includes/functions.php:2368
+msgid "Activities"
+msgstr "动态"
+
+#: includes/common-pages.php:26
+msgid "Ask a Question"
+msgstr "提问"
+
+#. Translators: %s contain comment created date. i.e. 10 hours.
+#: ajax/comment-delete.php:76
+msgid "The comment is locked and cannot be deleted. Any comments posted before %s cannot be deleted."
+msgstr "该评论已锁定，无法删除。 无法删除%s之前发布的所有评论。"
+
+#: ajax/comment-modal.php:84
+msgid "Add a comment"
+msgstr "添加评论"
+
+#: ajax/comment-modal.php:84
+msgid "Edit comment"
+msgstr "编辑评论"
+
+#: classes/ajax.php:208
+msgid "Something went wrong."
+msgstr "出问题了！"
+
+#: classes/ajax.php:144
+msgid "You don't have enough permissions to do this action."
+msgstr "您没有足够的权限来执行此操作。"
+
+#: admin/views/options.php:217
+msgid "AnsPress option updated successfully!"
+msgstr "AnsPress选项已成功更新！"
+
+#: admin/views/options.php:98
+msgid "Uninstall"
+msgstr "卸载"
+
+#: admin/views/options.php:94
+msgid "Re-count"
+msgstr "重新计算"
+
+#: admin/views/options.php:85
+msgid "Role Editor"
+msgstr "角色编辑"
+
+#: admin/views/options.php:82
+msgid "Other Permissions"
+msgstr "其他权限"
+
+#: admin/views/options.php:79
+msgid "Posting Permissions"
+msgstr "发布权限"
+
+#: admin/views/options.php:76
+msgid "Reading Permissions"
+msgstr "阅读权限"
+
+#: admin/views/options.php:68
+msgid "Activity"
+msgstr "动态"
+
+#: admin/views/options.php:53
+msgid "Permalinks"
+msgstr "固定链接"
+
+#: admin/views/options.php:21
+msgid "Trying to cheat, huh!"
+msgstr "试图作弊，呵呵！"
+
+#: admin/views/select_question.php:40
+msgid "Recently active questions"
+msgstr "最近活跃的问题"
+
+#: admin/views/recount.php:113
+msgid "Max. views"
+msgstr "最大浏览数"
+
+#: admin/views/recount.php:112
+msgid "Min. views"
+msgstr "最小浏览数"
+
+#: admin/views/recount.php:111
+msgid "Minimum and maximum views"
+msgstr "最小和最大观看次数"
+
+#: admin/views/recount.php:106
+msgid "Add fake views"
+msgstr "添加虚假浏览数"
+
+#: admin/views/recount.php:104
+msgid "Add fake views if views table is empty"
+msgstr "如果浏览表为空，则添加虚假浏览数"
+
+#: admin/views/recount.php:101
+msgid "Recount views count of all questions."
+msgstr "重新计算所有问题的观看次数。"
+
+#: admin/views/recount.php:97
+msgid "Recount question views"
+msgstr "重计 问题浏览数"
+
+#: admin/views/recount.php:36
+msgid "Recount reputation of all users."
+msgstr "重计所有用户的声望。"
+
+#: admin/views/recount.php:35
+msgid "Recount Reputation"
+msgstr "重算声誉"
+
+#: admin/views/recount.php:32
+msgid "Recount subscribers of questions."
+msgstr "重计问题的订阅者。"
+
+#: admin/views/recount.php:31
+msgid "Recount Subscribers"
+msgstr "重计订阅者。"
+
+#: admin/views/recount.php:28
+msgid "Recount flags on questions and answers."
+msgstr "重计问题和答案上的标志。"
+
+#: admin/views/recount.php:27
+msgid "Recount Flags"
+msgstr "重计标记"
+
+#: admin/views/recount.php:24
+msgid "Recount answers of every question."
+msgstr "重计每个问题的答案"
+
+#: admin/views/recount.php:23
+msgid "Recount Answers"
+msgstr "重计答案"
+
+#: admin/views/recount.php:20
+msgid "Recount votes of questions and answers."
+msgstr "重计问题和答案的票数。"
+
+#: admin/views/recount.php:19
+msgid "Recount Votes"
+msgstr "重新计票"
+
+#: admin/views/emails.php:64
+msgid "Edit Template"
+msgstr "编辑模板"
+
+#: admin/views/emails.php:59
+msgid "The template selected here will appear below."
+msgstr "此处选择的模板将显示在下面。"
+
+#: admin/views/emails.php:47
+msgid "New Comment"
+msgstr "最新评论"
+
+#: admin/views/emails.php:39
+msgid "Select Template"
+msgstr "选择模版"
+
+#: admin/views/emails.php:32
+msgid "More email options"
+msgstr "更多电子邮件选项"
+
+#: admin/views/emails.php:30
+msgid "More email options can be found in addon options"
+msgstr "更多的电子邮件选项可以在插件中找到选项"
+
+#: admin/views/emails.php:26
+msgid "More options"
+msgstr "更多选项"
+
+#: admin/ajax.php:285
+msgid "Successfully enabled addon. Redirecting!"
+msgstr "成功启用插件。 正在重定向！"
+
+#: admin/ajax.php:266
+msgid "Sorry, you do not have permission!"
+msgstr "抱歉，你没有权限！"
+
+#. translators: %s is name of wp hook.
+#: admin/anspress-admin.php:1460
+msgid "There is no option registered by this addon. Custom options can be registered by using hook: %s"
+msgstr "该插件没有注册任何选项。 可以使用以下钩子来注册自定义选项：%s"
+
+#: admin/anspress-admin.php:1451
+msgid "Addon options updated successfully!"
+msgstr "插件选项已成功更新！"
+
+#: admin/anspress-admin.php:1395
+msgid "Edit page"
+msgstr "编辑页面"
+
+#: admin/anspress-admin.php:1394
+msgid "View page"
+msgstr "查看页面"
+
+#: admin/anspress-admin.php:1363
+msgid "Selected role's activities will be excluded in site activity feed."
+msgstr "所选角色的动态将被排除在站点动态feed中。"
+
+#: admin/anspress-admin.php:1362
+msgid "Select the roles to exclude in activity feed."
+msgstr "选择要在动态 feed中排除的角色。"
+
+#: admin/anspress-admin.php:1267
+msgid "Answer editor?"
+msgstr "答案编辑器？"
+
+#: admin/anspress-admin.php:1262 admin/anspress-admin.php:1268
+msgid "Quick tags editor"
+msgstr "快速标签编辑器"
+
+#: admin/anspress-admin.php:1261
+msgid "Question editor?"
+msgstr "问题编辑器？"
+
+#: admin/anspress-admin.php:1201
+msgid "Numbers of comments to load in each query?"
+msgstr "每个查询中要加载的评论数？"
+
+#: admin/anspress-admin.php:1200
+msgid "Numbers of comments to show"
+msgstr "显示的评论数"
+
+#: admin/anspress-admin.php:1178
+msgid "Allows users to post multiple answers on a question."
+msgstr "允许用户针对一个问题发布多个答案。"
+
+#: admin/anspress-admin.php:1172
+msgid "Allows users to create private question and answer. Private Q&A are only visible to admin and moderators."
+msgstr "允许用户创建私人问题和答案。 私人问答仅对管理员和版主可见。"
+
+#: admin/anspress-admin.php:1123
+msgid "Default status of question or answer submitted by non-loggedin user."
+msgstr "未登录用户提交的问题或答案的默认状态。"
+
+#: admin/anspress-admin.php:1122
+msgid "Status of non-loggedin post"
+msgstr "未登录帖子的状态"
+
+#: admin/anspress-admin.php:1078
+msgid "Only user having ap_new_comment capability"
+msgstr "仅具有ap_new_comment功能的用户"
+
+#: admin/anspress-admin.php:1072
+msgid "Set who can submit a comment from frontend."
+msgstr "设置从前端提交评论的人员。"
+
+#: admin/anspress-admin.php:1071
+msgid "Who can post comment?"
+msgstr "谁可以发布评论？"
+
+#: admin/anspress-admin.php:1066
+msgid "OP: Original poster/asker. Enabling this option will prevent users to post an answer on their question."
+msgstr "OP：原始帖主/提问者。 启用此选项将阻止用户发布其问题的答案。"
+
+#: admin/anspress-admin.php:1065
+msgid "OP can answer?"
+msgstr "OP可以回答吗？"
+
+#: admin/anspress-admin.php:1053
+msgid "Create account for non-registered"
+msgstr "创建未注册帐户"
+
+#: admin/anspress-admin.php:1049
+msgid "Only user having ap_new_answer capability"
+msgstr "仅具有ap_new_answer功能的用户"
+
+#: admin/anspress-admin.php:1043
+msgid "Set who can submit an answer from frontend."
+msgstr "设置从前端提交答案的人员。"
+
+#: admin/anspress-admin.php:1042
+msgid "Who can post answer?"
+msgstr "谁可以发布答案？"
+
+#: admin/anspress-admin.php:1038
+msgid "Only user having ap_new_question capability"
+msgstr "仅具有ap_new_question功能的用户"
+
+#: admin/anspress-admin.php:1032
+msgid "Set who can submit a question from frontend."
+msgstr "设置从前端提交问题的人员。"
+
+#: admin/anspress-admin.php:1031
+msgid "Who can post question?"
+msgstr "谁可以发布问题？"
+
+#: admin/anspress-admin.php:1010
+msgid "Only user having ap_read_comment capability"
+msgstr "仅具有ap_read_comment功能的用户"
+
+#: admin/anspress-admin.php:1004
+msgid "Set who can view or read a comment."
+msgstr "设置可以查看或阅读评论的人员。"
+
+#: admin/anspress-admin.php:1003
+msgid "Who can read comment?"
+msgstr "谁可以阅读评论？"
+
+#: admin/anspress-admin.php:999
+msgid "Only user having ap_read_answer capability"
+msgstr "仅具有ap_read_answer功能的用户"
+
+#: admin/anspress-admin.php:993
+msgid "Set who can view or read a answer."
+msgstr "设置可以查看或阅读答案的人员。"
+
+#: admin/anspress-admin.php:992
+msgid "Who can read answers?"
+msgstr "谁可以阅读答案？"
+
+#: admin/anspress-admin.php:988
+msgid "Only user having ap_read_question capability"
+msgstr "仅具有ap_read_question功能的用户"
+
+#: admin/anspress-admin.php:987 admin/anspress-admin.php:998
+#: admin/anspress-admin.php:1009 admin/anspress-admin.php:1037
+#: admin/anspress-admin.php:1048 admin/anspress-admin.php:1077
+msgid "Only logged in"
+msgstr "只登入"
+
+#: admin/anspress-admin.php:986 admin/anspress-admin.php:997
+#: admin/anspress-admin.php:1008 admin/anspress-admin.php:1036
+#: admin/anspress-admin.php:1047 admin/anspress-admin.php:1076
+msgid "Anyone, including non-loggedin"
+msgstr "任何人，包括未登录的"
+
+#: admin/anspress-admin.php:982
+msgid "Set who can view or read a question."
+msgstr "设置可以查看或阅读问题的人员。"
+
+#: admin/anspress-admin.php:981
+msgid "Who can read question?"
+msgstr "谁可以阅读问题？"
+
+#: admin/anspress-admin.php:849
+msgid "Save Permalinks"
+msgstr "保存固定连接"
+
+#: admin/anspress-admin.php:810
+msgid "If you have created main pages manually then make sure to have [anspress] shortcode in all pages."
+msgstr "如果您是手动创建的主页，请确保在所有页面中都使用[anpress]短代码。"
+
+#: admin/anspress-admin.php:800
+msgid "Save Pages"
+msgstr "保存页面"
+
+#: admin/anspress-admin.php:683
+msgid "Set set by yourself"
+msgstr "自行设定"
+
+#: admin/anspress-admin.php:683
+msgid "Or"
+msgstr "或"
+
+#: admin/anspress-admin.php:683
+msgid "Set automatically"
+msgstr "自动设定"
+
+#: admin/anspress-admin.php:682
+msgid "One or more AnsPress page(s) does not exists."
+msgstr "一个或多个AnsPress页面不存在。"
+
+#. translators: placeholder contains question title.
+#: addons/buddypress/buddypress.php:473
+msgid "New answer on %s"
+msgstr "%s的新答案"
+
+#. translators: First placeholder is total count and second is question title.
+#: addons/buddypress/buddypress.php:467
+msgid "%1$s answered on your question - %2$s"
+msgstr "%1$s 回答了您的问题 - %2$s"
+
+#. translators: First placeholder is total count and second is question title.
+#: addons/buddypress/buddypress.php:460
+msgid "%1$d answers on your question - %2$s"
+msgstr "%1$d 回答了您的问题 - %2$s"
+
+#: addons/tags/tags.php:592
+msgid "Order"
+msgstr "排序"
+
+#. Translators: %1$d contain minimum tags required and %2$d contain maximum
+#. tags allowed.
+#: addons/tags/tags.php:396
+msgid "Tagging will helps others to easily find your question. Minimum %1$d and maximum %2$d tags."
+msgstr "标签将帮助其他人轻松找到您的问题。 最小%1$d和最大%2$d标签。"
+
+#: addons/recaptcha/recaptcha/class-captcha.php:98
+msgid "Unable to render captcha. Please add reCpatcha keys in AnsPress options."
+msgstr "无法显示验证码。请在 AnsPress 选项中添加reCpatcha密钥。"
+
+#: addons/recaptcha/recaptcha/class-captcha.php:84
+msgid "Failed to verify captcha. Please try again."
+msgstr "无法验证验证码。 请再试一遍。"
+
+#: addons/recaptcha/recaptcha/class-captcha.php:47
+msgid "AnsPress reCaptcha Field"
+msgstr "AnsPress reCaptcha 字段"
+
+#: addons/recaptcha/recaptcha.php:145
+msgid "Prove that you are a human"
+msgstr "证明你是人类"
+
+#: addons/recaptcha/recaptcha.php:124
+msgid "Select roles for which reCaptcha will be hidden."
+msgstr "选择要隐藏reCaptcha的角色。"
+
+#: addons/recaptcha/recaptcha.php:123
+msgid "Hide reCaptcha for roles"
+msgstr "隐藏角色的reCaptcha"
+
+#: addons/reputation/reputation.php:92
+msgid "Reputation Points"
+msgstr "声望积分"
+
+#: addons/reputation/reputation.php:92
+msgid "Reputation event points can be adjusted here :"
+msgstr "声望事件积分可以在此处进行调整："
+
+#: addons/reputation/reputation.php:112
+msgid "Custom slug for user profile reputations page"
+msgstr "用户资料信誉页面的自定义别名"
+
+#: addons/reputation/reputation.php:111
+msgid "Reputations page slug"
+msgstr "声望页面别名"
+
+#: addons/reputation/reputation.php:107
+msgid "Custom title for user profile reputations page"
+msgstr "用户个人资料信誉页面的自定义标题"
+
+#: addons/reputation/reputation.php:106
+msgid "Reputations page title"
+msgstr "声望页面标题"
+
+#: addons/notifications/notifications.php:121
+msgid "Custom slug for user profile notifications page"
+msgstr "用户个人资料通知页面的自定义别名"
+
+#: addons/notifications/notifications.php:120
+msgid "Notifications page slug"
+msgstr "通知页面别名"
+
+#: addons/notifications/notifications.php:116
+msgid "Custom title for user profile notifications page"
+msgstr "用户个人资料通知页面的自定义标题"
+
+#: addons/notifications/notifications.php:115
+msgid "Notifications page title"
+msgstr "通知页面标题"
+
+#: addons/email/email.php:869
+msgid "{asker} have posted a new question"
+msgstr "{asker} 发表了一个新问题"
+
+#. Translators: placeholder contain error message.
+#: addons/email/email.php:739
+msgid "Unable to save template. Error: %s"
+msgstr "无法保存模板。错误: %s"
+
+#: addons/email/email.php:717 includes/class-form-hooks.php:610
+msgid "Unable to post answer."
+msgstr "无法发布答案"
+
+#: addons/email/email.php:690 classes/ajax.php:129
+#: includes/class-form-hooks.php:339 includes/class-form-hooks.php:567
+#: includes/class-form-hooks.php:779
+msgid "Trying to cheat?!"
+msgstr "尝试作弊？！"
+
+#: addons/email/email.php:294
+msgid "Allowed tags"
+msgstr "允许的标签"
+
+#: addons/email/email.php:286
+msgid "Email body"
+msgstr "邮件正文"
+
+#: addons/email/email.php:283
+msgid "Email subject"
+msgstr "邮件主题"
+
+#: addons/email/email.php:263
+msgid "Send notification to user when their answer get selected?"
+msgstr "选择答案后向用户发送通知？"
+
+#: addons/email/email.php:262
+msgid "Answer selected"
+msgstr "选择答案"
+
+#: addons/email/email.php:257
+msgid "Send edit answer notification to user?"
+msgstr "发送“修改答案通知”给用户？"
+
+#: addons/email/email.php:251
+msgid "Send edit question notification to user?"
+msgstr "发送“修改问题通知”给用户？"
+
+#: addons/email/email.php:245
+msgid "Send new comment notification to user?"
+msgstr "发送“新的评论通知”给用户？"
+
+#: addons/email/email.php:239
+msgid "Send new answer notification to user?"
+msgstr "发送“新的答案通知”给用户？"
+
+#: addons/email/email.php:233
+msgid "Send new question notification to user?"
+msgstr "发送新问题通知给用户？"
+
+#: addons/email/email.php:229
+msgid "Select the types of notification which will be sent to user."
+msgstr "选择将发送给用户的通知类型。"
+
+#: addons/email/email.php:206
+msgid "Send notification to admin when question is edited."
+msgstr "问题编辑后向管理员发送通知？"
+
+#: addons/email/email.php:200
+msgid "Send new comment notification to admin."
+msgstr "发送新的评论通知给管理员。"
+
+#: addons/email/email.php:194
+msgid "Send new answer notification to admin."
+msgstr "发送新的答案通知给管理员。"
+
+#: addons/email/email.php:188
+msgid "Send new question notification to admin."
+msgstr "发送新的问题通知给管理员。"
+
+#: addons/email/email.php:183
+msgid "Email where all admin notification will be sent. It can have multiple emails separated by comma."
+msgstr "将发送所有管理员通知的电子邮件。 它可以包含多个电子邮件，并以逗号分隔。"
+
+#: addons/email/email.php:182
+msgid "Admin email(s)"
+msgstr "管理员邮箱"
+
+#: addons/email/email.php:179
+msgid "Select types of notification which will be sent to admin."
+msgstr "选择将发送给管理员的通知类型。"
+
+#: addons/email/email.php:179
+msgid "Admin Notifications"
+msgstr "管理的通知"
+
+#: addons/categories/categories.php:191
+msgid "Add New Category"
+msgstr "添加新分类"
+
+#: addons/profile/profile.php:107
+msgid "Custom slug for user profile answers page"
+msgstr "用户个人资料回答页面的自定义别名"
+
+#: addons/profile/profile.php:102
+msgid "Custom title for user profile answers page"
+msgstr "用户个人资料回答页面的自定义标题"
+
+#: addons/profile/profile.php:97
+msgid "Custom slug for user profile questions page"
+msgstr "用户个人资料问题页面的自定义别名"
+
+#: addons/profile/profile.php:92
+msgid "Custom title for user profile questions page"
+msgstr "用户个人资料问题页面的自定义标题"
+
+#: addons/profile/profile.php:91
+msgid "Questions page title"
+msgstr "问题页面标题"
+
+#: addons/akismet/akismet.php:259
+msgid "Mark as spam"
+msgstr "标记为垃圾评论。"
+
+#: addons/akismet/akismet.php:259
+msgid "Mark this post as a spam"
+msgstr "将这条评论标记为垃圾评论"
+
+#: addons/akismet/akismet.php:234
+msgid "Cheating"
+msgstr "作弊"
+
+#: addons/akismet/akismet.php:96
+msgid "Trash the post"
+msgstr "帖子丢弃"
+
+#: addons/akismet/akismet.php:95
+msgid "Change status to moderate"
+msgstr "将状态更改为中度"
+
+#: addons/akismet/akismet.php:92
+msgid "What to do when post is a spam?"
+msgstr "发布后被移到回收站后该怎么办？"
+
+#: addons/akismet/akismet.php:89 addons/avatar/avatar.php:115
+msgid "Save add-on options"
+msgstr "保存插件选项"
+
+#: addons/syntaxhighlighter/syntaxhighlighter.php:157
+msgid "Insert Code"
+msgstr "插入代码"
+
+#: addons/syntaxhighlighter/syntaxhighlighter.php:80
+#: includes/mce-languages.php:34
+msgid "Insert code"
+msgstr "插入代码"
+
+#: addons/syntaxhighlighter/syntaxhighlighter.php:79
+msgid "Insert to editor"
+msgstr "插入编辑器"
+
+#: addons/syntaxhighlighter/syntaxhighlighter.php:78
+msgid "Insert code snippet here ..."
+msgstr "在此处插入代码段..."
+
+#: addons/syntaxhighlighter/syntaxhighlighter.php:77
+msgid "Is inline?"
+msgstr "是内联的吗？"
+
+#: addons/syntaxhighlighter/syntaxhighlighter.php:76
+msgid "Language"
+msgstr "语言"
+
+#: templates/question-list.php:37
+msgid "There are no questions matching your query or you do not have permission to read them."
+msgstr "没有与您的查询匹配的问题，或者您没有阅读权限。"
+
+#: templates/content-none.php:33
+msgid "go to page 1"
+msgstr "转到 页面 1"
+
+#. translators: %d is currently paged value.
+#: templates/content-none.php:29
+msgid "Showing results with pagination active, you are currently on page %d. Click here to return to the initial page"
+msgstr "在分页处于活动状态时显示结果，您当前在第 %d 页。 单击此处返回初始页面"
+
+#. translators: %s comments count.
+#: templates/single-question.php:91
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s条评论"
+
+#: templates/single-question.php:77
+msgid "Scheduled for"
+msgstr "预定于"
+
+#. Translators: Placeholder contain link to unpublished questions.
+#: templates/list-head.php:42
+msgid "Your %s unpublished. "
+msgstr "您的 %s未发布。"
+
+#. translators: %d is question count.
+#: templates/list-head.php:37
+msgid "%d question is"
+msgid_plural "%d questions are"
+msgstr[0] "%d问题是"
+
+#: templates/addons/user/index.php:27
+msgid "Please login to view your profile"
+msgstr "请登录以查看您的个人资料"
+
+#: templates/addons/tag/tags.php:27
+msgid "Search tags"
+msgstr "搜索标签"
+
+#: templates/functions.php:54
+msgid "Sorry, you don't have permission to read comments."
+msgstr "抱歉，您无权阅读评论。"
+
+#: templates/functions.php:41
+msgid "Loading.."
+msgstr "正在载入.."
+
+#: templates/activities/activity-ref-content.php:32
+msgid "View comment"
+msgstr "查看评论"
+
+#: templates/activities/activities.php:61
+msgid "No activities found!"
+msgstr "找不到动态！"
+
+#. translators: %d is activity count.
+#: templates/activities/activity.php:56
+msgid "with other activity"
+msgid_plural "with other %d activities"
+msgstr[0] "与其他 %d 活动"
+
+#. Plugin Name of the plugin
+msgid "AnsPress Question Answer"
+msgstr "AnsPress Question Answer"
+
+#: includes/class-form-hooks.php:948
+msgid "Comment successfully posted"
+msgstr "成功发表评论"
+
+#: admin/updater.php:104
+msgid "<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</a>."
+msgstr "<strong>%1$s %2$s</strong> 可用。 <a href=\"%3$s\" class=\"thickbox\" title=\"%4s\">查看新版特性</a> or <a href=\"%5$s\"%6$s>立刻更新</a>。"
+
+#: admin/updater.php:103
+msgid "Updating this theme will lose any customizations you have made. 'Cancel' to stop, 'OK' to update."
+msgstr "更新此主题将丢失您所做的任何自定义。取消“停止”，“好”更新。"
+
+#: admin/updater.php:101
+msgid "Site is inactive."
+msgstr "站点未启用。"
+
+#: admin/updater.php:100
+msgid "License key is disabled."
+msgstr "注册码被禁用。"
+
+#: admin/updater.php:99
+msgid "License is inactive."
+msgstr "注册码无效。"
+
+#: admin/updater.php:98
+msgid "License keys do not match."
+msgstr "注册码不匹配。"
+
+#: admin/updater.php:97
+msgid "License key has expired."
+msgstr "注册码已过期。"
+
+#: admin/updater.php:96
+msgid "License key expired %s."
+msgstr "注册码过期 %s。"
+
+#: admin/updater.php:95
+msgid "You have %1$s / %2$s sites activated."
+msgstr "您已激活 %1$s / %2$s 站点。"
+
+#: admin/updater.php:94
+msgid "Expires %s."
+msgstr "到期 %s。"
+
+#: admin/updater.php:93
+msgid "License key is active."
+msgstr "注册码有效。"
+
+#: admin/updater.php:92
+msgid "unlimited"
+msgstr "无限制的"
+
+#: admin/updater.php:91
+msgid "Renew?"
+msgstr "重新提出？"
+
+#: admin/updater.php:90 admin/updater.php:102
+msgid "License status is unknown."
+msgstr "授权状态未知。"
+
+#: admin/updater.php:87
+msgid "License Action"
+msgstr "授权操作"
+
+#: admin/updater.php:86
+msgid "License Key"
+msgstr "注册码"
+
+#: admin/updater.php:85
+msgid "Enter your theme license key."
+msgstr "输入你的主题注册码。"
+
+#: admin/updater.php:84
+msgid "Theme License"
+msgstr "主题许可证"
+
+#. translators: %d is total numbers of answer.
+#. translators: %d is answers count.
+#. translators: %d contain total answer of the question.
+#. translators: %d is total answer count.
+#. translators: %d is total answer count.
+#. translators: %d is answers count.
+#. translators: %d is answer count.
+#. translators: %d is total answer count.
+#. translators: %d is total answer count of a question.
+#: admin/class-list-table-hooks.php:288 admin/class-list-table-hooks.php:373
+#: admin/views/select_question.php:63 includes/ajax-hooks.php:124
+#: includes/ajax-hooks.php:127 includes/ajax-hooks.php:270
+#: includes/functions.php:2153 templates/buddypress/question-item.php:48
+#: templates/widgets/widget-questions.php:27
+msgid "%d Answer"
+msgid_plural "%d Answers"
+msgstr[0] "%d 回答"
+
+#: widgets/questions.php:125
+msgid "Order by:"
+msgstr "排序："
+
+#: widgets/ask-form.php:29
+msgid "AnsPress ask form widget"
+msgstr "AnsPress询问表单小工具"
+
+#: templates/login-signup.php:23
+msgid "Register"
+msgstr "注册"
+
+#: templates/functions.php:146
+msgid "(AnsPress) Author page"
+msgstr "(AnsPress) 作者页面"
+
+#: templates/functions.php:134
+msgid "(AnsPress) Tag page"
+msgstr "(AnsPress) 标签页"
+
+#: templates/functions.php:122
+msgid "(AnsPress) Category Page"
+msgstr "(AnsPress) 分类页面"
+
+#: templates/functions.php:110
+msgid "(AnsPress) Question Sidebar"
+msgstr "(AnsPress) 问题侧栏"
+
+#: templates/functions.php:102
+msgid "Widgets in this area will be shown in AnsPress sidebar except single question page."
+msgstr "除单个问题页面外，该区域中的小工具将显示在AnsPress侧边栏中。"
+
+#: templates/functions.php:98
+msgid "(AnsPress) Sidebar"
+msgstr "(AnsPress) 侧边栏"
+
+#: templates/functions.php:86
+msgid "(AnsPress) Question List Top"
+msgstr "(AnsPress) 问题列表顶部"
+
+#: templates/functions.php:74
+msgid "(AnsPress) Before"
+msgstr "(AnsPress) 前"
+
+#: templates/functions.php:50
+msgid "Write your comment..."
+msgstr "写下你的评论…"
+
+#. translators: %s is file size in MB.
+#: templates/functions.php:45
+msgid "You have already attached maximum numbers of allowed attachments"
+msgstr "您已经附加了允许的附件的最大数量。"
+
+#. Translators: %s contain maximum file size user can upload.
+#: lib/class-validate.php:756
+msgid "File(s) size is bigger than %s MB"
+msgstr "文件大小大于 %s MB"
+
+#: templates/content-none.php:18
+msgid "Sorry! No question found."
+msgstr "对不起！未找到问题"
+
+#: templates/addons/user/answer-item.php:63
+#: templates/buddypress/answer-item.php:55
+msgid "Selected"
+msgstr "选择"
+
+#: templates/addons/user/answer-item.php:63
+#: templates/buddypress/answer-item.php:55
+msgid "This answer is selected as best"
+msgstr "这个答案是最好的选择。"
+
+#. translators: %d is count of net votes.
+#. translators: %d is net vote count.
+#. translators: %d is net votes count.
+#. translators: %d is total votes count.
+#: templates/addons/user/answer-item.php:59
+#: templates/buddypress/answer-item.php:51
+#: templates/buddypress/question-item.php:62
+#: templates/widgets/widget-questions.php:34
+msgid "%d Vote"
+msgid_plural "%d Votes"
+msgstr[0] "%d 投票"
+
+#: templates/addons/tag/no-tags-found.php:18
+msgid "No tags is set!"
+msgstr "未设置标签！"
+
+#: includes/class/class-activity.php:550
+#: templates/addons/notification/index.php:68
+#: templates/addons/reputation/index.php:43
+msgid "Load More"
+msgstr "加载更多"
+
+#: templates/addons/notification/index.php:36
+msgid "Unseen"
+msgstr "未读"
+
+#: templates/addons/category/no-category-found.php:17
+msgid "No category is set!"
+msgstr "没有设置类别！"
+
+#: templates/addons/category/single-category.php:69
+msgid "Sub Categories"
+msgstr "子分类"
+
+#: includes/upload.php:48
+msgid "Unable to delete attachment"
+msgstr "无法删除附件"
+
+#: includes/theme.php:938
+msgid "AnsPress links"
+msgstr "AnsPress 链接"
+
+#: includes/theme.php:725
+msgid "Clear Filter"
+msgstr "清除筛选"
+
+#: includes/theme.php:675
+msgid "Order By"
+msgstr "排序"
+
+#: includes/theme.php:334
+msgid "Convert this question to blog post"
+msgstr "把这个问题转换成博客文章"
+
+#: includes/theme.php:321
+msgid "Delete post permanently (cannot be restored again)"
+msgstr "永久删除帖子（无法恢复）"
+
+#: addons/tags/tags.php:641 addons/tags/tags.php:703 includes/theme.php:392
+msgid "New"
+msgstr "新增"
+
+#: addons/tags/tags.php:636 addons/tags/tags.php:702
+msgid "Popular"
+msgstr "流行的"
+
+#: includes/taxo.php:347
+msgid "Tagged"
+msgstr "标记的"
+
+#: includes/class/class-activity-helper.php:216
+msgid "Trashed"
+msgstr "已放入回收站"
+
+#: includes/post-status.php:122
+msgid "Question is closed for new answers."
+msgstr "问题关闭，等待新的答案"
+
+#: includes/post-status.php:66
+msgid "You are not allowed to change post status"
+msgstr "您无权更改帖子状态"
+
+#. translators: %s is search query.
+#: includes/options.php:104
+msgid "Search \"%s\""
+msgstr "搜索“%s”"
+
+#: includes/functions.php:1322
+msgid "changed status"
+msgstr "改变状态"
+
+#: includes/functions.php:1311
+msgid "deleted comment"
+msgstr "删除评论"
+
+#: includes/functions.php:1309
+msgid "restored answer"
+msgstr "恢复答案"
+
+#: includes/functions.php:1304 includes/functions.php:1305
+msgid "approved"
+msgstr "经核准的"
+
+#: includes/common-pages.php:190
+msgid "Sorry, you cannot edit this answer."
+msgstr "对不起，您不能编辑这个答案。"
+
+#: includes/common-pages.php:157
+msgid "Something went wrong, please try again"
+msgstr "有什么地方出错了，请再试一次。"
+
+#: includes/comments.php:450
+msgid "Add a Comment"
+msgstr "添加评论"
+
+#: includes/comments.php:116
+msgid "Sorry, unable to approve comment"
+msgstr "对不起，无法发表评论"
+
+#. Translators: %s contain post type name.
+#: includes/class-form-hooks.php:882
+msgid "Commenting is not allowed on draft, pending or deleted %s"
+msgstr "不允许对草稿，待定或已删除的 %s 发表评论"
+
+#: includes/class-form-hooks.php:788
+msgid "Unable to post comment."
+msgstr "无法发表评论"
+
+#: includes/functions.php:2052
+msgid "You cannot edit this question."
+msgstr "您不能编辑这个问题。"
+
+#. translators: %d is total answer count of question.
+#: includes/answer-loop.php:358
+msgid "You are viewing 1 out of %d answers, click here to view all answers."
+msgstr "您正在查看%d个答案中的1个，单击此处查看所有答案。"
+
+#: includes/ajax-hooks.php:544 includes/theme.php:890
+msgid "Unsubscribe"
+msgstr "退订"
+
+#: includes/ajax-hooks.php:542
+msgid "Successfully subscribed to question"
+msgstr "成功订阅问题"
+
+#: includes/ajax-hooks.php:520
+msgid "Successfully unsubscribed from question"
+msgstr "已成功取消订阅问题"
+
+#: includes/ajax-hooks.php:507 includes/ajax-hooks.php:534
+msgid "Sorry, unable to subscribe"
+msgstr "抱歉，无法订阅"
+
+#: includes/ajax-hooks.php:496
+msgid "You must be logged in to subscribe to a question"
+msgstr "您必须先登录才能订阅问题"
+
+#: includes/ajax-hooks.php:436
+msgid "Sorry, you are not allowed to convert this question to post"
+msgstr "对不起，您不能转换该问题为文章"
+
+#: includes/ajax-hooks.php:378
+msgid "Question is opened"
+msgstr "问题是公开的"
+
+#: includes/ajax-hooks.php:378
+msgid "Question closed"
+msgstr "问题已关闭"
+
+#: includes/ajax-hooks.php:376 includes/theme.php:254
+msgid "Open this question for new answers"
+msgstr "打开这个问题寻找新答案"
+
+#: includes/ajax-hooks.php:376 includes/theme.php:254
+msgid "Close this question for new answer."
+msgstr "关闭此问题以获得新回答。"
+
+#: includes/ajax-hooks.php:368
+msgid "You cannot close a question"
+msgstr "您不能关闭一个问题"
+
+#: includes/ajax-hooks.php:347 includes/theme.php:853
+msgid "Unfeature"
+msgstr "无特色的"
+
+#: includes/ajax-hooks.php:346 includes/theme.php:852
+msgid "Unmark this question as featured"
+msgstr "把这个问题标记为特色的"
+
+#: includes/ajax-hooks.php:298
+msgid "Sorry, you cannot toggle a featured question"
+msgstr "对不起，您不能切换一个特色问题。"
+
+#: includes/ajax-hooks.php:275
+msgid "Answer is deleted permanently"
+msgstr "答案被永久删除"
+
+#: includes/ajax-hooks.php:262
+msgid "Question is deleted permanently"
+msgstr "问题被永久删除"
+
+#: includes/ajax-hooks.php:232
+msgid "Sorry, unable to delete post"
+msgstr "对不起，无法删除帖子"
+
+#. translators: %s is post type.
+#: includes/ajax-hooks.php:215
+msgid "%s is trashed"
+msgstr "%s 已移至回收站"
+
+#: includes/ajax-hooks.php:212 includes/theme.php:295
+msgid "Restore this post"
+msgstr "恢复这个帖子"
+
+#: includes/ajax-hooks.php:211 includes/theme.php:294
+msgid "Undelete"
+msgstr "取消删除"
+
+#. translators: %s post type.
+#: includes/ajax-hooks.php:181
+msgid "%s is restored"
+msgstr "%s 已恢复"
+
+#: includes/ajax-hooks.php:178 includes/theme.php:298
+msgid "Delete this post (can be restored again)"
+msgstr "删除此帖子（可以再次恢复）"
+
+#: includes/ajax-hooks.php:154
+msgid "Unable to trash this post"
+msgstr "无法丢弃这个帖子"
+
+#: ajax/toggle-best-answer.php:80
+msgid "This answer cannot be selected as best, update status to select as best answer."
+msgstr "此选项不能作为最佳选择，更新状态以选择最佳答案。"
+
+#: admin/views/uninstall.php:125
+msgid "Do you wish to proceed? This cannot be undone."
+msgstr "该操作不能撤销，确定要继续吗？"
+
+#: admin/views/uninstall.php:93
+msgid "Clicking this button will remove all AnsPress DB tables"
+msgstr "点击该按钮将移除所有 AnsPress 的数据库表"
+
+#: admin/views/uninstall.php:92
+msgid "Delete all database tables"
+msgstr "删除所有数据库表"
+
+#: admin/views/uninstall.php:89
+msgid "Permanently delete all AnsPress tables?"
+msgstr "永久删除所有AnsPress数据表？"
+
+#: admin/views/uninstall.php:84
+msgid "Clicking this button will delete all AnsPress terms data"
+msgstr "点击这个按钮将删除所有的AnsPress条款数据。"
+
+#: admin/views/uninstall.php:75
+msgid "Clicking this button will delete all AnsPress options"
+msgstr "单击此按钮将删除所有的AnsPress选项。"
+
+#: admin/views/uninstall.php:74
+msgid "Delete all options"
+msgstr "删除所有选项"
+
+#: admin/views/uninstall.php:71
+msgid "Permanently delete all AnsPress options?"
+msgstr "永久删除所有的AnsPress选项？"
+
+#: admin/views/uninstall.php:66
+msgid "Clicking this button will delete all user data added by AnsPress"
+msgstr "点击该按钮将会删除所有 AnsPress 添加的所有用户数据。"
+
+#: admin/views/uninstall.php:65
+msgid "Delete all user data"
+msgstr "删除所有用户数据"
+
+#: admin/views/uninstall.php:62
+msgid "Permanently delete all AnsPress user data?"
+msgstr "永久删除所有的用户数据？"
+
+#: admin/views/uninstall.php:57
+msgid "Clicking this button will delete all answers and its related data from database"
+msgstr "单击此按钮将从数据库中删除所有答案及其相关数据。"
+
+#. translators: %d is total numbers of answers.
+#: admin/views/uninstall.php:54
+msgid "Delete %d answers"
+msgstr "删除 %d 答案"
+
+#: admin/views/uninstall.php:45
+msgid "Permanently delete all answers?"
+msgstr "永久删除所有答案？"
+
+#: admin/views/uninstall.php:40
+msgid "Clicking this button will delete all questions and answers data from database"
+msgstr "单击此按钮将从数据库中删除所有问题和答案数据。"
+
+#. translators: %d is total numbers of question and answer.
+#: admin/views/uninstall.php:37
+msgid "Delete %d Q&A"
+msgstr "删除 %d Q＆A"
+
+#: admin/views/uninstall.php:28
+msgid "Permanently delete all questions and answers?"
+msgstr "永久删除所有问题和答案？"
+
+#: admin/views/uninstall.php:21
+msgid "If you are unsure about this section please do not use any of these options below."
+msgstr "如果您对本节不确定，请不要使用以下任何选项。"
+
+#: admin/views/roles.php:140
+msgid "Save Role"
+msgstr "保存角色"
+
+#: admin/views/reputation-events.php:34
+msgid "Save Events Points"
+msgstr "保存事件点"
+
+#: lib/class-anspress-upgrader.php:275 lib/class-anspress-upgrader.php:283
+msgid "Successfully migrated all reputations"
+msgstr "成功地迁移了所有的声望"
+
+#: admin/anspress-admin.php:1162
+msgid "Set numbers of media user can upload for each post."
+msgstr "设置媒体用户可以为每个帖子上传的数量。"
+
+#: admin/anspress-admin.php:1161
+msgid "Max uploads per post"
+msgstr "每个帖子最大上传量"
+
+#: admin/anspress-admin.php:1298
+msgid "Order answers by by default using selected"
+msgstr "选择问题默认的排序方式"
+
+#: admin/anspress-admin.php:1297
+msgid "Default answers order"
+msgstr "默认答案排序"
+
+#: admin/anspress-admin.php:1232
+msgid "Order question list by default using selected"
+msgstr "默认情况下使用选定的排序问题列表"
+
+#: admin/anspress-admin.php:1231
+msgid "Default question order"
+msgstr "默认的问题顺序"
+
+#: admin/anspress-admin.php:1213
+msgid "Checking this will disable question suggestion in ask form"
+msgstr "选中这个将禁用问题回复表单的建议项"
+
+#: admin/anspress-admin.php:1212
+msgid "Disable question suggestion"
+msgstr "禁用问题建议"
+
+#: admin/anspress-admin.php:1207
+msgid "Check for duplicate posts before posting"
+msgstr "发帖前检查重复的帖子"
+
+#: admin/anspress-admin.php:1206
+msgid "Check duplicate"
+msgstr "检查重复"
+
+#: admin/anspress-admin.php:886
+msgid "Author page title"
+msgstr "作者页标题"
+
+#: admin/anspress-admin.php:859
+msgid "Select single question permalink structure."
+msgstr "选择单个问题永久链接结构。"
+
+#: admin/anspress-admin.php:858
+msgid "Question permalink"
+msgstr "问题永久链接"
+
+#: admin/anspress-admin.php:853
+msgid "Slug for single question page."
+msgstr "单问题页面别名。"
+
+#: admin/anspress-admin.php:852
+msgid "Question slug"
+msgstr "问题别名"
+
+#: admin/anspress-admin.php:677
+msgid "Update now"
+msgstr "现在更新"
+
+#: admin/anspress-admin.php:676
+msgid "AnsPress database is not updated."
+msgstr "AnsPress数据库无法更新。"
+
+#: admin/anspress-admin.php:521
+msgid "Select All"
+msgstr "全选"
+
+#: addons/tags/tags.php:347
+msgid "Suggestions are available. Use the up and down arrow keys to read it."
+msgstr "提供建议。 使用上下箭头键进行阅读。"
+
+#: addons/tags/tags.php:346
+msgid "removed from the tags list."
+msgstr "从标签列表中删除。"
+
+#: addons/tags/tags.php:345
+msgid "added to the tags list."
+msgstr "已添加至标签列表"
+
+#: addons/tags/tags.php:344
+msgid "Add Tag"
+msgstr "添加标签"
+
+#: addons/tags/tags.php:343
+msgid "Delete Tag"
+msgstr "删除标签"
+
+#: addons/tags/tags.php:276
+msgid "Slug for tag page"
+msgstr "标签页别名"
+
+#: addons/tags/tags.php:275
+msgid "Tag page slug"
+msgstr "标签页别名"
+
+#: addons/tags/tags.php:270
+msgid "minimum numbers of tags that user must add when asking."
+msgstr "用户在提问时必须添加的最少标签数量。"
+
+#: addons/tags/tags.php:269
+msgid "Minimum tags"
+msgstr "最小标签"
+
+#: addons/tags/tags.php:264
+msgid "Maximum numbers of tags that user can add when asking."
+msgstr "用户在询问时可以添加的最大数量的标签。"
+
+#: addons/tags/tags.php:263
+msgid "Maximum tags"
+msgstr "最大标签数量"
+
+#: addons/tags/tags.php:258
+msgid "Numbers of tags to show in tags page."
+msgstr "标签页中显示的标签数量。"
+
+#: addons/tags/tags.php:257
+msgid "Tags to show"
+msgstr "标签显示"
+
+#: addons/tags/tags.php:197
+msgid "Search Tag"
+msgstr "搜索标签"
+
+#: addons/tags/tags.php:196
+msgid "View Tag"
+msgstr "查看标签"
+
+#: addons/tags/tags.php:195
+msgid "New Tag"
+msgstr "新标签"
+
+#: addons/tags/tags.php:194
+msgid "Edit Tag"
+msgstr "编辑标签"
+
+#: addons/tags/tags.php:192
+msgid "All Tags"
+msgstr "所有标记"
+
+#: addons/tags/tags.php:190 addons/tags/tags.php:230
+msgid "Question Tags"
+msgstr "问题标签"
+
+#: addons/tags/tags.php:162
+msgid "(AnsPress) Tags"
+msgstr "(AnsPress) 标签"
+
+#: addons/reputation/reputation.php:45 addons/reputation/reputation.php:476
+#: addons/reputation/reputation.php:540
+msgid "Reputations"
+msgstr "声望"
+
+#: addons/reputation/reputation.php:265
+msgid "Successfully updated reputation points!"
+msgstr "成功更新声望点！"
+
+#: addons/reputation/reputation.php:237
+msgid "Given a down vote"
+msgstr "否决投票"
+
+#: addons/reputation/reputation.php:235
+msgid "Points taken from user when they give a down vote"
+msgstr "用户给出否决票时获得的分数"
+
+#: addons/reputation/reputation.php:234
+msgid "Gives down vote"
+msgstr "否决投票"
+
+#: addons/reputation/reputation.php:226
+msgid "Given an up vote"
+msgstr "投票赞成"
+
+#: addons/reputation/reputation.php:224
+msgid "Points taken from user when they give an up vote"
+msgstr "用户给出赞成票时获得的分数"
+
+#: addons/reputation/reputation.php:223
+msgid "Gives an up vote"
+msgstr "投票赞成"
+
+#: addons/reputation/reputation.php:215
+msgid "Received a down vote"
+msgstr "得到反对投票"
+
+#: addons/reputation/reputation.php:213
+msgid "Points awarded when user receives a down vote"
+msgstr "用户收到不赞成票时获得的积分"
+
+#: addons/reputation/reputation.php:212
+msgid "Received down vote"
+msgstr "收到否决票"
+
+#: addons/reputation/reputation.php:204
+msgid "Received an upvote"
+msgstr "获得赞成票"
+
+#: addons/reputation/reputation.php:202
+msgid "Points awarded when user receives an upvote"
+msgstr "用户收到赞誉时获得的积分"
+
+#: addons/reputation/reputation.php:201
+msgid "Received up vote"
+msgstr "得到赞成投票"
+
+#: addons/reputation/reputation.php:192
+msgid "Answer was selected as best"
+msgstr "答案被选为最佳"
+
+#: addons/reputation/reputation.php:190
+msgid "Points awarded when user's answer is selected as best"
+msgstr "当用户的答案被选为最佳时获得的积分"
+
+#: addons/reputation/reputation.php:189
+msgid "Answer selected as best"
+msgstr "选择为最佳答案"
+
+#: addons/reputation/reputation.php:180
+msgid "Selected an answer as best"
+msgstr "选择一个最佳答案"
+
+#: addons/reputation/reputation.php:178
+msgid "Points awarded when user selects an answer for their question"
+msgstr "用户选择问题的答案时获得的积分"
+
+#: addons/reputation/reputation.php:168
+msgid "Commented on a post"
+msgstr "评论了一个帖子"
+
+#: addons/reputation/reputation.php:166
+msgid "Points awarded when user comments on question or answer"
+msgstr "用户对问题或答案发表评论时获得的积分"
+
+#: addons/reputation/reputation.php:165
+msgid "Commenting"
+msgstr "评论"
+
+#: addons/reputation/reputation.php:156
+msgid "Posted an answer"
+msgstr "回答答案"
+
+#: addons/reputation/reputation.php:154
+msgid "Points awarded when user answers a question"
+msgstr "用户回答问题时获得的积分"
+
+#: addons/reputation/reputation.php:153
+msgid "Answering"
+msgstr "回答"
+
+#: addons/reputation/reputation.php:144
+msgid "Asked a question"
+msgstr "问了一个问题"
+
+#: addons/reputation/reputation.php:142
+msgid "Points awarded when user asks a question"
+msgstr "当用户提问时获得的积分"
+
+#: addons/reputation/reputation.php:141
+msgid "Asking"
+msgstr "提问"
+
+#: addons/reputation/reputation.php:132
+msgid "Registered"
+msgstr "注册的"
+
+#: addons/reputation/reputation.php:130
+msgid "Points awarded when user account is created"
+msgstr "创建用户帐户时奖励的积分"
+
+#: addons/reputation/reputation.php:129
+msgid "Registration"
+msgstr "注册"
+
+#: addons/recaptcha/recaptcha.php:114
+msgid "Select method to use when verification keeps failing"
+msgstr "选择验证持续失败时要使用的方法"
+
+#: addons/recaptcha/recaptcha.php:113
+msgid "Recaptcha Method"
+msgstr "Recaptcha验证方法"
+
+#: addons/profile/profile.php:299
+msgid "Callback function not found for rendering this page"
+msgstr "找不到此页面的回调函数"
+
+#: addons/notifications/notifications.php:505
+msgid "Successfully updated all notifications"
+msgstr "成功更新所有通知"
+
+#: addons/notifications/notifications.php:493
+msgid "There was a problem processing your request"
+msgstr "您的请求出现了问题。"
+
+#: addons/notifications/notifications.php:209
+msgid "You lose %points% points"
+msgstr "您失去 %points% 积分"
+
+#: addons/notifications/notifications.php:201
+msgid "You have earned %points% points"
+msgstr "您已经获得 %points% 积分"
+
+#: addons/notifications/notifications.php:193
+msgid "selected your answer"
+msgstr "选择您的答案"
+
+#. translators: %cpt% is AnsPress placeholder not gettext.
+#: addons/notifications/notifications.php:185
+msgid "down voted your %cpt%"
+msgstr "否决了您的 %cpt%"
+
+#. translators: %cpt% is AnsPress placeholder not gettext.
+#: addons/notifications/notifications.php:174
+msgid "up voted your %cpt%"
+msgstr "赞成投票您的 %cpt %"
+
+#. translators: %cpt% is AnsPress placeholder not gettext.
+#: addons/notifications/notifications.php:165
+msgid "commented on your %cpt%"
+msgstr "评论您的 %cpt%"
+
+#: addons/notifications/notifications.php:156
+msgid "posted an answer on your question"
+msgstr "在您的问题上发表了一个答案"
+
+#: addons/notifications/query.php:318
+msgid "post"
+msgstr "发布"
+
+#: addons/notifications/query.php:272
+msgid "Someone"
+msgstr "某人"
+
+#: addons/email/email.php:224
+msgid "Send email to admin when answer is trashed."
+msgstr "当回答被丢弃电子邮件发送到管理员"
+
+#: addons/email/email.php:223
+msgid "Delete answer"
+msgstr "删除答案"
+
+#: addons/email/email.php:218
+msgid "Send email to admin when question is trashed."
+msgstr "当问题被丢弃时，发送电子邮件给管理员"
+
+#: addons/email/email.php:217
+msgid "Delete question"
+msgstr "删除问题"
+
+#: addons/email/email.php:212
+msgid "Send email to admin when answer is edited."
+msgstr "当回答被编辑时将电子邮件发送到管理员"
+
+#: addons/email/email.php:199 addons/email/email.php:244
+msgid "New comment"
+msgstr "新评论"
+
+#: addons/email/email.php:193 addons/email/email.php:238
+#: includes/post-types.php:164
+msgid "New answer"
+msgstr "新答案"
+
+#: addons/email/email.php:146
+msgid ""
+"Hello!\n"
+"Answer on '{question_title}' is trashed by {user}.\n"
+msgstr ""
+"您好!\n"
+"'{question_title}' 的回答已经被用户 {user} 丢弃\n"
+
+#: addons/email/email.php:145 addons/email/email.php:1034
+msgid "An answer is trashed by {user}"
+msgstr "一个答案被用户 {user} 丢弃"
+
+#: addons/email/email.php:1013
+msgid "A question is trashed by {user}"
+msgstr "一个问题被用户 {user} 丢弃。"
+
+#: addons/email/email.php:989
+msgid "A answer is edited by {editor}"
+msgstr "一个答案是由 {editor}编辑的"
+
+#: addons/email/email.php:965
+msgid "A question is edited by {editor}"
+msgstr "问题被 {editor} 编辑。"
+
+#: addons/email/email.php:941
+msgid "New comment by {commenter}"
+msgstr "{commenter} 发表新评论"
+
+#: addons/email/email.php:920
+msgid "Your answer is selected as best by "
+msgstr "你的答案被选为最佳"
+
+#: addons/email/email.php:893
+msgid "New answer posted by {answerer}"
+msgstr "{answerer} 发布了新答案"
+
+#. translators: placeholder contains count.
+#. translators: Placeholder contains count.
+#: addons/categories/categories.php:867 addons/tags/tags.php:683
+msgid ", %d+"
+msgstr "，%d+"
+
+#: addons/categories/categories.php:814
+msgid "Question category feed"
+msgstr "问题类别 feed"
+
+#. Translators: %d contains count of sub category.
+#: templates/addons/category/categories.php:64
+msgid "%d Sub category"
+msgid_plural "%d Sub categories"
+msgstr[0] "%d 子分类"
+
+#: addons/categories/categories.php:625
+msgid "Category icon color"
+msgstr "类别图标颜色"
+
+#: addons/categories/categories.php:611
+msgid "Featured image for category"
+msgstr "类别特色图片"
+
+#: addons/categories/categories.php:609
+msgid "Remove image"
+msgstr "移除图像"
+
+#: addons/categories/categories.php:565
+msgid "Set background color to be used with icon"
+msgstr "设置与图标一起使用的背景颜色"
+
+#: addons/categories/categories.php:563
+msgid "Icon background color"
+msgstr "图标背景颜色"
+
+#: addons/categories/categories.php:559 addons/categories/categories.php:620
+#: addons/categories/categories.php:629
+msgid "Font icon class, if image not set"
+msgstr "字体图标类，如果图像未设置"
+
+#: addons/categories/categories.php:557 addons/categories/categories.php:616
+msgid "Category icon class"
+msgstr "分类的图标类"
+
+#: addons/categories/categories.php:553
+msgid "Category image"
+msgstr "类别图片"
+
+#: addons/categories/categories.php:549 addons/categories/categories.php:600
+msgid "Upload image"
+msgstr "上传图像"
+
+#: addons/categories/categories.php:548 addons/categories/categories.php:597
+#: includes/class-form-hooks.php:1001
+msgid "Image"
+msgstr "图像"
+
+#: addons/categories/categories.php:424
+msgid "Select a topic that best fits your question."
+msgstr "选择最适合您问题的主题。"
+
+#: addons/categories/categories.php:306
+msgid "Image height in categories page"
+msgstr "类别页中的图像高度"
+
+#: addons/categories/categories.php:305
+msgid "Categories image height"
+msgstr "类别图像高度"
+
+#: addons/categories/categories.php:300
+msgid "Category to show per page"
+msgstr "按页显示类别"
+
+#: addons/categories/categories.php:299
+msgid "Category per page"
+msgstr "每页分类"
+
+#: addons/categories/categories.php:294
+msgid "Descending"
+msgstr "下降"
+
+#: addons/categories/categories.php:293
+msgid "Ascending"
+msgstr "提升"
+
+#: addons/categories/categories.php:277 addons/categories/categories.php:290
+msgid "Set how you want to order categories in categories page."
+msgstr "设置如何在类别页中排序类别。"
+
+#: addons/categories/categories.php:271 addons/categories/categories.php:284
+msgid "Group"
+msgstr "组"
+
+#: addons/categories/categories.php:264
+msgid "Set how you want to order categories in form."
+msgstr "设置要如何在表单中排序类别。"
+
+#: addons/categories/categories.php:263
+msgid "Ask form category order"
+msgstr "提问表格类别顺序"
+
+#: addons/categories/categories.php:197 addons/tags/tags.php:199
+msgid "Nothing found in Trash"
+msgstr "回收站中找不到任何东西"
+
+#: addons/categories/categories.php:196 addons/tags/tags.php:198
+msgid "Nothing Found"
+msgstr "什么也找不到"
+
+#: addons/categories/categories.php:195
+msgid "Search Category"
+msgstr "搜索类别"
+
+#: addons/categories/categories.php:194
+msgid "View Category"
+msgstr "查看类别"
+
+#: addons/categories/categories.php:193
+msgid "New Category"
+msgstr "新类别"
+
+#: addons/categories/categories.php:192
+msgid "Edit Category"
+msgstr "编辑类别"
+
+#: addons/categories/categories.php:190
+msgid "All Categories"
+msgstr "所有类别"
+
+#: addons/categories/categories.php:188 addons/categories/categories.php:349
+msgid "Question Categories"
+msgstr "问题类别"
+
+#: addons/categories/widget.php:179
+msgid "Icon height:"
+msgstr "图标高度："
+
+#: addons/categories/widget.php:175
+msgid "Icon width:"
+msgstr "图标宽度："
+
+#: addons/categories/widget.php:171
+msgid "ASC"
+msgstr "升序"
+
+#: addons/categories/widget.php:170
+msgid "DESC"
+msgstr "降序"
+
+#: addons/categories/widget.php:168
+msgid "Order:"
+msgstr "排序："
+
+#: addons/categories/widget.php:164
+msgid "Term group"
+msgstr "项目组"
+
+#: addons/categories/categories.php:269 addons/categories/categories.php:282
+#: addons/categories/widget.php:163
+msgid "Slug"
+msgstr "别名"
+
+#: addons/categories/categories.php:267 addons/categories/categories.php:280
+#: addons/categories/widget.php:161
+msgid "ID"
+msgstr "ID"
+
+#: addons/categories/categories.php:270 addons/categories/categories.php:283
+#: addons/categories/widget.php:160
+msgid "Count"
+msgstr "数量"
+
+#: addons/categories/widget.php:159
+msgid "None"
+msgstr "没有"
+
+#: addons/categories/widget.php:157
+msgid "Order By:"
+msgstr "排序："
+
+#: addons/categories/widget.php:142
+msgid "Top level"
+msgstr "顶层"
+
+#: addons/categories/widget.php:140
+msgid "Parent:"
+msgstr "上级："
+
+#: addons/categories/widget.php:136
+msgid "Hide empty:"
+msgstr "隐藏空内容："
+
+#: addons/categories/categories.php:43 addons/categories/categories.php:477
+#: addons/categories/categories.php:489 addons/categories/widget.php:114
+#: includes/functions.php:1627 includes/functions.php:2356 includes/taxo.php:29
+msgid "Categories"
+msgstr "类别"
+
+#. translators: Placeholder contains child category count.
+#: addons/categories/widget.php:95
+msgid "%d Child"
+msgstr "%d 子项"
+
+#: addons/categories/widget.php:29
+msgid "Display AnsPress categories"
+msgstr "显示分类类别"
+
+#: addons/buddypress/buddypress.php:304 templates/addons/user/answers.php:42
+msgid "Load more answers"
+msgstr "加载更多的答案"
+
+#: addons/buddypress/buddypress.php:237
+msgid "Load more questions"
+msgstr "加载更多的问题"
+
+#: addons/buddypress/buddypress.php:172
+msgid "No AnsPress template found for rendering this page."
+msgstr "无法找到渲染这个页面的模板。"
+
+#: addons/avatar/avatar.php:136
+msgid "Show AnsPress avatars by default instead of gravatar fallback. Useful in localhost development."
+msgstr "显示AnsPress默认头像以替代Gravatar。有助于本地主机的开发。"
+
+#: addons/avatar/avatar.php:135
+msgid "Force avatar"
+msgstr "强制头像"
+
+#: addons/avatar/avatar.php:123
+msgid "Select font family for avatar letters."
+msgstr "选择头像字体的字符"
+
+#: addons/avatar/avatar.php:122
+msgid "Font family"
+msgstr "Font家族"
+
+#: addons/avatar/avatar.php:119
+msgid "Clear avatar cache"
+msgstr "清除头像缓存"
+
+#: addons/avatar/avatar.php:118
+msgid "Clear Cache"
+msgstr "清除缓存"
+
+#: addons/avatar/avatar.php:77 includes/functions.php:1643
+msgid "Dynamic Avatar"
+msgstr "动态头像"
+
+#. translators: %s is views count i.e. 2.1k views.
+#: includes/qaquery.php:453
+msgid "%s views"
+msgstr "%s 浏览"
+
+#: includes/class/roles-cap.php:1327
+msgid "You do not have permission to vote."
+msgstr "您没有投票权。"
+
+#: includes/functions.php:1307
+msgid "deleted answer"
+msgstr "删除答案"
+
+#. Translators: %s contain human readable time.
+#. translators: %s is time.
+#. translators: %s is human readable time difference.
+#: templates/addons/user/answer-item.php:43 templates/answer.php:41
+#: templates/shortcode/question.php:60
+msgid "Posted %s"
+msgstr "发布 %s"
+
+#. translators: %s: human-readable time difference
+#: includes/functions.php:257
+msgid "%s ago"
+msgstr "%s 前"
+
+#: admin/views/dashboard.php:374
+msgid "Extensions"
+msgstr "扩展"
+
+#. translators: %1 is link to themes %2 is link to addons.
+#: admin/views/dashboard.php:373
+msgid "Themes"
+msgstr "主题"
+
+#. Translators: %d contain comment count.
+#. translators: %d is count of comments.
+#. Translators: %d contains count of comments.
+#. translators: %d is comments count.
+#: ajax/comment-delete.php:101 includes/class-form-hooks.php:848
+#: includes/class-form-hooks.php:942 includes/comments.php:136
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] "%d 评论"
+
+#: templates/addons/user/answers.php:48
+msgid "No answer posted by this user."
+msgstr "这个用户没有回答任何问题。"
+
+#: templates/attachments.php:28
+msgid "Download file"
+msgstr "下载文件"
+
+#: templates/attachments.php:25
+msgid "Attachments"
+msgstr "附件"
+
+#: templates/answer-form.php:34
+msgid "Write your answer."
+msgstr "写下您的答案。"
+
+#: includes/theme.php:333
+msgid "Convert to post"
+msgstr "转换为文章"
+
+#: includes/qaquery.php:443
+msgid "Featured"
+msgstr "精选"
+
+#: includes/shortcode-basepage.php:102
+msgid "Question and answer is powered by"
+msgstr "回答来自于"
+
+#: includes/shortcode-basepage.php:76
+msgid "AnsPress shortcode cannot be nested."
+msgstr "无法嵌套短代码。"
+
+#: includes/hooks.php:853
+msgid "years"
+msgstr "年"
+
+#: includes/hooks.php:852
+msgid "year"
+msgstr "年"
+
+#: includes/hooks.php:851
+msgid "weeks"
+msgstr "周"
+
+#: includes/hooks.php:850
+msgid "week"
+msgstr "周"
+
+#: includes/hooks.php:849
+msgid "days"
+msgstr "天"
+
+#: includes/hooks.php:848
+msgid "day"
+msgstr "天"
+
+#: includes/hooks.php:847
+msgid "hours"
+msgstr "小时"
+
+#: includes/hooks.php:846
+msgid "hour"
+msgstr "小时"
+
+#: includes/hooks.php:845
+msgid "minutes"
+msgstr "分钟"
+
+#: includes/hooks.php:844
+msgid "minute"
+msgstr "分钟"
+
+#: includes/common-pages.php:97
+msgid "This question is not published yet and is not accessible to anyone until it get published."
+msgstr "该问题尚未发布，在发布之前任何人都无法访问。"
+
+#. Translators: %s contain time to publish.
+#: includes/common-pages.php:93
+msgid "Question will be published in %s"
+msgstr "问题将在 %s中发布"
+
+#: includes/comments.php:284
+msgid "Approve"
+msgstr "批准"
+
+#: includes/comments.php:142
+msgid "Comment approved successfully."
+msgstr "评论成功获批。"
+
+#: includes/functions.php:1316
+msgid "edited comment on answer"
+msgstr "编辑对答案的评论"
+
+#: includes/api.php:48
+msgid "Wrong data supplied"
+msgstr "错误数据提供"
+
+#: includes/ajax-hooks.php:310
+msgid "Only question can be set as featured"
+msgstr "只有问题可以设置为特色"
+
+#. translators: %s is human time difference.
+#: includes/ajax-hooks.php:199
+msgid "This post was created %s, hence you cannot trash it"
+msgstr "这个帖子被创建了%s，因此您不能把它垃圾。"
+
+#: anspress-question-answer.php:44
+msgid "AnsPress is not running!"
+msgstr "AnsPress无法运行！"
+
+#: admin/views/dashboard.php:386
+msgid "Documents and FAQ"
+msgstr "文档与常见问题解答"
+
+#: admin/views/dashboard.php:381
+msgid "Help and Support!"
+msgstr "帮助和支持！"
+
+#: admin/views/dashboard.php:365
+msgid "More actions"
+msgstr "更多操作"
+
+#: admin/views/dashboard.php:359
+msgid "View questions"
+msgstr "查看问题"
+
+#: admin/views/dashboard.php:354
+msgid "Post an answer"
+msgstr "回答答案"
+
+#: admin/views/dashboard.php:349
+msgid "Write your first question"
+msgstr "写出您的第一个问题"
+
+#: admin/views/dashboard.php:345
+msgid "Next Steps"
+msgstr "下一步"
+
+#: admin/views/dashboard.php:339
+msgid "Get Started"
+msgstr "开始"
+
+#: admin/views/dashboard.php:335
+msgid "We’ve assembled some links to get you started:"
+msgstr "我们已经准备了一些链接让您开始："
+
+#: admin/views/dashboard.php:333
+msgid "Welcome to AnsPress!"
+msgstr "欢迎来到AnsPress！"
+
+#. translators: placeholder contains total awaiting moderation question/answer.
+#: admin/views/dashboard.php:260
+msgid "%d answers awaiting moderation"
+msgstr "%d 个答案等待审核"
+
+#. translators: placeholder contains total flagged answers count.
+#: admin/views/dashboard.php:243
+msgid "%d Flagged answers"
+msgstr "%d 标记了的答案"
+
+#: admin/views/dashboard.php:229
+msgid "All looks fine"
+msgstr "一切看起来都很好"
+
+#. translators: placeholder contains total question awaiting moderation.
+#: admin/views/dashboard.php:221
+msgid "%d questions awaiting moderation"
+msgstr "%d问题等待审核"
+
+#. translators: Placeholder contains total flagged question count.
+#: admin/views/dashboard.php:209
+msgid "%d Flagged questions"
+msgstr "%d 个被标记的问题"
+
+#. translators: placeholder contain count.
+#. translators: Placeholder contain total awaiting moderation answers count.
+#: admin/views/dashboard.php:86 admin/views/dashboard.php:304
+msgid "%d Moderate"
+msgstr "%d 中等"
+
+#. translators: placeholder contain count.
+#. translators: placeholder contains total numbers of private posts.
+#: admin/views/dashboard.php:78 admin/views/dashboard.php:296
+msgid "%d Private"
+msgstr "%d 私密的"
+
+#. translators: placeholder contain count.
+#. translators: placeholder contains total number of published answer count.
+#: admin/views/dashboard.php:70 admin/views/dashboard.php:288
+msgid "%d Published"
+msgstr "%d 已发布"
+
+#: admin/views/dashboard.php:37
+msgid "Latest Answers"
+msgstr "最新答案"
+
+#: admin/views/dashboard.php:29
+msgid "Require Attention"
+msgstr "需要注意"
+
+#: admin/anspress-admin.php:1244
+msgid "AnsPress will not strip stop words in question slug."
+msgstr "AnsPress将不会去除问题别名中的停用词。"
+
+#: admin/anspress-admin.php:1243
+msgid "Keep stop words in question slug"
+msgstr "在问题别名中保持停用词"
+
+#: admin/anspress-admin.php:1219
+msgid "Instead of showing time passed i.e. 1 Hour ago, show default format date."
+msgstr "显示默认格式的日期，而不是显示经过时间，即1小时前。 "
+
+#: admin/anspress-admin.php:1218
+msgid "Show default date format"
+msgstr "显示默认日期格式"
+
+#: addons/buddypress/buddypress.php:106
+msgid "Q&A"
+msgstr "问答"
+
+#. Author of the plugin
+msgid "Rahul Aryan"
+msgstr "Rahul Aryan"
+
+#. Description of the plugin
+msgid "The most advance community question and answer system for WordPress"
+msgstr "WordPress最先进的社区问答系统"
+
+#: includes/ajax-hooks.php:522 includes/theme.php:890
+msgid "Subscribe"
+msgstr "订阅"
+
+#: includes/post-types.php:90 widgets/search.php:67
+msgid "Search questions"
+msgstr "搜索问题"
+
+#: widgets/search.php:31
+msgid "Question and answer search form."
+msgstr "问答搜索表单。"
+
+#: widgets/search.php:30
+msgid "(AnsPress) Search"
+msgstr "(AnsPress) 搜索"
+
+#: widgets/questions.php:142
+msgid "Limit:"
+msgstr "限制："
+
+#: widgets/questions.php:136
+msgid "Category IDs:"
+msgstr "类别 IDs："
+
+#: widgets/questions.php:30
+msgid "Shows list of question shorted by option."
+msgstr "显示问题的不足列表。"
+
+#: widgets/questions.php:29
+msgid "(AnsPress) Questions"
+msgstr "(AnsPress) 问题"
+
+#: widgets/question_stats.php:93
+msgid "This widget can only be used in single question page"
+msgstr "此小工具只能用于单个问题页面。"
+
+#: includes/qaquery-hooks.php:187
+msgid "No permission"
+msgstr "不允许"
+
+#: includes/functions.php:556
+msgid "You cannot vote on restricted posts"
+msgstr "您无法对受限制的帖子投票"
+
+#: includes/common-pages.php:86
+msgid "Sorry! you are not allowed to read this question."
+msgstr "对不起的！不允许您阅读这个问题。"
+
+#: includes/class/roles-cap.php:1317
+msgid "Voting on restricted posts are not allowed."
+msgstr "禁止在受限制的帖子里投票。"
+
+#: includes/class/roles-cap.php:1309
+msgid "Voting on own post is not allowed"
+msgstr "不允许在自己的帖子上投票"
+
+#: admin/views/roles.php:84
+msgid "Add role"
+msgstr "添加角色"
+
+#: admin/views/roles.php:68
+msgid "Role name"
+msgstr "角色名"
+
+#: admin/views/roles.php:65
+msgid "Add a new user role."
+msgstr "添加新的用户角色。"
+
+#: admin/views/roles.php:62
+msgid "Add new role"
+msgstr "添加新角色"
+
+#. translators: %s contain role name.
+#: admin/views/roles.php:45
+msgid "Its look like %s role already exists ."
+msgstr "看起来 %s 角色已经存在。"
+
+#. translators: %s contain role name.
+#: admin/views/roles.php:41
+msgid "New role %s added successfully ."
+msgstr "新角色 %s 添加成功。"
+
+#: admin/views/licenses.php:60
+msgid "No license yet."
+msgstr "还没有许可证。"
+
+#: admin/views/licenses.php:56
+msgid "Save"
+msgstr "保存"
+
+#: admin/updater.php:89 admin/views/licenses.php:47
+msgid "Activate License"
+msgstr "激活许可证"
+
+#: admin/updater.php:88 admin/views/licenses.php:45
+msgid "Deactivate License"
+msgstr "停用许可证"
+
+#: admin/views/licenses.php:44
+msgid "active"
+msgstr "启用"
+
+#. translators: Placeholder contains name of product.
+#: admin/views/licenses.php:31
+msgid "Enter license key for %s"
+msgstr "输入%s的注册码"
+
+#: admin/views/licenses.php:21
+msgid "License keys for AnsPress products, i.e. extensions and themes."
+msgstr "AnsPress产品的许可密钥，如扩展和主题。"
+
+#: admin/updater.php:379
+msgid "Error"
+msgstr "错误"
+
+#: admin/updater.php:379
+msgid "You do not have permission to install plugin updates"
+msgstr "您没有安装插件更新的权限"
+
+#: admin/updater.php:237
+msgid "There is a new version of %1$s available. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s\">update now</a>."
+msgstr "有一个新版本的 %1$s 可用。<a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">查看版本 %3$s 详情</a> 或者 <a href=\"%4$s\">立即更新。</a>"
+
+#: admin/updater.php:230
+msgid "There is a new version of %1$s available. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr "有一个新版本的 %1$s 可用。<a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">查看版本 %3$s 详情。</a>"
+
+#: includes/functions.php:1663
+msgid "Akismet Check"
+msgstr "Akismet检查"
+
+#: admin/anspress-admin.php:881
+msgid "Title of the search page"
+msgstr "搜索页面标题"
+
+#: admin/anspress-admin.php:880
+msgid "Search page title"
+msgstr "搜索页面标题"
+
+#: admin/anspress-admin.php:917
+msgid "Check this to load AnsPress JS and CSS on the AnsPress page only. Be careful, this might break layout."
+msgstr "检查这个病加载AnsPress的JS和CSS文件只在AnsPress页面上。小心，这可能会破坏布局。"
+
+#: admin/anspress-admin.php:916
+msgid "Load assets in AnsPress page only?"
+msgstr "仅在页面中加载资源文件？"
+
+#: admin/meta-box.php:126
+msgid "+"
+msgstr "+"
+
+#: admin/meta-box.php:122
+msgid "-"
+msgstr "-"
+
+#: admin/meta-box.php:62 admin/meta-box.php:107
+msgid "Add an answer"
+msgstr "添加答案"
+
+#: admin/license.php:42 admin/views/licenses.php:19
+msgid "Licenses"
+msgstr "许可证"
+
+#: admin/class-list-table-hooks.php:179 admin/meta-box.php:150
+msgid "Clear flag"
+msgstr "清除标志"
+
+#. translators: %s is post title.
+#: admin/class-list-table-hooks.php:147
+msgid "Edit &#8220;%s&#8221;"
+msgstr "编辑“%s”"
+
+#. translators: First and last contain span and middle is answer count.
+#: widgets/question_stats.php:83
+msgid "%2$s1%3$s answer"
+msgid_plural "%2$s%1$d%3$s answers"
+msgstr[0] "%2$s%1$d%3$s 回答"
+
+#: admin/views/recount.php:85 includes/theme.php:412
+#: widgets/question_stats.php:79
+msgid "Views"
+msgstr "查看"
+
+#: widgets/question_stats.php:33
+msgid "Shows question stats in single question page."
+msgstr "在单个问题页面中显示问题统计。"
+
+#: widgets/question_stats.php:32
+msgid "(AnsPress) Question Stats"
+msgstr "(AnsPress) 问题统计表"
+
+#: widgets/breadcrumbs.php:29
+msgid "Show current anspress page navigation"
+msgstr "显示当前 anspress 页面导航"
+
+#: widgets/breadcrumbs.php:28
+msgid "(AnsPress) Breadcrumbs"
+msgstr "(AnsPress) 面包屑"
+
+#: addons/categories/widget.php:132 widgets/ask-form.php:78
+#: widgets/questions.php:121 widgets/question_stats.php:115
+#: widgets/search.php:75
+msgid "Title:"
+msgstr "标题："
+
+#: widgets/ask-form.php:72
+msgid "Ask questions"
+msgstr "问问题"
+
+#: widgets/ask-form.php:28
+msgid "(AnsPress) Ask form"
+msgstr "(AnsPress) 提问表"
+
+#: includes/ajax-hooks.php:139
+msgid "No related questions found."
+msgstr "没有发现相关问题。"
+
+#: templates/widgets/widget-questions.php:40
+msgid "No questions found."
+msgstr "没有发现任何问题。"
+
+#. translators: Placeholder contains questions count.
+#. translators: %d is question count.
+#. translators: %d is category question count.
+#. translators: %s is total question count of category.
+#. translators: %d is count of question.
+#. translators: %d is question count.
+#: addons/categories/widget.php:88 includes/ajax-hooks.php:600
+#: templates/addons/category/categories.php:39
+#: templates/addons/category/single-category.php:49
+#: templates/addons/tag/tag.php:28 templates/addons/tag/tags.php:46
+msgid "%d Question"
+msgid_plural "%d Questions"
+msgstr[0] "%d 问题"
+
+#. translators: %d is answers count of a question.
+#: admin/meta-box.php:39
+msgid " %d Answers"
+msgstr "%d 答案"
+
+#: templates/addons/notification/index.php:50
+msgid "No notification"
+msgstr "没有通知"
+
+#: templates/addons/notification/index.php:30 templates/functions.php:52
+msgid "Mark all as seen"
+msgstr "标记所有为可见"
+
+#: addons/notifications/notifications.php:50
+#: addons/notifications/notifications.php:63
+#: addons/notifications/notifications.php:220 includes/functions.php:1631
+#: templates/functions.php:51
+msgid "Notifications"
+msgstr "通知"
+
+#: addons/email/email.php:187 addons/email/email.php:232
+#: includes/post-types.php:87
+msgid "New question"
+msgstr "新问题"
+
+#: templates/shortcode/question.php:101
+msgid "View all answers"
+msgstr "查看所有答案"
+
+#: widgets/question_stats.php:111
+msgid "Question stats"
+msgstr "问题统计"
+
+#: templates/login-signup.php:25
+msgid "Login"
+msgstr "登录"
+
+#: includes/theme.php:725
+msgid "Reset sorting and filter"
+msgstr "重置排序和过滤器"
+
+#: templates/search-form.php:22
+msgid "Search questions..."
+msgstr "搜索问题…"
+
+#: templates/functions.php:150
+msgid "Widgets in this area will be shown in authors page."
+msgstr "此区域中的小工具将显示在作者页中。"
+
+#: templates/functions.php:138
+msgid "Widgets in this area will be shown in tag listing page."
+msgstr "此区域中的小工具将显示在标签列表页中。"
+
+#: templates/functions.php:126
+msgid "Widgets in this area will be shown in category listing page."
+msgstr "此区域中的小工具将显示在类别列表页中。"
+
+#: templates/functions.php:114
+msgid "Widgets in this area will be shown in single question page sidebar."
+msgstr "此区域中的小工具将显示在单个问题页侧边栏中。"
+
+#: addons/tags/tags.php:166
+msgid "Widgets in this area will be shown in anspress tags page."
+msgstr "此区域中的小工具将显示在AnsPress标签页中。"
+
+#: templates/functions.php:90
+msgid "Widgets in this area will be shown before questions list."
+msgstr "此区域中的小工具将显示在问题列表之前。"
+
+#: templates/functions.php:78
+msgid "Widgets in this area will be shown before anspress body."
+msgstr "此区域中的小工具将显示在anspress 内容之前。"
+
+#: templates/functions.php:42
+msgid "Sending request"
+msgstr "发送请求"
+
+#: includes/functions.php:1308
+msgid "restored question"
+msgstr "恢复的问题"
+
+#: admin/class-list-table-hooks.php:209 admin/class-list-table-hooks.php:323
+#: includes/theme.php:400 templates/question-list-item.php:34
+msgid "Votes"
+msgstr "投票"
+
+#: includes/functions.php:2057 templates/ask.php:21
+msgid "You do not have permission to ask a question."
+msgstr "您无权提出问题。"
+
+#: includes/votes.php:585
+msgid "Down vote this post"
+msgstr "对此文章投反对票"
+
+#: includes/votes.php:580
+msgid "Up vote this post"
+msgstr "投票支持这个帖子"
+
+#: includes/functions.php:1418
+msgid " (anonymous)"
+msgstr "（匿名）"
+
+#: includes/functions.php:1386
+msgid "Anonymous"
+msgstr "匿名的"
+
+#: includes/functions.php:1623
+msgid "Emails"
+msgstr "邮箱"
+
+#: includes/theme.php:554
+msgid "Ask question"
+msgstr "问问题"
+
+#: includes/theme.php:422
+msgid "Unsolved"
+msgstr "未解决的"
+
+#: includes/theme.php:417 widgets/questions.php:131
+msgid "Unanswered"
+msgstr "未回答的"
+
+#: includes/qaquery.php:447
+msgid "Solved"
+msgstr "已解决"
+
+#: templates/not-found.php:14
+msgid "Error 404"
+msgstr "错误404"
+
+#: addons/reputation/reputation.php:177
+msgid "Selecting an Answer"
+msgstr "选择答案"
+
+#: includes/theme.php:505
+msgid "Best answer"
+msgstr "最佳答案"
+
+#: admin/class-list-table-hooks.php:470
+msgid "Please fill parent question field, Answer was not saved!"
+msgstr "请填写上级问题字段，答案未保存！"
+
+#: admin/class-list-table-hooks.php:158
+msgid "Preview"
+msgstr "预览"
+
+#. translators: %s is post title.
+#: admin/class-list-table-hooks.php:155
+msgid "Preview &#8220;%s&#8221;"
+msgstr "预览&#8220;%s&#8221;"
+
+#: admin/class-list-table-hooks.php:141 includes/theme.php:320
+msgid "Delete Permanently"
+msgstr "永久删除"
+
+#: admin/class-list-table-hooks.php:141
+msgid "Delete this item permanently"
+msgstr "永久删除此项"
+
+#: admin/class-list-table-hooks.php:137
+msgid "Move this item to the Trash"
+msgstr "把这个东西移到回收站里"
+
+#: admin/class-list-table-hooks.php:135
+msgid "Restore this item from the Trash"
+msgstr "从回收站中恢复这个项目"
+
+#: admin/class-list-table-hooks.php:320
+msgid "Content"
+msgstr "内容"
+
+#: admin/class-list-table-hooks.php:211 admin/class-list-table-hooks.php:325
+msgid "Date"
+msgstr "日期"
+
+#: admin/class-list-table-hooks.php:207 templates/question-list-item.php:41
+msgid "Ans"
+msgstr "回答"
+
+#: addons/tags/tags.php:39 addons/tags/tags.php:191 addons/tags/tags.php:242
+#: addons/tags/tags.php:583 admin/class-list-table-hooks.php:203
+msgid "Tag"
+msgstr "标签"
+
+#: admin/class-list-table-hooks.php:195 admin/class-list-table-hooks.php:319
+msgid "Author"
+msgstr "作者"
+
+#: includes/post-types.php:169
+msgid "No answer found in trash"
+msgstr "回收站中没找到回答"
+
+#: includes/post-types.php:168
+msgid "No answer found"
+msgstr "没有找到答案"
+
+#: includes/post-types.php:167
+msgid "Search answers"
+msgstr "搜索答案"
+
+#: addons/email/email.php:211 addons/email/email.php:256
+#: includes/post-types.php:165
+msgid "Edit answer"
+msgstr "编辑答案"
+
+#: admin/anspress-admin.php:202 admin/views/emails.php:46
+msgid "New Answer"
+msgstr "新答案"
+
+#: includes/post-types.php:163
+msgid "Add new answer"
+msgstr "添加新答案"
+
+#: includes/post-types.php:162
+msgid "View answer"
+msgstr "查看答案"
+
+#: includes/post-types.php:160
+msgid "Parent answer:"
+msgstr "上级答案："
+
+#: includes/post-types.php:158
+msgctxt "Post Type Singular Name"
+msgid "Answer"
+msgstr "Answer"
+
+#: includes/post-types.php:157
+msgctxt "Post Type General Name"
+msgid "Answers"
+msgstr "回答"
+
+#: includes/post-types.php:92
+msgid "No questions found in trash"
+msgstr "在回收站中找不到问题"
+
+#: includes/post-types.php:91
+msgid "No question found"
+msgstr "没有发现问题"
+
+#: includes/class-form-hooks.php:130 includes/functions.php:2079
+msgid "Update Question"
+msgstr "更新问题"
+
+#: admin/views/emails.php:48
+msgid "Edit Question"
+msgstr "编辑问题"
+
+#: includes/post-types.php:86
+msgid "Add new question"
+msgstr "添加新问题"
+
+#: templates/addons/user/answer-item.php:51
+#: templates/buddypress/answer-item.php:43
+#: templates/buddypress/question-item.php:53
+msgid "View Question"
+msgstr "查看问题"
+
+#: includes/post-types.php:83
+msgid "Parent question:"
+msgstr "上级问题："
+
+#: includes/post-types.php:81
+msgctxt "Post Type Singular Name"
+msgid "Question"
+msgstr "问题"
+
+#: includes/post-types.php:80
+msgctxt "Post Type General Name"
+msgid "Questions"
+msgstr "问题"
+
+#. translators: %s is count of private post.
+#: includes/post-status.php:47
+msgid "Private Post <span class=\"count\">(%s)</span>"
+msgid_plural "Private Post <span class=\"count\">(%s)</span>"
+msgstr[0] "私密帖子 <span class=\"count\">(%s)</span>"
+
+#: admin/anspress-admin.php:650 admin/anspress-admin.php:657
+msgid "Private Post"
+msgstr "私有帖子"
+
+#: includes/functions.php:964
+msgid "[Solved] "
+msgstr "[已解决] "
+
+#: includes/ajax-hooks.php:323 includes/theme.php:855
+msgid "Mark this question as featured"
+msgstr "把这个问题标记为特色的"
+
+#: templates/login-signup.php:24
+msgid "or"
+msgstr "或"
+
+#. translators: %s is post type.
+#: includes/post-status.php:125
+msgid "This %s has been trashed, you can delete it permanently from wp-admin."
+msgstr "此%s已移至回收站，您可以从后台管理永久删除它。"
+
+#. translators: %s is post type.
+#: includes/post-status.php:120
+msgid "This %s is waiting for the approval by the moderator."
+msgstr "此%s正在等待版主的批准。"
+
+#. translators: %s is post type.
+#: includes/post-status.php:116
+msgid "This %s is marked as a private, only admin and post author can see."
+msgstr "这个%s被标记为私有的，只有管理员和作者才能看到。"
+
+#: includes/functions.php:552
+msgid "Voting down is disabled."
+msgstr "反对投票不可用。"
+
+#: includes/functions.php:548
+msgid "Your profile has been updated successfully."
+msgstr "您的个人资料已成功更新。"
+
+#: includes/functions.php:544
+msgid "You have already attached maximum numbers of allowed uploads."
+msgstr "您已经附加了允许上传的最大数量。"
+
+#: includes/ajax-hooks.php:326
+msgid "Question is unmarked as featured."
+msgstr "问题是没有被标记为特色的。"
+
+#: includes/ajax-hooks.php:349
+msgid "Question is marked as featured."
+msgstr "问题被标记为特色的。"
+
+#: includes/functions.php:540
+msgid "Answer has been deleted permanently"
+msgstr "答案已被永久删除"
+
+#: includes/functions.php:536
+msgid "Image uploaded successfully"
+msgstr "图像上传成功"
+
+#: includes/post-status.php:91
+msgid "Post status updated successfully"
+msgstr "成功更新帖子状态"
+
+#: includes/functions.php:532
+msgid "Please check captcha field and resubmit it again."
+msgstr "请检查验证码并重新提交。"
+
+#: includes/flag.php:39
+msgid "You have already reported this post."
+msgstr "您已经反馈过这个帖子了。"
+
+#: includes/flag.php:54
+msgid "Thank you for reporting this post."
+msgstr "谢谢您反馈这篇帖子。"
+
+#: includes/functions.php:528
+msgid "You do not have permission to view private posts."
+msgstr "您没有权限查看私有帖子。"
+
+#: ajax/toggle-best-answer.php:91
+msgid "Best answer is selected for your question."
+msgstr "为您的问题选择最佳答案。"
+
+#: ajax/toggle-best-answer.php:72
+msgid "Best answer is unselected for your question."
+msgstr "您的问题未选择最佳答案。"
+
+#: includes/functions.php:524
+msgid "You cannot vote on your own question or answer."
+msgstr "您无法对自己的问题或答案进行投票。"
+
+#: includes/votes.php:89
+msgid "Undo your vote first."
+msgstr "先撤消您的投票。"
+
+#: includes/votes.php:73
+msgid "Your vote has been removed."
+msgstr "您的投票被取消了。"
+
+#: includes/votes.php:107
+msgid "Thank you for voting."
+msgstr "谢谢您的投票。"
+
+#: addons/email/email.php:765
+msgid "Post updated successfully"
+msgstr "帖子成功更新"
+
+#: includes/functions.php:2162
+msgid "Answer submitted successfully"
+msgstr "回答成功提交"
+
+#: includes/functions.php:520
+msgid "Comment updated successfully."
+msgstr "评论已成功更新。"
+
+#: ajax/comment-delete.php:93
+msgid "Comment successfully deleted"
+msgstr "评论成功删除"
+
+#: includes/functions.php:515
+msgid "Something went wrong, last action failed."
+msgstr "出了差错，最后一步失败了。"
+
+#: includes/functions.php:510
+msgid "Success"
+msgstr "成功"
+
+#: includes/post-status.php:42
+msgid "Private"
+msgstr "私人的"
+
+#: includes/ajax-hooks.php:375 includes/theme.php:253
+msgid "Open"
+msgstr "开放"
+
+#: includes/ajax-hooks.php:375 includes/mce-languages.php:29
+#: includes/theme.php:253
+msgid "Close"
+msgstr "关闭"
+
+#: ajax/toggle-best-answer.php:90 includes/theme.php:771
+msgid "Unselect"
+msgstr "不选择"
+
+#: includes/theme.php:770
+msgid "Unselect this answer"
+msgstr "取消选择这个答案"
+
+#: includes/theme.php:762
+msgid "Select this answer as best"
+msgstr "选择这个答案是最好的"
+
+#: admin/views/emails.php:49 includes/common-pages.php:28
+msgid "Edit Answer"
+msgstr "编辑答案"
+
+#: includes/class-form-hooks.php:252 templates/answer.php:52
+#: templates/functions.php:47
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] "条评论"
+
+#: includes/class-form-hooks.php:227 includes/functions.php:2224
+msgid "Update Answer"
+msgstr "更新答案"
+
+#: includes/qaquery-hooks.php:188
+msgid "You do not have permission to read this question."
+msgstr "您无权阅读此问题。"
+
+#: addons/tags/tags.php:40 addons/tags/tags.php:230 addons/tags/tags.php:314
+#: addons/tags/tags.php:393 addons/tags/tags.php:464 addons/tags/tags.php:478
+#: includes/functions.php:1635 includes/functions.php:2362
+msgid "Tags"
+msgstr "标签"
+
+#: includes/class-form-hooks.php:852
+msgid "Comment updated successfully"
+msgstr "评论更新成功"
+
+#: admin/class-list-table-hooks.php:210 admin/class-list-table-hooks.php:324
+msgid "Flags"
+msgstr "标记"
+
+#: includes/flag.php:131
+msgid "You have flagged this post"
+msgstr "您已经标记了这个帖子"
+
+#: includes/flag.php:131
+msgid "Flag this post"
+msgstr "标记此帖子"
+
+#: addons/notifications/notifications.php:248
+msgid "You do not have permission to view this page"
+msgstr "您没有权限查看此页"
+
+#. Translators: placeholder contain field label.
+#. Translators: placeholder contain field label.
+#: lib/class-validate.php:349 lib/class-validate.php:368
+msgid "%s field is required."
+msgstr "字段%s必填。"
+
+#. translators: %s is file size.
+#: includes/upload.php:279
+msgid "File cannot be uploaded, size is bigger than %s MB"
+msgstr "无法上传文件，大小大于 %s MB"
+
+#: addons/profile/profile.php:76 includes/functions.php:2350
+msgid "Profile"
+msgstr "资料页"
+
+#: addons/notifications/notifications.php:97
+msgid "Notification"
+msgstr "通知"
+
+#: includes/class-theme.php:199
+msgid "Answers Feed"
+msgstr "回答反馈"
+
+#: includes/class-theme.php:198
+msgid "Question Feed"
+msgstr "问题 Feed"
+
+#: includes/class/roles-cap.php:56
+msgid "AnsPress Banned"
+msgstr "AnsPress 禁令"
+
+#: includes/class/roles-cap.php:55
+msgid "AnsPress Participants"
+msgstr "AnsPress 参与者"
+
+#: includes/class/roles-cap.php:51
+msgid "AnsPress Moderator"
+msgstr "AnsPress 管理员"
+
+#: templates/functions.php:48
+msgid "Cancel"
+msgstr "取消"
+
+#: lib/class-form.php:108
+msgid "Submit"
+msgstr "提交"
+
+#. translators: first - comments count, second - post title, third - post type.
+#: addons/buddypress/buddypress.php:504
+msgid "%1$s commented on your %3$s - %2$s"
+msgstr "您的 %3$s - %2$s 有 %1$s 评论 "
+
+#. translators: first - comments count, second - post title, third - post type.
+#: addons/buddypress/buddypress.php:500
+msgid "%1$d comments on your %3$s - %2$s"
+msgstr "%1$d 评论， 在您的 %3$s - %2$s"
+
+#. translators: Placeholder contains reputation points.
+#: addons/reputation/reputation.php:463
+msgid "%s Reputation"
+msgstr "%s 声望"
+
+#: addons/buddypress/buddypress.php:353
+msgid "Answer this question"
+msgstr "回答这个问题"
+
+#. translators: First placeholder contains user name and link.
+#: addons/buddypress/buddypress.php:343
+msgid "%1$s <a href=\"AP_CPT_LINK\">answered</a> a question, on the site %3$s"
+msgstr "%1$s <a href=\"AP_CPT_LINK\">回答了</a> 一个问题, 在站点 %3$s"
+
+#. translators: First placeholder contains user name and link.
+#: addons/buddypress/buddypress.php:341
+msgid "%1$s <a href=\"AP_CPT_LINK\">answered</a> a question"
+msgstr "%1$s <a href=\"AP_CPT_LINK\">回答了</a> 一个问题"
+
+#. translators: First placeholder contains user link and name.
+#: addons/buddypress/buddypress.php:328
+msgid "%1$s asked a new <a href=\"AP_CPT_LINK\">question</a>, on the site %3$s"
+msgstr "%1$s 提了一个新问题 <a href=\"AP_CPT_LINK\">问题</a>, 在站点 %3$s"
+
+#. translators: First placeholder contains user link and name.
+#: addons/buddypress/buddypress.php:326
+msgid "%1$s asked a new <a href=\"AP_CPT_LINK\">question</a>"
+msgstr "%1$s 提了一个新问题 <a href=\"AP_CPT_LINK\">问题</a>"
+
+#: includes/class-form-hooks.php:42
+msgid "Question in one sentence"
+msgstr "一句话里把问题说清楚"
+
+#: includes/post-types.php:89
+msgid "Update question"
+msgstr "更新问题"
+
+#: includes/class-form-hooks.php:71 includes/class-form-hooks.php:185
+msgid "Only visible to admin and moderator."
+msgstr "只对管理员和审批人可见。"
+
+#: includes/class-form-hooks.php:80 includes/class-form-hooks.php:194
+msgid "Enter your name to display"
+msgstr "输入您的姓名用于展示"
+
+#: addons/categories/categories.php:268 addons/categories/categories.php:281
+#: addons/categories/widget.php:162 addons/tags/tags.php:646
+#: addons/tags/tags.php:704
+msgid "Name"
+msgstr "名字"
+
+#: includes/class-form-hooks.php:166
+msgid "Post Answer"
+msgstr "发表答案"
+
+#: includes/post-types.php:166
+msgid "Update answer"
+msgstr "更新答案"
+
+#: templates/functions.php:49
+msgid "Update"
+msgstr "更新"
+
+#: admin/views/select_question.php:55 ajax/toggle-best-answer.php:71
+#: includes/ajax-hooks.php:122 includes/theme.php:763
+msgid "Select"
+msgstr "选择"
+
+#. translators: %d is count of questions.
+#: includes/ajax-hooks.php:105
+msgid "%d similar question found"
+msgid_plural "%d similar questions found"
+msgstr[0] "找到%d个类似的问题"
+
+#: includes/functions.php:1321
+msgid "unselected as best answer"
+msgstr "未被选为最佳答案"
+
+#: includes/functions.php:1320
+msgid "selected as best answer"
+msgstr "被选为最佳答案"
+
+#: includes/functions.php:1319
+msgid "updated status"
+msgstr "更新状态"
+
+#: includes/functions.php:1318
+msgid "unselected answer"
+msgstr "未选答案"
+
+#: includes/functions.php:1317
+msgid "selected answer"
+msgstr "选择答案"
+
+#: includes/functions.php:1315
+msgid "edited comment"
+msgstr "编辑评论"
+
+#: includes/functions.php:1314
+msgid "edited answer"
+msgstr "编辑答案"
+
+#: includes/functions.php:1313
+msgid "edited question"
+msgstr "编辑问题"
+
+#: includes/functions.php:1312
+msgid "commented on answer"
+msgstr "评论回答"
+
+#: includes/functions.php:1310 templates/comment.php:32
+#: templates/functions.php:46
+msgid "commented"
+msgstr "已评论"
+
+#: includes/functions.php:1306
+msgid "answered"
+msgstr "已回答"
+
+#: includes/functions.php:1303
+msgid "asked"
+msgstr "提问"
+
+#: addons/buddypress/buddypress.php:494 addons/notifications/query.php:327
+#: includes/class-form-hooks.php:872 includes/post-types.php:181
+msgid "answer"
+msgstr "回答"
+
+#: addons/buddypress/buddypress.php:494 addons/notifications/query.php:325
+#: includes/class-form-hooks.php:872 includes/post-types.php:104
+msgid "question"
+msgstr "问题"
+
+#: admin/views/roles.php:79 admin/views/roles.php:126
+msgid "Moderator Capabilities"
+msgstr "版主权限"
+
+#: admin/views/roles.php:74 admin/views/roles.php:116
+msgid "Basic Capabilities"
+msgstr "基本权限"
+
+#: admin/views/roles.php:98
+msgid "Select user role"
+msgstr "选择用户角色"
+
+#: admin/views/roles.php:92
+msgid "Add AnsPress capabilities to 3rd party roles."
+msgstr "向第三方角色添加AnsPress功能。"
+
+#: admin/views/roles.php:91
+msgid "AnsPress capabilities"
+msgstr "AnsPress能力"
+
+#: admin/views/select_question.php:21
+msgid "Select a question for new answer"
+msgstr "选择一个问题以寻求新答案"
+
+#: includes/comments.php:239
+msgid "Comments awaiting moderation"
+msgstr "评论正在审批中"
+
+#: admin/class-list-table-hooks.php:208 admin/class-list-table-hooks.php:322
+msgid "Comments"
+msgstr "评论"
+
+#: admin/views/dashboard.php:33
+msgid "Latest Questions"
+msgstr "最新问题"
+
+#: addons/buddypress/buddypress.php:116 addons/buddypress/buddypress.php:210
+#: addons/profile/profile.php:50 addons/profile/profile.php:162
+#: admin/views/dashboard.php:31 admin/views/dashboard.php:202
+#: includes/functions.php:2338 includes/options.php:102
+#: includes/post-types.php:82 includes/taxo.php:77 includes/taxo.php:401
+#: widgets/questions.php:45 widgets/questions.php:98
+msgid "Questions"
+msgstr "问题"
+
+#: includes/ajax-hooks.php:177 includes/comments.php:272 includes/theme.php:297
+#: lib/form/class-group.php:84
+msgid "Delete"
+msgstr "删除"
+
+#: addons/recaptcha/recaptcha.php:109
+msgid "Enter your secret key"
+msgstr "输入您的密钥"
+
+#: addons/recaptcha/recaptcha.php:108
+msgid "Recaptcha secret key"
+msgstr "Recaptcha密钥"
+
+#: addons/recaptcha/recaptcha.php:104
+msgid "Enter your site key, if you dont have it get it from here https://www.google.com/recaptcha/admin"
+msgstr "输入您的站点密钥，如果您没有它，从这里得到它。https://www.google.com/recaptcha/admin"
+
+#: addons/recaptcha/recaptcha.php:103
+msgid "Recaptcha site key"
+msgstr "Recaptcha网站密钥"
+
+#: addons/recaptcha/recaptcha.php:82 includes/functions.php:1655
+msgid "reCaptcha"
+msgstr "reCaptcha"
+
+#: admin/anspress-admin.php:1113
+msgid "Default status of edited answer."
+msgstr "已编辑答案的默认状态。"
+
+#: admin/anspress-admin.php:1112
+msgid "Status of edited answer"
+msgstr "编辑答案的状态"
+
+#: admin/anspress-admin.php:1103
+msgid "Default status of new answer."
+msgstr "新答案的默认状态。"
+
+#: admin/anspress-admin.php:1102
+msgid "Status of new answer"
+msgstr "新答案的状态"
+
+#: admin/anspress-admin.php:1093
+msgid "Default status of edited question."
+msgstr "已编辑问题的默认状态。"
+
+#: admin/anspress-admin.php:1092
+msgid "Status of edited question"
+msgstr "编辑问题的状态"
+
+#: admin/anspress-admin.php:1083
+msgid "Default status of new question."
+msgstr "新问题的默认状态。"
+
+#: admin/anspress-admin.php:1082
+msgid "Status of new question"
+msgstr "新问题的状态"
+
+#: admin/anspress-admin.php:1167
+msgid "Set maximum upload size."
+msgstr "设置最大上传大小。"
+
+#: admin/anspress-admin.php:1166
+msgid "Max upload size"
+msgstr "最大上传大小"
+
+#: admin/anspress-admin.php:1156
+msgid "Allow logged-in users to upload image."
+msgstr "允许登录用户上传图片。"
+
+#: admin/anspress-admin.php:1155
+msgid "Allow image upload"
+msgstr "允许图像上传"
+
+#: admin/anspress-admin.php:1060
+msgid "Allow users to submit multiple answer per question."
+msgstr "允许用户针对一个问题提交多个答案。"
+
+#: admin/anspress-admin.php:1059
+msgid "Multiple answers"
+msgstr "多个答案"
+
+#: includes/ajax-hooks.php:324 includes/theme.php:856
+msgid "Feature"
+msgstr "产品特点"
+
+#: admin/anspress-admin.php:1328
+msgid "Disable down voting on answers."
+msgstr "禁止对答案投反对票。"
+
+#: admin/anspress-admin.php:1322
+msgid "Disable voting on answers."
+msgstr "禁止对答案进行投票。"
+
+#: admin/anspress-admin.php:1316
+msgid "Disable comments on answer."
+msgstr "禁用对答案的评论。"
+
+#: admin/anspress-admin.php:1310
+msgid "Set minimum letters for a answer contents."
+msgstr "设置答案内容的最小字母数。"
+
+#: admin/anspress-admin.php:1177
+msgid "Multiple Answers"
+msgstr "多个答案"
+
+#: admin/anspress-admin.php:1292
+msgid "If enabled this will prevent user to submit answer on solved question."
+msgstr "如果启用，这将防止用户对已解决的问题提交答案。"
+
+#: admin/anspress-admin.php:1291
+msgid "Close question after selecting answer"
+msgstr "选择最佳答案后关闭问题"
+
+#: admin/anspress-admin.php:1286
+msgid "Disable down voting on questions."
+msgstr "禁止对问题投反对票。"
+
+#: admin/anspress-admin.php:1285 admin/anspress-admin.php:1327
+msgid "Disable down voting"
+msgstr "禁止投反对票"
+
+#: admin/anspress-admin.php:1280
+msgid "Disable voting on questions."
+msgstr "禁止对问题进行投票。"
+
+#: admin/anspress-admin.php:1279 admin/anspress-admin.php:1321
+msgid "Disable voting"
+msgstr "禁止投票"
+
+#: admin/anspress-admin.php:1274
+msgid "Disable comments on questions."
+msgstr "禁用对问题的评论。"
+
+#: admin/anspress-admin.php:1273 admin/anspress-admin.php:1315
+msgid "Disable comments"
+msgstr "禁用评论"
+
+#: admin/anspress-admin.php:1256
+msgid "Set minimum letters for a question contents."
+msgstr "设置问题内容的最少字符数量。"
+
+#: admin/anspress-admin.php:1255
+msgid "Minimum question content"
+msgstr "问题最少内容"
+
+#: admin/anspress-admin.php:1250
+msgid "Set minimum letters for a question title."
+msgstr "设置问题标题的最少字符数量。"
+
+#: admin/anspress-admin.php:1249
+msgid "Minimum title length"
+msgstr "最小标题长度"
+
+#: admin/anspress-admin.php:887
+msgid "Title of the author page"
+msgstr "作者页标题"
+
+#: addons/profile/profile.php:101
+msgid "Answers page title"
+msgstr "答案页面标题"
+
+#: admin/anspress-admin.php:875
+msgid "Main questions list page title"
+msgstr "主要问题列表页标题"
+
+#: admin/anspress-admin.php:874
+msgid "Base page title"
+msgstr "基本页面标题"
+
+#: admin/anspress-admin.php:1225
+msgid "If an answer is selected for question then [solved] prefix will be added in title."
+msgstr "如果为问题选择了答案，那么将在标题中添加[已解决]前缀。"
+
+#: admin/anspress-admin.php:1224
+msgid "Show solved prefix"
+msgstr "显示已解决前缀"
+
+#: addons/profile/profile.php:106
+msgid "Answers page slug"
+msgstr "答案页面别名"
+
+#: addons/profile/profile.php:96
+msgid "Questions page slug"
+msgstr "问题页面别名"
+
+#: admin/views/options.php:50
+msgid "Pages"
+msgstr "頁面"
+
+#: admin/anspress-admin.php:1238 admin/anspress-admin.php:1304
+#: includes/theme.php:476
+msgid "Oldest"
+msgstr "最老的"
+
+#: admin/anspress-admin.php:1237 admin/anspress-admin.php:1303
+#: includes/theme.php:472 widgets/questions.php:128
+msgid "Newest"
+msgstr "最新"
+
+#: admin/anspress-admin.php:1236 admin/anspress-admin.php:1302
+#: admin/views/toggle-features.php:73 includes/theme.php:387
+#: includes/theme.php:459 widgets/questions.php:127
+#: widgets/question_stats.php:71
+msgid "Active"
+msgstr "活跃"
+
+#: admin/anspress-admin.php:1235 admin/anspress-admin.php:1301
+#: includes/theme.php:466 widgets/questions.php:129
+msgid "Voted"
+msgstr "已投票"
+
+#: admin/anspress-admin.php:953
+msgid "Answers to show per page."
+msgstr "每个页面显示的答案。"
+
+#: admin/anspress-admin.php:952
+msgid "Answers per page"
+msgstr "每页答案"
+
+#: admin/anspress-admin.php:947
+msgid "Questions to show per page."
+msgstr "每个页面显示的问题。"
+
+#: admin/anspress-admin.php:946
+msgid "Questions per page"
+msgstr "每页问题"
+
+#: admin/anspress-admin.php:941
+msgid "User avatar size for comments."
+msgstr "用于评论的用户头像大小。"
+
+#: admin/anspress-admin.php:940
+msgid "Comment avatar size"
+msgstr "评论图标大小"
+
+#: admin/anspress-admin.php:935
+msgid "User avatar size for answer."
+msgstr "用于答案的用户头像大小。"
+
+#: admin/anspress-admin.php:934
+msgid "Answer avatar size"
+msgstr "回答头像大小尺寸"
+
+#: admin/anspress-admin.php:929
+msgid "User avatar size for question."
+msgstr "用于问题的用户头像尺寸"
+
+#: admin/anspress-admin.php:928
+msgid "Question avatar size"
+msgstr "问题头像尺寸"
+
+#: admin/anspress-admin.php:923
+msgid "User avatar size for questions list."
+msgstr "问题列表使用用户头像大小。"
+
+#: admin/anspress-admin.php:922
+msgid "List avatar size"
+msgstr "列表头像尺寸"
+
+#: admin/views/options.php:56
+msgid "Layout"
+msgstr "布局"
+
+#: admin/anspress-admin.php:1171
+msgid "Allow private posts"
+msgstr "允许私密帖子"
+
+#: admin/anspress-admin.php:804
+msgid "Hide link to AnsPress project site."
+msgstr "隐藏AnsPress项目站点的链接。"
+
+#: admin/anspress-admin.php:803
+msgid "Hide author credits"
+msgstr "隐藏作者积分"
+
+#: admin/class-list-table-hooks.php:253 admin/class-list-table-hooks.php:276
+msgid "--"
+msgstr "--"
+
+#: addons/categories/categories.php:42 addons/categories/categories.php:189
+#: addons/categories/categories.php:242 addons/categories/categories.php:423
+#: addons/categories/categories.php:529 admin/class-list-table-hooks.php:199
+#: includes/taxo.php:228
+msgid "Category"
+msgstr "类别"
+
+#: admin/class-list-table-hooks.php:206 admin/class-list-table-hooks.php:321
+#: includes/theme.php:284
+msgid "Status"
+msgstr "状态"
+
+#. translators: %d is answers count of a question.
+#: admin/meta-box.php:117
+msgid "<strong>%d</strong> Vote"
+msgid_plural "<strong>%d</strong> Votes"
+msgstr[0] "<strong>%d</strong> 投票"
+
+#. translators: %d is answers count of a question.
+#: admin/meta-box.php:102
+msgid "<strong>%d</strong> Answer"
+msgid_plural "<strong>%d</strong> Answers"
+msgstr[0] "<strong>%d</strong> 回答"
+
+#: addons/buddypress/buddypress.php:120 addons/buddypress/buddypress.php:276
+#: addons/profile/profile.php:51 addons/profile/profile.php:169
+#: admin/views/dashboard.php:233 includes/post-types.php:159
+#: includes/theme.php:407 widgets/questions.php:130
+#: widgets/question_stats.php:89
+msgid "Answers"
+msgstr "答案"
+
+#: templates/single-question.php:77
+msgid "Published"
+msgstr "已发布"
+
+#: admin/class-list-table-hooks.php:163
+msgid "View"
+msgstr "查看"
+
+#: admin/class-list-table-hooks.php:149 admin/meta-box.php:76
+#: includes/comments.php:260 includes/theme.php:272
+msgid "Edit"
+msgstr "编辑"
+
+#: admin/class-list-table-hooks.php:135
+msgid "Restore"
+msgstr "恢复"
+
+#: addons/buddypress/buddypress.php:338 addons/buddypress/buddypress.php:339
+#: addons/buddypress/buddypress.php:353 admin/views/dashboard.php:35
+#: includes/ajax-hooks.php:163 includes/comments.php:75
+#: includes/post-status.php:109 includes/post-types.php:182
+#: templates/answers.php:24
+msgid "Answer"
+msgid_plural "Answers"
+msgstr[0] "答案"
+
+#: addons/buddypress/buddypress.php:323 addons/buddypress/buddypress.php:324
+#: admin/meta-box.php:48 includes/ajax-hooks.php:163 includes/comments.php:75
+#: includes/common-pages.php:25 includes/post-status.php:109
+#: includes/post-types.php:105
+msgid "Question"
+msgstr "问题"
+
+#: admin/class-list-table-hooks.php:137 admin/meta-box.php:77
+msgid "Trash"
+msgstr "回收站"
+
+#: admin/anspress-admin.php:1086 admin/anspress-admin.php:1096
+#: admin/anspress-admin.php:1106 admin/anspress-admin.php:1116
+#: admin/anspress-admin.php:1126
+msgid "Publish"
+msgstr "发布"
+
+#: templates/addons/notification/index.php:35
+msgid "All"
+msgstr "所有"
+
+#: includes/common-pages.php:27 templates/addons/tag/tags.php:25
+#: templates/functions.php:53 templates/search-form.php:20
+msgid "Search"
+msgstr "搜索"
+
+#: admin/class-list-table-hooks.php:399 admin/meta-box.php:149
+#: includes/flag.php:140
+msgid "Flag"
+msgstr "标识"
+
+#: admin/anspress-admin.php:525
+msgid "Add to Menu"
+msgstr "添加到菜单"
+
+#: addons/email/email.php:229
+msgid "User Notifications"
+msgstr "用户通知"
+
+#: addons/profile/profile.php:57
+msgid "User profile"
+msgstr "用户资料"
+
+#: addons/email/email.php:205 addons/email/email.php:250
+#: admin/class-list-table-hooks.php:379 includes/post-types.php:88
+msgid "Edit question"
+msgstr "编辑问题"
+
+#: admin/class-list-table-hooks.php:359
+msgid "This question is orphan, no question is selected for this answer"
+msgstr "这个问题没有回答，没有问题选择这个答案。"
+
+#: admin/anspress-admin.php:211 admin/anspress-admin.php:312
+msgid "Settings"
+msgstr "设置"
+
+#: admin/views/dashboard.php:341
+msgid "AnsPress Options"
+msgstr "AnsPress 选项"
+
+#: addons/reputation/reputation.php:91 addons/reputation/reputation.php:434
+#: addons/reputation/reputation.php:436 includes/functions.php:1639
+msgid "Reputation"
+msgstr "声望"
+
+#: admin/class-list-table-hooks.php:61 admin/class-list-table-hooks.php:430
+msgid "Flagged"
+msgstr "标记的"
+
+#: admin/anspress-admin.php:647 admin/anspress-admin.php:656
+#: admin/anspress-admin.php:1087 admin/anspress-admin.php:1097
+#: admin/anspress-admin.php:1107 admin/anspress-admin.php:1117
+#: admin/anspress-admin.php:1127 includes/post-status.php:30
+msgid "Moderate"
+msgstr "温和型"
+
+#: admin/anspress-admin.php:200
+msgid "All Answers"
+msgstr "所有答案"
+
+#: admin/anspress-admin.php:198 admin/views/emails.php:45
+msgid "New Question"
+msgstr "新问题"
+
+#: admin/anspress-admin.php:196
+msgid "All Questions"
+msgstr "所有问题"
+
+#: includes/class-form-hooks.php:56 includes/class-form-hooks.php:170
+msgid "Description"
+msgstr "说明"
+
+#: admin/class-list-table-hooks.php:196 includes/class-form-hooks.php:41
+msgid "Title"
+msgstr "标题"

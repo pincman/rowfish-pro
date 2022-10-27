@@ -1,0 +1,90 @@
+.rowfish-widget-post-blocks {
+  padding: 0 !important;
+}
+.rowfish-widget-post-blocks .tab-content {
+  padding: 20px;
+}
+.rowfish-widget-post-blocks .nav-tabs {
+  position: relative;
+  box-shadow: 4px 0 5px rgb(0 0 0 / 5%), 0 0 0 rgb(0 0 0 / 5%);
+}
+.rowfish-widget-post-blocks .nav-tabs > .nav-item {
+  display: table-cell !important;
+}
+.rowfish-widget-post-blocks .nav-item > a {
+  border-bottom-color: #000 !important;
+  border: none !important;
+  background: 0 0 !important;
+  border-radius: 0;
+}
+.rowfish-widget-post-blocks
+  .nav-tabs
+  > li[data-index="0"].active
+  ~ .navs-slider-bar {
+  transform: translateX(55%);
+}
+.rowfish-widget-post-blocks
+  .nav-tabs
+  > li[data-index="1"].active
+  ~ .navs-slider-bar {
+  transform: translateX(255%);
+}
+.rowfish-widget-post-blocks
+  .nav-tabs
+  > li[data-index="2"].active
+  ~ .navs-slider-bar {
+  transform: translateX(460%);
+}
+.navs-slider-bar {
+  content: "";
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  height: 2px;
+  width: 16.5%;
+  background-color: #000;
+  left: 0;
+  transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.rowfish-comments-widget .comments-list {
+  width: 100%;
+  display: block;
+}
+.rowfish-comments-widget .comments-list .comment-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.rowfish-comments-widget .comments-list .comment-author {
+  display: block;
+  min-width: 30px;
+  flex: none;
+  line-height: 1.4;
+  float: none;
+}
+.rowfish-comments-widget .comments-list .comment-author > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.rowfish-comments-widget .comments-list .comment-author > a > img {
+  width: 40px;
+  height: 40px;
+}
+.rowfish-comments-widget .comments-list .comment-body {
+  float: none;
+  flex: auto;
+  padding: 0 0 5px 5px;
+  overflow: hidden;
+}
+.rowfish-comments-widget .comments-list .comment-body > .comment-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height: 22px;
+  width: 100%;
+  letter-spacing: -0.2px;
+}

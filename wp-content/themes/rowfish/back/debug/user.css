@@ -1,0 +1,66 @@
+.user-center-anspress .ap-questions-summery {
+  margin-left: 0 !important;
+}
+.user-top-container .nav-link > i {
+  margin-right: 0.5rem;
+}
+.btn.avatarinfo {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.btn.avatarinfo label {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.btn.avatarinfo a[class*="upload"] {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  margin-top: -25px;
+  margin-left: -25px;
+  cursor: pointer;
+}
+
+.btn.avatarinfo a[class*="upload"] i {
+  font-size: 20px;
+  color: #000000;
+  opacity: 0.5;
+  margin-top: 13px;
+}
+
+.btn.avatarinfo a[class*="upload"] input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: -1;
+}
+
+.btn.avatarinfo img {
+  margin: 0;
+  padding: 0;
+  margin-right: 0;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  border: solid #f8fafd 2px;
+}
+.author-top-header .rounded-top {
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.user-favpage .post-list {
+  padding-bottom: 0;
+}

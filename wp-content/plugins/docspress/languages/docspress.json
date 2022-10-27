@@ -1,0 +1,397 @@
+{
+   "domain": "docspress",
+   "locale_data": {
+      "docspress": {
+         "": {
+            "domain": "docspress"
+         },
+         "DocsPress": [
+            ""
+         ],
+         "Online Documentation Engine for WordPress": [
+            ""
+         ],
+         "nK": [
+            ""
+         ],
+         "https://nkdev.info": [
+            ""
+         ],
+         "DocsPress Manager": [
+            ""
+         ],
+         "Archive Thumbnail (DocsPress)": [
+            ""
+         ],
+         "Documentation": [
+            ""
+         ],
+         "Parent Doc": [
+            ""
+         ],
+         "All Documentations": [
+            ""
+         ],
+         "View Documentation": [
+            ""
+         ],
+         "Add Documentation": [
+            ""
+         ],
+         "Add New": [
+            ""
+         ],
+         "Edit Documentation": [
+            ""
+         ],
+         "Update Documentation": [
+            ""
+         ],
+         "Search Documentation": [
+            ""
+         ],
+         "Not documentation found": [
+            ""
+         ],
+         "Not found in Trash": [
+            ""
+         ],
+         "Docs Categories": [
+            ""
+         ],
+         "Categories": [
+            ""
+         ],
+         "Home": [
+            ""
+         ],
+         "Docs": [
+            ""
+         ],
+         "Enter doc title": [
+            ""
+         ],
+         "Enter section title": [
+            ""
+         ],
+         "%s Copy": [
+            ""
+         ],
+         "Are you sure?": [
+            ""
+         ],
+         "Are you sure to delete the entire documentation? Sections and articles inside this doc will be deleted too!": [
+            ""
+         ],
+         "Yes, delete it!": [
+            ""
+         ],
+         "Are you sure to delete the entire section? Articles inside this section will be deleted too!": [
+            ""
+         ],
+         "Are you sure to delete the article?": [
+            ""
+         ],
+         "This post has been deleted": [
+            ""
+         ],
+         "This process may take a while depending on your documentation size.": [
+            ""
+         ],
+         "Export %s?": [
+            ""
+         ],
+         "Export!": [
+            ""
+         ],
+         "Exporting...": [
+            ""
+         ],
+         "Starting": [
+            ""
+         ],
+         "Successfully Exported": [
+            ""
+         ],
+         "Download ZIP": [
+            ""
+         ],
+         "Close": [
+            ""
+         ],
+         "Documentations": [
+            ""
+         ],
+         "Thank you for using <strong>DocsPress</strong>.": [
+            ""
+         ],
+         "Use the <a href=\"%s\">classic UI</a>.": [
+            ""
+         ],
+         "Helpfulness": [
+            ""
+         ],
+         "Votes": [
+            ""
+         ],
+         "DocsPress Settings": [
+            ""
+         ],
+         "Settings": [
+            ""
+         ],
+         "General": [
+            ""
+         ],
+         "Single Document": [
+            ""
+         ],
+         "Archive": [
+            ""
+         ],
+         "Export": [
+            ""
+         ],
+         "Documentation Archive Page": [
+            ""
+         ],
+         "Page to display documentations list. <br> If you see the 404 error, please go to Settings > Permalinks and press \"Save Changes\" button.": [
+            ""
+         ],
+         "Display Comments": [
+            ""
+         ],
+         "Display Feedback Buttons": [
+            ""
+         ],
+         "Helpful feedback": [
+            ""
+         ],
+         "Display Likes / Dislikes Count": [
+            ""
+         ],
+         "Display Suggestion Form After Like": [
+            ""
+         ],
+         "Suggestion Email": [
+            ""
+         ],
+         "Display Heading Anchors": [
+            ""
+         ],
+         "Sidebar": [
+            ""
+         ],
+         "Display Search": [
+            ""
+         ],
+         "Display Parent Links": [
+            ""
+         ],
+         "Display Child Links": [
+            ""
+         ],
+         "Always display child navigation links (by default displayed only for active parent doc)": [
+            ""
+         ],
+         "Display Number of Childs": [
+            ""
+         ],
+         "Display in the title of parent link the number of childs": [
+            ""
+         ],
+         "AJAX loading": [
+            ""
+         ],
+         "AJAX Custom JS": [
+            ""
+         ],
+         "Run custom JS after document loaded via AJAX": [
+            ""
+         ],
+         "Display Articles": [
+            ""
+         ],
+         "Top level articles list": [
+            ""
+         ],
+         "Number of Articles": [
+            ""
+         ],
+         "Type -1 to display all available articles": [
+            ""
+         ],
+         "Custom CSS": [
+            ""
+         ],
+         "Added in exported HTML files": [
+            ""
+         ],
+         "Custom JS": [
+            ""
+         ],
+         "Clean HTML RegExp": [
+            ""
+         ],
+         "Each regexp on new line (change it only if you understand what you do)": [
+            ""
+         ],
+         "&mdash; Select Page &mdash;": [
+            ""
+         ],
+         "Add Doc": [
+            ""
+         ],
+         "Preview the doc": [
+            ""
+         ],
+         "Delete this doc": [
+            ""
+         ],
+         "Preview the section": [
+            ""
+         ],
+         "Delete this section": [
+            ""
+         ],
+         "Add a new article": [
+            ""
+         ],
+         "Preview the article": [
+            ""
+         ],
+         "Delete this article": [
+            ""
+         ],
+         "Add new section": [
+            ""
+         ],
+         "Clone": [
+            ""
+         ],
+         "Export as HTML": [
+            ""
+         ],
+         "No documentations has been found. Perhaps %s?": [
+            ""
+         ],
+         "create one": [
+            ""
+         ],
+         "You are not allowed to delete this item.": [
+            ""
+         ],
+         "Sorry, you've already recorded your feedback!": [
+            ""
+         ],
+         "Thank you for feedback!": [
+            ""
+         ],
+         "Sorry, something went wrong on the server side!": [
+            ""
+         ],
+         "Sorry, something went wrong with the mail server, your suggestions were not sent!": [
+            ""
+         ],
+         "Thank you for suggestions!": [
+            ""
+         ],
+         "No theme is defined for this template.": [
+            ""
+         ],
+         "Single DocsPress": [
+            ""
+         ],
+         "Archive DocsPress": [
+            ""
+         ],
+         "Anonymous": [
+            ""
+         ],
+         "New Doc Suggestion by \"%s\"": [
+            ""
+         ],
+         "+%s More": [
+            ""
+         ],
+         "%s Article": [
+            "",
+            "%s Articles"
+         ],
+         "Pages:": [
+            ""
+         ],
+         "😡 Negative Feedback": [
+            ""
+         ],
+         "😀 Positive Feedback": [
+            ""
+         ],
+         "Article": [
+            ""
+         ],
+         "From": [
+            ""
+         ],
+         "%1$s (IP: %2$s)": [
+            ""
+         ],
+         "Suggestion": [
+            ""
+         ],
+         "This e-mail was sent from a suggestion form on one of your DocsPress articles.": [
+            ""
+         ],
+         "Documentation search: \"%s\"": [
+            ""
+         ],
+         "Doc navigation": [
+            ""
+         ],
+         "How can we improve this documentation?": [
+            ""
+         ],
+         "Your suggestions": [
+            ""
+         ],
+         "Your Name or Email (Optional)": [
+            ""
+         ],
+         "Send": [
+            ""
+         ],
+         "%d person found this useful": [
+            "",
+            "%d persons found this useful"
+         ],
+         "No votes yet": [
+            ""
+         ],
+         "%d person found this not useful": [
+            "",
+            "%d persons found this not useful"
+         ],
+         "Was this page helpful?": [
+            ""
+         ],
+         "Yes": [
+            ""
+         ],
+         "No": [
+            ""
+         ],
+         "Last modified %s": [
+            ""
+         ],
+         "Type to search": [
+            ""
+         ],
+         "Post Type General Name\u0004DocsPress": [
+            ""
+         ],
+         "Post Type Singular Name\u0004Doc": [
+            ""
+         ]
+      }
+   }
+}

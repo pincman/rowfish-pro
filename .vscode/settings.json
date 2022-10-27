@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true,
+  "fileheader.configObj": {
+    "autoAdd": true
+  },
+  // "[javascript]": {
+  //   "editor.formatOnSave": false,
+  //   "editor.formatOnPaste": false,
+  //   "editor.formatOnType": false
+  // },
+  "fileheader.customMade": {
+    "HomePage": "https://pincman.cn",
+    "custom_string_obkoro1": "如在使用中遇到问题,可以加QQ群: 297762972交流"
+  }
+}

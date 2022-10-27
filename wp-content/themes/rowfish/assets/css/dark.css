@@ -1,0 +1,425 @@
+/*
+ * @Author         : pincman
+ * @HomePage       : https://pincman.cn
+ * @Support        : support@pincman.com
+ * @Created_at     : 2021-11-18 12:41:38 +0800
+ * @Updated_at     : 2021-11-23 14:49:39 +0800
+ * @Path           : /wp-content/themes/rowfish/assets/css/dark.css
+ * @Description    : 暗黑模式下的样式
+ * Copyright 2021 pincman, All Rights Reserved. 
+ * 如在使用中遇到问题,可以加QQ群: 297762972交流
+ */
+
+/* 全局 */
+.dark-open .site-header,
+.dark-open .navbar .sub-menu,
+.dark-open .mega-menu,
+.dark-open .posts-wrapper .post-list,
+.dark-open .posts-wrapper .post-grid,
+.dark-open .carousel .post-grid,
+.dark-open .content-area .article-content,
+.dark-open .content-area .article-content,
+.dark-open .widget-area .widget,
+.dark-open .entry-page-next,
+.dark-open .entry-page-prev,
+.dark-open .site-footer,
+.dark-open .card,
+.dark-open .card-header,
+.dark-open .card-footer,
+.dark-open .nav-segment .nav-link.active,
+.dark-open .owl .owl-prev,
+.dark-open .owl .owl-next,
+.dark-open .off-canvas,
+.dark-open .swal2-popup,
+.dark-open.page-template-page-login .header-section,
+.dark-open .rollbar .actions li,
+.dark-open .rollbar .rollbar-item,
+.dark-open ._404,
+.dark-open .user-top-header .bg-white,
+.dark-open .navbar .dropdown-menu,
+.dark-open .related-posts .post-list,
+.dark-open .question-area,
+.dark-open .question-list .question-item,
+.dark-open .question-list .question-form,
+.dark-open .entry-comments,
+.dark-open .single-download-nav,
+.dark-open .tab-content .accordion,
+.dark-open .tab-content .related-posts,
+.dark-open .dropdown-item.active,
+.dark-open .dropdown-item:active,
+.dark-open .omnisearch .omnisearch-form,
+.dark-open .omnisearch .omnisearch-suggestions,
+.dark-open .omnisearch .omnisearch-suggestions:before,
+.dark-open .search-form .search-fields input,
+.dark-open .rizhuti_v2-widget-division {
+  background-color: #1f1f1f;
+}
+.dark-open .form-control {
+  background-color: #1f1f1f !important;
+}
+.dark-open .rizhuti_v2-widget-shop-down .price {
+  background: #1c212d;
+  background: linear-gradient(to right, #1c212d, #1f1f1f);
+}
+body.dark-open {
+  color: #c6cfd8 !important;
+  background-color: rgb(20, 20, 20) !important;
+}
+.dark-open a,
+.dark-open .breadcrumb li a {
+  color: #fff;
+}
+.dark-open .active a {
+  color: #fff !important;
+}
+.dark-open .navbar .menu-item > a {
+  color: hsla(0, 0%, 100%, 0.7);
+}
+.dark-open .navbar .menu-item.current-menu-item a {
+  color: hsla(0, 0%, 100%, 0.9);
+}
+.dark-open .pagination > * {
+  background: none !important;
+  border-color: rgba(255, 251, 22, 0.5) !important;
+}
+.dark-open .pagination .current {
+  box-shadow: 0 0 2px 1px #fff;
+}
+/* 背景 */
+.dark-open .wid-noback {
+  background-color: #202634;
+}
+.dark-open .body-back:before {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.623)),
+    url(https://pic.pincman.com/media/20210518114740.png);
+}
+
+.dark-open .archive-filter {
+  background: rgba(41, 48, 66, 0.4);
+}
+
+/* 滚动条 */
+.dark-open::-webkit-scrollbar-thumb,
+.dark-open *::-webkit-scrollbar-thumb {
+  background-color: rgba(20, 20, 20, 0.8);
+}
+
+::-webkit-scrollbar-track-piece,
+.dark-open *:not(.CodeMirror-scroll)::-webkit-scrollbar-track-piece {
+  background: #000 !important;
+}
+
+.dark-open::-webkit-scrollbar-thumb:horizontal:hover,
+.dark-open::-webkit-scrollbar-thumb:vertical:hover,
+.dark-open *::-webkit-scrollbar-thumb:horizontal:hover,
+.dark-open *::-webkit-scrollbar-thumb:vertical:hover {
+  background: #000;
+}
+
+/* 组件 */
+.dark-open .delimiter {
+  color: #fff;
+  opacity: 0.4;
+}
+
+.dark-open .nav .nav-link {
+  color: #fff !important;
+}
+
+.dark-open .form-control {
+  color: #c6cfd8 !important;
+}
+
+.dark-open .download-none-btns > span {
+  color: #cdcdcd;
+  box-shadow: inset 0 0 2px 1px rgba(230, 230, 230, 0.6);
+}
+
+/* 短代码 */
+body.dark-open .card {
+  border: none;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 42%);
+}
+body.dark-open .tabs-card > .card-body > nav .nav-link {
+  color: #c6cfd8 !important;
+}
+.dark-open .alert {
+  color: #c6cfd8 !important;
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+/* 页面 */
+.dark-open .sidebar-column .widget,
+.dark-open .content-area:not(.archive-list),
+.dark-open .archive-list .post-grid,
+.dark-open .home-post-item .post-grid,
+.dark-open .archive-list .post-list {
+  box-shadow: 1px 1px 2px 1px rgb(0 0 28 / 15%);
+}
+.dark-open .sidebar-column .widget:hover,
+.dark-open .content-area:not(.archive-list):hover,
+.dark-open .archive-list .post-grid:hover,
+.dark-open .home-post-item .post-grid:hover,
+.dark-open .archive-list .post-list:hover {
+  box-shadow: 1px 1px 3px 3px rgb(0 0 28 / 15%);
+}
+.dark-open .content-area:not(.archive-list) {
+  background-color: rgb(38, 50, 56);
+}
+
+.dark-open .sidebar-column .widget > .price {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+.dark-open .sidebar-column .widget > .price small {
+  color: #ccc !important;
+}
+.dark-open .single-download-nav-flex {
+  border-color: #202634;
+}
+.dark-open .question-list .new-question-form {
+  background-color: rgb(38, 50, 56);
+}
+
+.dark-open .content-preview .code-toolbar,
+.dark-open .content-preview pre,
+.dark-open .ap-q-content .code-toolbar,
+.dark-open .ap-q-content pre {
+  background: #2b303b !important;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 42%) !important;
+}
+.dark-open .content-preview pre > code,
+.dark-open .content-preview code,
+.dark-open .content-preview .code-toolbar > pre,
+.dark-open .ap-q-content pre > code,
+.dark-open .ap-q-content code,
+.dark-open .ap-q-content .code-toolbar > pre {
+  background: #21252a !important;
+}
+.ap-q-content *:not(pre) > code,
+.content-preview *:not(pre) > code {
+  box-shadow: 0 0 3px 0 rgba(170, 170, 170, 0.8);
+}
+.dark-open .rizhuti_v2-widget-division {
+  background: none;
+}
+.dark-open .rizhuti_v2-widget-division .container > .row {
+  box-shadow: 0 0 2px 1px rgba(155, 155, 155, 0.5);
+  /* background: rgb(38, 50, 56) */
+}
+.dark-open .rizhuti_v2-widget-division .container .desc {
+  color: #999;
+}
+.dark-open .rizhuti_v2-widget-division .container .title {
+  color: #cecece;
+}
+.dark-open .docspress-single .docspress-single-sidebar .docspress-nav-list {
+  color: #fff !important;
+}
+.dark-open .docspress-single .docspress-single-sidebar {
+  border-color: rgba(133, 137, 141, 0.7) !important;
+}
+.dark-open .docspress-search-field {
+  border-color: rgba(83, 87, 91, 0.4) !important;
+}
+
+.dark-open #toc_container,
+.dark-open .toc_container_control,
+.dark-open .doc-card + ul {
+  border-color: rgba(133, 137, 141, 0.7);
+}
+.dark-open #toc_container:before {
+  background-color: rgba(133, 137, 141, 0.7);
+}
+.dark-open .docspress-single-content #toc_container li a {
+  color: #c6cfd8;
+}
+.dark-open .entry-comments .butterBar {
+  background-color: rgba(55, 55, 55, 0.6);
+}
+
+.dark-open #anspress a {
+  opacity: 0.8;
+}
+.dark-open #anspress a:hover {
+  opacity: 1 !important;
+}
+.dark-open .ap-cat-image {
+  background: #333 !important;
+}
+.dark-open #ap-categories-widget a,
+.dark-open
+  #ap-categories-widget.ap-cat-wid
+  > li
+  .ap-cat-image
+  .ap-category-icon {
+  color: inherit;
+  opacity: 1;
+}
+.dark-open .ap-questions a:hover,
+.dark-open .ap-pagination a:hover,
+.dark-open #ap-categories-widget a:hover,
+.dark-open
+  #ap-categories-widget.ap-cat-wid
+  > li
+  .ap-cat-image
+  .ap-category-icon:hover {
+  color: #fff !important;
+}
+.dark-open #anspress input,
+.dark-open #anspress .selectize-input,
+.dark-open #anspress select {
+  color: #c6cfd8;
+  background-color: #000;
+  border-color: rgba(55, 55, 55, 0.6);
+}
+.dark-open #anspress .ap-questions {
+  border: solid 1px rgba(25, 100, 50, 0.8);
+}
+.dark-open #anspress .ap-questions-count {
+  color: inherit;
+  background: rgba(20, 20, 20, 0.3);
+}
+.dark-open #anspress .ap-questions .ap-display-meta-item {
+  color: inherit;
+}
+.dark-open #anspress .ap-questions .ap-display-meta-item a {
+  color: inherit;
+}
+.dark-open #anspress .ap-questions-title a {
+  color: inherit;
+}
+.dark-open #anspress #ap-filter-reset {
+  color: #c6cfd8;
+}
+.dark-open #anspress .ap-filter-active {
+  color: inherit;
+}
+.dark-open #anspress .ap-questions-item.status-trash {
+  background-color: rgba(30, 155, 155, 0.1);
+}
+.dark-open #anspress .ap-questions-item {
+  border-bottom: 1px solid rgba(50, 150, 80, 0.2);
+}
+.dark-open #anspress .ap-q-metas {
+  background: black;
+}
+.dark-open .ap-btn {
+  background-image: linear-gradient(#111, #121212);
+  opacity: 0.5;
+}
+/* .dark-open .ap-btn:hover {
+  opacity: 1;
+} */
+.dark-open .ap-vote a {
+  background-image: none;
+  color: burlywood;
+  border-color: rgba(25, 100, 50, 0.8);
+  /* opacity: 1; */
+}
+.dark-open .ap-vote a:hover {
+  color: #fff !important;
+}
+.dark-open #ap-answers-c .ap-answers-tab > li a {
+  color: inherit;
+}
+.dark-open #ap-answers-c .ap-answers-tab li.active a {
+  border-color: rgba(25, 100, 50, 0.8);
+  border-bottom-color: transparent;
+  /* opacity: 0.8; */
+}
+.dark-open #ap-answers-c .ap-answers-tab > li a:hover {
+  background: none;
+  /* opacity: 1; */
+}
+.dark-open .ap-user-reputation {
+  background: olivedrab;
+}
+.dark-open .ap-post-footer .ap-btn {
+  color: #fff;
+  background-image: none;
+  background: none;
+  border-right-color: rgba(25, 100, 50, 0.8);
+  /* opacity: 0.8; */
+}
+/* .dark-open .ap-post-footer .ap-btn:hover { */
+/* opacity: 1; */
+/* } */
+.dark-open .ap-post-footer .ap-btn-select.active {
+  background: #37a428;
+}
+.dark-open #anspress .ap-cell-inner {
+  border: 2px solid rgba(70, 130, 90, 0.8);
+}
+.dark-open .ap-notice.closed {
+  background: #003688;
+}
+.dark-open #anspress .ap-question-meta > .ap-display-meta-item i {
+  color: inherit;
+}
+.dark-open .ap-search-btn,
+.dark-open .ap-btn-submit {
+  background-image: none;
+  opacity: 1;
+}
+.dark-open #anspress .ap-taxo-detail,
+.dark-open #anspress .ap-no-questions {
+  background: none repeat scroll 0 0 rgba(25, 25, 25, 0.2);
+}
+.dark-open .ap-modal-header {
+  background: #111;
+  border-bottom: solid 1px rgba(90, 90, 90, 0.8);
+}
+.dark-open .ap-modal-body {
+  background: none repeat scroll 0 0 #202634;
+}
+.dark-open .ap-field-form_comment-content textarea {
+  color: #c6cfd8;
+  background: #2c2827;
+  border: none;
+}
+
+.dark-open #anspress input:focus-visible {
+  border: none;
+  outline: none;
+  background: #2c2827;
+}
+.dark-open textarea:focus-visible {
+  border: none;
+  outline: none;
+  background: #2c2827;
+  box-shadow: inset 0 0 1px rgba(90, 90, 90, 0.8);
+  /* outline: rgba(90, 90, 90, 0.8) auto 1px !important; */
+}
+.dark-open .ap-loading-icon {
+  background-color: rgba(55, 55, 55, 0.7);
+}
+.dark-open #ap-categories-widget.ap-cat-wid > li {
+  border-bottom-color: rgba(90, 90, 90, 0.8);
+}
+.dark-open #anspress .ap-user .ap-tab-nav {
+  border-bottom-color: rgba(130, 230, 160, 0.7);
+}
+.dark-open #anspress .ap-user .ap-tab-nav > li.active a {
+  box-shadow: 0 -1px 4px 1px rgba(130, 230, 160, 0.7);
+}
+.dark-open #anspress .ap-bpsingle,
+.dark-open #anspress .ap-bpsingle-title,
+.dark-open #anspress .ap-bpsingle-meta {
+  border-color: rgba(133, 137, 141, 0.7);
+}
+.dark-open #anspress .ap-bpsingle-title > a:hover,
+.dark-open #anspress .ap-bpsingle-desc > a:hover,
+.dark-open #anspress .ap-bpsingle-meta > * a:hover {
+  color: #fff;
+}
+.dark-open #anspress .ap-bpsingle-title > a,
+.dark-open #anspress .ap-bpsingle-meta,
+.dark-open #anspress .ap-bpsingle-desc > a,
+.dark-open #anspress .ap-bpsingle-meta > * a {
+  color: #c6cfd8;
+}
+.dark-open .ap-reputation-ref strong {
+  color: #fff;
+}
+.dark-open .meta-serie-dot > :after {
+  border-bottom-color: rgba(250, 250, 45, 0.8);
+}

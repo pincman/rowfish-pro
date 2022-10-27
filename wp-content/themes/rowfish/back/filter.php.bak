@@ -1,0 +1,66 @@
+<?php
+/*
+ * @Author         : pincman
+ * @HomePage       : https://pincman.cn
+ * @Support        : support@pincman.com
+ * @Created_at     : 2021-11-07 05:02:24 +0800
+ * @Updated_at     : 2021-11-19 05:23:58 +0800
+ * @Path           : /wp-content/themes/rowfish/factory/options/admin/filter.php
+ * @Description    : 修改rizhuti-v2主题设置中的选项(过滤设置)
+ * Copyright 2021 pincman, All Rights Reserved. 
+ * 如在使用中遇到问题,可以加QQ群: 297762972交流
+ */
+
+if(!function_exists('rf_set_admin_filter_meta')){
+    /**
+     * 后台-主题设置-文章过滤
+     */
+    function rf_set_admin_filter_meta()
+    {
+        if (
+            count(CSF::$args['sections']['_riprov2_options']) <= 5
+            || !isset(CSF::$args['sections']['_riprov2_options'][5]['fields'])
+        ) {
+            return;
+        }
+        $filter_fields = CSF::$args['sections']['_riprov2_options'][5]['fields'];
+        $is_archive_top_bg_index = null;
+        $is_archive_top_bg_one_index = null;
+        $is_archive_filter_price_index = null;
+        foreach ($filter_fields as $key => $value) {
+            if (isset($value['id'])) {
+                if ($value['id'] === 'is_archive_top_bg') {
+                    $is_archive_top_bg_index = $key;
+                }
+                if ($value['id'] === 'is_archive_top_bg_one') {
+                    $is_archive_top_bg_one_index = $key;
+                }
+                if ($value['id'] === 'is_archive_filter_price') {
+                    $is_archive_filter_price_index = $key;
+                }
+                if ($value['id'] === 'is_archive_filter') {
+                    $filter_fields[$key]['label'] = '如果需要单独关闭一个分类或页面模块的筛选条(比如: 课程模块首页),可以到它的"页面"中设置';
+                }
+            }
+        }
+        if (!is_null($is_archive_top_bg_index) && !is_null($is_archive_top_bg_one_index)) {
+            unset($filter_fields[$is_archive_top_bg_index]);
+            unset($filter_fields[$is_archive_top_bg_one_index]);
+            if (!is_null($is_archive_filter_price_index)) {
+                $filter_fields[$is_archive_filter_price_index] = false;
+                array_splice($filter_fields, $is_archive_filter_price_index + 1, 0, [[
+                    'id' => 'is_simple_filter_price',
+                    'type' => 'switcher',
+                    'title' => '启用简单价格筛选',
+                    'label' => '开启此项的前提是确保你的资源针对所有VIP组用户均为免费使用(影响全局,强烈建议开启)',
+                    'default' => true,
+                    'dependency' => array('is_archive_filter_price', '==', '1'),
+                ]]);
+            }
+            CSF::$args['sections']['_riprov2_options'][5]['title'] = '全局筛选';
+            CSF::$args['sections']['_riprov2_options'][5]['fields'] = $filter_fields;
+            CSF::set_used_fields($filter_fields);
+        }
+    }
+}
+

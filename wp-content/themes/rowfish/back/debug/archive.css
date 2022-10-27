@@ -1,0 +1,223 @@
+/* 分类与专题 */
+.filter-bar .filter li {
+  padding: 0 3px;
+}
+
+.filter-bar .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.filter-bar .row > div[class*="col-"] {
+  padding-left: 3px;
+  padding-right: 3px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.filter-bar .row > div[class*="col-"]:last-child {
+  max-width: fit-content;
+}
+
+.filter-bar .row > div[class*="col-"]:first-child {
+  padding-left: 0;
+}
+
+.home-post-item .post-grid > .entry-media {
+  border-radius: 4px 4px 0 0;
+}
+
+.home-post-item .post-grid > .entry-wrapper {
+  padding: 5px 10px;
+}
+
+.home-post-item .post-grid {
+  padding: 0;
+}
+
+.sidebar-column .widget,
+.content-area:not(.archive-list),
+.home-post-item .post-grid {
+  box-shadow: 1px 1px 2px 1px rgb(183 183 208 / 35%);
+  border-radius: 3px !important;
+  transition: all 0.2s ease;
+}
+
+.sidebar-column .widget:hover,
+.content-area:not(.archive-list):hover,
+.home-post-item .post-grid:hover {
+  transform: unset;
+  box-shadow: 1px 1px 3px 3px rgb(183 183 208 / 35%);
+}
+.archive-list .post-list {
+  padding: 0;
+}
+.archive-list .post-list > .entry-wrapper {
+  padding: 10px 10px 10px 0;
+}
+.archive-list .post-list .entry-footer {
+  bottom: 10px;
+}
+.post-grid .meta-course-icon,
+.post-list .meta-course-icon {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  z-index: 1;
+  background-color: #f9c851;
+  font-size: 12px;
+  padding: 0.25em 0.8em;
+  color: #fff;
+  border-radius: 10rem;
+  line-height: 1.2;
+}
+
+.user-favpage .post-list .meta-course-icon {
+  left: 25px;
+  top: 10px;
+}
+
+.entry-icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.entry-icons > .meta-vip-price,
+.entry-icons > .meta-course-icon {
+  position: relative;
+  left: auto;
+  top: auto;
+  margin-left: 10px;
+}
+
+.entry-icons > .meta-vip-price:first-child,
+.entry-icons > .meta-course-icon:first-child {
+  margin-left: 0;
+}
+
+.entry-media img:hover {
+  transform: scale(1.2);
+}
+
+.post-title-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-title-flex > .entry-title {
+  flex: auto;
+  text-align: left;
+  min-height: 25px;
+  padding: 5px;
+}
+
+.post-title-flex > .entry-title > a {
+  width: 100%;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.post-title-flex + .entry-icons + .entry-excerpt,
+.post-title-flex + .entry-excerpt {
+  display: block !important;
+}
+
+.meta-serie-dot {
+  margin-left: 10px;
+  display: block;
+  min-width: 30px;
+  text-align: right;
+  flex: none;
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.meta-serie-dot > a {
+  font-size: 12px;
+}
+
+.meta-serie-dot > :after {
+  content: "";
+  position: relative;
+  flex: none;
+  margin-top: 5px;
+  display: block;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(120, 50, 45, 0.8);
+}
+.big-block .post-list {
+  flex-direction: column;
+}
+.big-block .post-list .entry-media {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.big-block .post-list .entry-wrapper {
+  padding: 20px;
+}
+.big-block.merge-thumbnail .entry-wrapper {
+  position: absolute;
+  z-index: 3;
+  color: #fff;
+  padding: 30px 30px 15px 30px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5));
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.big-block.merge-thumbnail .entry-wrapper > *,
+.big-block.merge-thumbnail .entry-wrapper .entry-title,
+.big-block.merge-thumbnail .entry-wrapper .entry-title > a {
+  color: #eff;
+}
+.big-block.merge-thumbnail .entry-wrapper .entry-title > a:hover {
+  color: #fff;
+}
+.author-archive {
+  padding: 10px;
+}
+.author-archive > .anspress-content {
+  padding: 20px;
+  background: #fff;
+}
+.author-archive > .nav {
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.author-archive > .nav > li {
+  float: left;
+  margin-right: 10px;
+  margin-left: 0;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.author-archive > .nav > li > a {
+  display: block;
+  background: none;
+  border: none;
+  margin-bottom: -1px;
+  padding: 7px 15px;
+  border-radius: 0;
+}
+
+.author-archive > .nav > li > a > i {
+  margin-right: 10px;
+}
+.author-archive > .nav > li.active > a {
+  box-shadow: 0 -1px 1px rgb(30 90 30 / 70%);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.author-archive-side {
+  background-color: #fff;
+}

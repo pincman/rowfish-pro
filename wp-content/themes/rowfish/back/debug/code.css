@@ -1,0 +1,111 @@
+/* 代码框及高亮 */
+.editormd-menu .tooltip {
+  position: static;
+  opacity: 1;
+}
+
+.article-content pre:after,
+.wp-block-code:after {
+  width: 0;
+  height: 0;
+}
+
+.copy-button {
+  top: 30px;
+  right: 10px;
+  opacity: 0;
+}
+
+.content-preview pre > code,
+.content-preview code,
+.ap-q-content pre > code,
+.ap-q-content code {
+  text-shadow: none !important;
+}
+
+.content-preview code,
+.ap-q-content code {
+  width: auto !important;
+  padding: 1px 8px !important;
+  margin: 2px auto !important;
+  display: inline-block !important;
+  background: rgba(230, 230, 230, 0.8) !important;
+}
+
+.content-preview pre > code,
+.ap-q-content pre > code {
+  width: 100% !important;
+  max-height: 350px;
+  min-height: 21px;
+  overflow: auto;
+  margin-bottom: 0 !important;
+  display: block !important;
+  background: #455a6c !important;
+}
+
+.content-preview .code-toolbar,
+.content-preview pre,
+.ap-q-content .code-toolbar,
+.ap-q-content pre {
+  overflow: hidden;
+  padding: 0 !important;
+  background: #eee !important;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 10%) !important;
+  border-radius: 5px !important;
+  margin: 5px 0 20px 0;
+  border: none !important;
+}
+
+/* code-toolbar */
+.content-preview .code-toolbar > pre,
+.ap-q-content .code-toolbar > pre {
+  overflow: auto;
+  background: #455a6c !important;
+  padding: 10px 0 10px 3.8em !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 0 5px 5px !important;
+  margin: 0.5em 0 0 0 !important;
+  max-height: 350px;
+}
+
+.content-preview .code-toolbar > pre > code,
+.ap-q-content .code-toolbar > pre > code {
+  padding: 0 !important;
+  overflow: visible !important;
+}
+
+.content-preview pre::before,
+.ap-q-content pre::before,
+.content-preview .code-toolbar::before,
+.ap-q-content .code-toolbar::before {
+  content: "";
+  display: block;
+  background-size: 40px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  margin-top: 8px;
+  border-radius: 50%;
+  background: #ff0800 no-repeat 10px 10px;
+  width: 12px;
+  height: 12px;
+  -webkit-box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+  box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+  z-index: 3;
+  box-sizing: border-box;
+}
+
+.content-preview .code-toolbar > pre::before,
+.ap-q-content.code-toolbar > pre::before {
+  margin: 0;
+  padding: 0;
+  background-size: 0;
+  width: 0;
+  height: 0;
+}
+
+.content-preview pre:hover .copy-button,
+.ap-q-content pre:hover .copy-button {
+  transition: all 0.5s;
+  opacity: 0.6;
+}

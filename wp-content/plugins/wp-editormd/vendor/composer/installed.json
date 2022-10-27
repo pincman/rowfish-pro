@@ -1,0 +1,182 @@
+[
+    {
+        "name": "league/html-to-markdown",
+        "version": "4.10.0",
+        "version_normalized": "4.10.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thephpleague/html-to-markdown.git",
+            "reference": "0868ae7a552e809e5cd8f93ba022071640408e88"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thephpleague/html-to-markdown/zipball/0868ae7a552e809e5cd8f93ba022071640408e88",
+            "reference": "0868ae7a552e809e5cd8f93ba022071640408e88",
+            "shasum": ""
+        },
+        "require": {
+            "ext-dom": "*",
+            "ext-xml": "*",
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "mikehaertl/php-shellcommand": "~1.1.0",
+            "phpunit/phpunit": "^4.8|^5.7",
+            "scrutinizer/ocular": "~1.1"
+        },
+        "time": "2020-07-01T00:34:03+00:00",
+        "bin": [
+            "bin/html-to-markdown"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.10-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "League\\HTMLToMarkdown\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Colin O'Dell",
+                "email": "colinodell@gmail.com",
+                "homepage": "https://www.colinodell.com",
+                "role": "Lead Developer"
+            },
+            {
+                "name": "Nick Cernis",
+                "email": "nick@cern.is",
+                "homepage": "http://modernnerd.net",
+                "role": "Original Author"
+            }
+        ],
+        "description": "An HTML-to-markdown conversion helper for PHP",
+        "homepage": "https://github.com/thephpleague/html-to-markdown",
+        "keywords": [
+            "html",
+            "markdown"
+        ],
+        "funding": [
+            {
+                "url": "https://www.colinodell.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://www.paypal.me/colinpodell/10.00",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/colinodell",
+                "type": "github"
+            },
+            {
+                "url": "https://www.patreon.com/colinodell",
+                "type": "patreon"
+            }
+        ]
+    },
+    {
+        "name": "lurenjiasworld/wp-settings-api-class",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/LuRenJiasWorld/wp-settings-api-class.git",
+            "reference": "db58640c497734a011a105c924c285277cb34f90"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/LuRenJiasWorld/wp-settings-api-class/zipball/db58640c497734a011a105c924c285277cb34f90",
+            "reference": "db58640c497734a011a105c924c285277cb34f90",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2020-03-20T08:20:45+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "SettingsApi\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0+"
+        ],
+        "authors": [
+            {
+                "name": "LuRenJiasWorld",
+                "email": "loli@lurenjia.in",
+                "homepage": "https://untitled.pw"
+            }
+        ],
+        "description": "WordPress settings API Abstraction Class",
+        "homepage": "https://github.com/LuRenJiasWorld/wp-settings-api-class",
+        "keywords": [
+            "settings-api",
+            "wordpress",
+            "wp"
+        ]
+    },
+    {
+        "name": "michelf/php-markdown",
+        "version": "1.9.0",
+        "version_normalized": "1.9.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/michelf/php-markdown.git",
+            "reference": "c83178d49e372ca967d1a8c77ae4e051b3a3c75c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/michelf/php-markdown/zipball/c83178d49e372ca967d1a8c77ae4e051b3a3c75c",
+            "reference": "c83178d49e372ca967d1a8c77ae4e051b3a3c75c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": ">=4.3 <5.8"
+        },
+        "time": "2019-12-02T02:32:27+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Michelf\\": "Michelf/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Michel Fortin",
+                "email": "michel.fortin@michelf.ca",
+                "homepage": "https://michelf.ca/",
+                "role": "Developer"
+            },
+            {
+                "name": "John Gruber",
+                "homepage": "https://daringfireball.net/"
+            }
+        ],
+        "description": "PHP Markdown",
+        "homepage": "https://michelf.ca/projects/php-markdown/",
+        "keywords": [
+            "markdown"
+        ]
+    }
+]

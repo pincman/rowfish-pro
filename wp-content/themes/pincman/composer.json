@@ -1,0 +1,7 @@
+{
+    "require": {
+        "spatie/image": "^1.10",
+        "intervention/image": "^2.5",
+        "intervention/imagecache": "^2.5"
+    }
+}

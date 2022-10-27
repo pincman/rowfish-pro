@@ -1,0 +1,160 @@
+/* 全局 */
+:root,
+body {
+  font-family: "Source Sans Pro", "Hiragino Sans GB", "Microsoft Yahei", SimSun,
+    Helvetica, Arial, Sans-serif, monospace;
+}
+a {
+  cursor: pointer;
+}
+body {
+  color: #777;
+}
+*:not(.CodeMirror-scroll)::-webkit-scrollbar-track-piece {
+  background: #eee;
+}
+*::-webkit-scrollbar-thumb:horizontal:hover,
+*::-webkit-scrollbar-thumb:vertical:hover {
+  background-color: rgba(230, 80, 80, 0.8);
+}
+#rizhuti-video-page .list-box::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background-color: rgba(190, 190, 190, 0.4) !important;
+}
+#rizhuti-video-page .list-box::-webkit-scrollbar-track-piece {
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 3px rgba(90, 90, 90, 0.9);
+}
+.wid-noback {
+  background-color: rgb(240, 244, 245);
+}
+
+.body-back {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.body-back:before {
+  content: "";
+  background-image: url(https://pic.pincman.com/media/20210518114740.png);
+  position: absolute;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  filter: blur(10px) brightness(0.5);
+  /* margin: -10px; */
+  z-index: -999;
+  transform: scaleX(1.02);
+}
+
+a {
+  color: #58666e;
+}
+
+.active a:not(.btn) {
+  color: #58666e !important;
+}
+
+/* .show {
+  display: none !important;
+}
+
+.show.active {
+  display: block !important;
+} */
+
+/*滚动条*/
+.scroll-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rbga(130, 130, 130, 0.8);
+}
+
+/*毛玻璃效果*/
+.blur {
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+
+/* 组件 */
+.accordion .collapse.show {
+  display: block !important;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.btn-flex {
+  padding-left: 10px;
+  padding-right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.btn-flex > i {
+  flex: none;
+}
+
+.btn-flex > div {
+  display: block;
+  flex: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.btn-dark.disabled,
+.btn-dark:disabled {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+  opacity: 0.3;
+}
+
+.custom-radio .circle::before {
+  display: none;
+}
+
+.custom-radio > label {
+  padding: 10px 0;
+}
+
+/*响应式*/
+
+@media (max-width: 992px) {
+  .big-top + .term-bar + .site-content {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .post-grid .meta-course-icon,
+  .post-list .meta-course-icon {
+    left: 10px;
+    top: 10px;
+  }
+}

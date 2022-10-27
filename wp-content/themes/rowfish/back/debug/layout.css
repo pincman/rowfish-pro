@@ -1,0 +1,56 @@
+/* 布局 */
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+.navbar {
+  height: 60px !important;
+}
+
+.header-gap {
+  flex: 0 0 60px;
+}
+
+.term-bar {
+  flex: 0 0 auto;
+}
+
+.site-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  flex: 1 0 auto;
+}
+
+.full-content {
+  height: 100vh;
+}
+
+.full-content .main {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.full-content .article-content {
+  margin: 0 auto;
+}
+
+.pagination {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.big-top + .site-content {
+  padding-top: 80px;
+}
+
+.big-top + .term-bar + .site-content {
+  padding-top: 60px;
+}
+
+.site-footer {
+  flex: 0 0 auto;
+}

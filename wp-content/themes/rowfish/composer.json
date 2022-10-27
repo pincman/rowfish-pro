@@ -1,0 +1,11 @@
+{
+    "name": "pincman/rowfish",
+    "require": {
+        "spatie/image": "^2.0",
+        "intervention/image": "^2.6",
+        "intervention/imagecache": "^2.5"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.3"
+    }
+}

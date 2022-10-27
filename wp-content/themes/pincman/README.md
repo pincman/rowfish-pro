@@ -1,0 +1,1 @@
+> 需要把wp md-editor中的parser变量设置为true用于转义短代码
